@@ -1,0 +1,41 @@
+@import "../../../index.scss";
+
+.contentBackground {
+    @include backgroundColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    h2 {
+        @include fontSizeTitle;
+        @include colorText;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    p {
+        @include colorText;
+        @include fontSizeDefault;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+
+
+    .content {
+        display: flex;
+
+    }
+}
+
+.imageCharity {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}

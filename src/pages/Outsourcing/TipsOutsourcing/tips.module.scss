@@ -1,0 +1,13 @@
+.contOurS {
+    border-radius: 40px;
+    margin: 10px 0px 20px 0;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    .contItem {
+        align-items: center;
+    }
+}

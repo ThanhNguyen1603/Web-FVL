@@ -1,0 +1,143 @@
+@import '../../../index.scss';
+
+.content {
+    margin-bottom: 10px;
+}
+
+.contSolut {
+    border-radius: 30px;
+    background-color: #fff;
+    /* margin: 10px; */
+    /* padding: 0; */
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    min-height: 400px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.contentTitle {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.iconSolut {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.iconStep {
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    @include colorText;
+}
+
+.contStep {
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.contentSub {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    p {
+        text-align: left;
+        @include fontSizeDefault;
+    }
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.colmd5ths {
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.colxs5ths {
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.collg5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.collg5ths {
+    width: 20%;
+
+    float: left;
+
+}
+
+.paragraph {
+    @include colorText;
+}
+
+h2 {
+    @include fontSizeTitle;
+    font-weight: 600;
+    @include colorText;
+    margin-top: 20px;
+}
+
+h6 {
+    @include fontSizeDefault;
+}
+
+@media (min-width: 768px) {
+
+    .colsm5ths {
+
+        width: 20%;
+        float: left;
+
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .colmd5ths {
+
+        width: 20%;
+
+        float: left;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .collg5ths {
+
+        width: 20%;
+
+        float: left;
+
+    }
+
+}

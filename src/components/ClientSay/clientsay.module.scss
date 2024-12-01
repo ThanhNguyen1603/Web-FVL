@@ -1,0 +1,201 @@
+@import '../../index.scss';
+
+.clientSay {
+    background-color: #18191e;
+
+    .titleContent {
+        @include colorText;
+        @include fontSizeTitle;
+        text-align: center;
+        padding-bottom: 20px;
+        @include colorText;
+
+        h1 {
+            // text-decoration: underline 1px;
+            // text-underline-offset: 15px;
+            // text-decoration-color: #ffffff;
+            padding-bottom: 20px;
+            display: inline-block;
+
+        }
+
+        h1::after {
+            content: "";
+            display: block;
+            width: 50%;
+            height: 1px;
+            background-color: #fff;
+            margin: 0 auto;
+        }
+
+        h2 {
+            @include colorText;
+            @include fontSizeDefault;
+        }
+    }
+
+    .spotlightImage {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+
+}
+
+.detailSay {
+    padding: 10px;
+
+    h6 {
+        border-top: 2px solid #333;
+        margin: 10px;
+        text-align: right;
+        font-size: 0.9rem;
+    }
+
+
+}
+
+.carouselContainer {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prevButton,
+.nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 16px;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prevButton {
+    left: 1%;
+}
+
+.nextButton {
+    right: 1%;
+}
+
+@media (max-width: 768px) {
+
+    .prevButton {
+        left: 1%;
+    }
+
+    .nextButton {
+
+        right: 1%;
+    }
+}
+
+.detailClient {
+    border-radius: 40px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    margin: 0 20px 20px 0;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ececec;
+
+    p {
+        margin-bottom: 0;
+
+    }
+
+    .imgClient {
+        img {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+
+
+    }
+
+    .author {
+        @include fontSizeDefault;
+
+    }
+}
+
+.btnapply {
+    border: none;
+    background: none;
+    float: left;
+
+    a {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        border-radius: 40px;
+        border: 1.5px solid;
+        @include borderColor;
+        @include colorText;
+        z-index: 1;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0 10px 0 0;
+        padding: 13px 35px !important;
+        text-decoration: none;
+        // transition: all 0.3s ease;
+    }
+
+    a:hover {
+        // width: 100%;
+        @include backgroundHover;
+
+        transition: all 0.3s ease;
+    }
+
+    // a::before {
+    //     border-radius: 50px 50px 0 0;
+    //     content: "";
+    //     position: absolute;
+    //     width: 0;
+    //     height: 50%;
+    //     transition: all 0.3s ease-in;
+    //     background: $colorPrimary;
+    //     z-index: -1;
+    //     top: 0;
+    //     left: 0;
+    // }
+
+    // a:hover::after {
+    //     width: 100%;
+    //     background: $colorPrimary;
+    // }
+
+    // a::after {
+    //     border-radius: 0 0 50px 50px;
+    //     content: "";
+    //     position: absolute;
+    //     width: 0;
+    //     height: 50%;
+    //     transition: all 0.3s ease-in;
+    //     background: $colorPrimary;
+    //     z-index: -1;
+    //     bottom: 0;
+    //     right: 0;
+    // }
+}

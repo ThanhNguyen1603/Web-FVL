@@ -1,0 +1,6 @@
+$bannerAboutUs : url('../../../Image/Banner/aboutUsBanner.jpg');
+@import '../../../index.scss';
+
+.backgroundImage {
+    @include bannerDefault($bannerAboutUs);
+}

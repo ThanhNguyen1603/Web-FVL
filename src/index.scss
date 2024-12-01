@@ -1,0 +1,66 @@
+// $colorPrimary: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+$colorPrimary: #fff;
+$colorHover: rgba(246, 247, 249, .05);
+$backgroundHover: #232730;
+$textPrimary: #fff !important;
+$backgroundColorPrimary: #232730;
+$borderPrimary: rgba(246, 247, 249, 0.9);
+$fontSizeTitle: 50px;
+$fontSizeDefault: 20px;
+$backgroundFooter: #17181d;
+$font16: 16px;
+
+@mixin colorPrimaryText {
+    color: $colorPrimary;
+}
+
+@mixin font16 {
+    font-size: $font16;
+}
+
+@mixin bannerDefault ($image) {
+    background-image: $image;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin colorText {
+    color: $textPrimary;
+}
+
+@mixin backgroundColorHover {
+    background-color: $backgroundHover;
+}
+
+@mixin backgroundColor {
+    background-color: $backgroundColorPrimary;
+}
+
+@mixin backgroundFooter {
+    background-color: $backgroundFooter;
+}
+
+@mixin colorHover {
+    color: $colorHover;
+}
+
+@mixin backgroundHover {
+    background-color: $colorHover;
+}
+
+@mixin borderColor {
+    border-color: $borderPrimary;
+}
+
+@mixin fontSizeTitle {
+    font-size: $fontSizeTitle;
+}
+
+@mixin fontSizeDefault {
+    font-size: $fontSizeDefault;
+}

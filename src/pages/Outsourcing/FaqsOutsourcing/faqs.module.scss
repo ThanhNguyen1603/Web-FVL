@@ -1,0 +1,58 @@
+@import '../../../index.scss';
+
+.contFaqs {
+    border-radius: 40px;
+    background: linear-gradient(white, white) padding-box,
+        $colorPrimary;
+    border: 2px solid transparent;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    transition: transform .2s;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contFaqs:hover {
+    transform: scale(1.05);
+}
+
+.answer {
+    i {
+        float: right;
+        font-size: 1.5rem;
+        margin-left: 10px;
+
+        svg {
+            path {
+                color: #646adc;
+            }
+        }
+    }
+
+    p {
+        text-align: end;
+    }
+
+}
+
+.titleContent {
+    @include colorText;
+    @include fontSizeTitle;
+}
+
+.question {
+    i {
+        float: left;
+        font-size: 1.5rem;
+        margin-right: 10px;
+
+        svg {
+            path {
+                color: #646adc;
+            }
+        }
+    }
+
+    p {
+        text-align: start;
+    }
+}

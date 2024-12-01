@@ -1,0 +1,21 @@
+@import '../../../index.scss';
+$bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
+
+.content {
+    background-color: #202020;
+}
+
+.imgAchieve {
+    h2 {
+        @include colorText;
+        @include fontSizeTitle;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

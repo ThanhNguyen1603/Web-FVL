@@ -1,0 +1,20 @@
+@import '../../index.scss';
+.buttonStyle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 11px 15px;
+        border: 1.5px solid #d12bec;
+        color: black;
+        border-radius: 50%;  
+        z-index: 1500;
+        background: white;
+}
+.buttonStyle:hover {
+        background: $colorPrimary;
+        svg {
+                path {
+                    color: white;
+                }
+            }
+  }

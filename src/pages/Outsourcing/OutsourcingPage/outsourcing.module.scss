@@ -1,0 +1,58 @@
+@import "../../../index.scss";
+
+.contOurS {
+    border-radius: 40px;
+    margin: 10px 0px 20px 0;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+
+    .contItem {
+        align-items: center;
+
+        h3 {
+            // @include colorText;
+            color: #333;
+            @include fontSizeTitle;
+            padding-right: 10px;
+        }
+    }
+}
+
+.iconStep {
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    @include colorText;
+
+}
+
+
+.contStep {
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.sayings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+
+    h6 {
+        text-align: right;
+        padding-right: 40px;
+    }
+}

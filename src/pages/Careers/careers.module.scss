@@ -1,0 +1,54 @@
+@import '../../index.scss';
+
+.detailCareer {
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    transition: transform .2s;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .image{
+        padding-right: 20px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        
+        border-radius: 10px;
+    }
+    i {
+        font-size: 1rem;
+        margin-right: 5px;
+        svg {
+            path {
+                color: #646adc;
+            }
+        }
+    }
+    li{
+        margin-left: 10px;
+    }
+}
+
+.modalDet {
+
+    h4,
+    h5 {
+        @include colorPrimaryText;
+    }
+
+    i {
+        font-size: 1rem;
+        margin-right: 5px;
+        svg {
+            path {
+                color: #646adc;
+            }
+        }
+    }
+    li{
+        margin-left: 10px;
+    }
+}

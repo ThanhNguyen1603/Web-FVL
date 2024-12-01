@@ -1,0 +1,73 @@
+/* style.module.css */
+@import '../../index.scss';
+
+.logo {
+    justify-content: center;
+
+    a {
+        padding: 5px;
+    }
+
+    .logoFVL {
+        height: 8vh;
+        margin-right: 10px;
+    }
+
+    .logoTPL {
+        height: 8vh;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .logoFVL {
+            height: 5vh;
+            margin-right: 5px;
+        }
+
+        .logoTPL {
+            height: 5vh;
+        }
+    }
+
+}
+
+.navlist {
+    font-size: 1.6rem;
+    font-weight: 650;
+
+}
+
+.navItem {
+    padding: 0px 12px;
+}
+
+.navLink {
+    @include colorText;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.navLink:hover {
+    @include backgroundHover;
+    border-radius: 10px;
+    @include colorText;
+}
+
+.navbarBackground {
+    @include backgroundColor;
+}
+
+.active {
+    border-radius: 10px;
+    @include colorText;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+
+.navbarScrolled {
+    @include backgroundColorHover;
+    /* Makes navbar transparent on scroll */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+
+}

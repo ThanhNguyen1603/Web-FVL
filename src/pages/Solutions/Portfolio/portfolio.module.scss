@@ -1,0 +1,18 @@
+@import "../../../index.scss";
+
+.content {
+    img {
+        margin: auto;
+        display: block;
+    }
+
+    p {
+        @include colorText;
+        @include fontSizeDefault;
+    }
+}
+
+.titleContent {
+    @include fontSizeTitle;
+    @include colorText;
+}

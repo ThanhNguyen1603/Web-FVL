@@ -1,0 +1,104 @@
+@import '../../index.scss';
+
+.wfhContent {
+    margin: 10px;
+    width: auto;
+    border-radius: 40px;
+    padding: 40px;
+    transition: transform .2s;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    .iconWfh {
+        padding: 0;
+    }
+
+    h5 {
+        @include colorPrimaryText;
+    }
+
+    i {
+        font-size: 1.5rem;
+        float: right;
+
+        svg {
+            path {
+                color: #646adc;
+            }
+        }
+    }
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+.imgWfh {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.btnapply {
+    background: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    border: 1.5px solid #d12bec;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px 10px 0 0;
+    padding: 13px 35px !important;
+    transition: all 0.3s ease;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.btnapply:hover::before {
+    width: 100%;
+    background: $colorPrimary;
+}
+
+.btnapply::before {
+    border-radius: 50px 50px 0 0;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: $colorPrimary;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.btnapply:hover::after {
+    width: 100%;
+    background: $colorPrimary;
+}
+
+.btnapply::after {
+    border-radius: 0 0 50px 50px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 50%;
+    transition: all 0.3s ease-in;
+    background: $colorPrimary;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+.imgWfh{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    img{
+        border-radius: 10px;
+    }
+}

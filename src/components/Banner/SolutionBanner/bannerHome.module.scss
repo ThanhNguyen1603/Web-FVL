@@ -1,0 +1,6 @@
+$bannerHome : url('../../../Image/Banner/ai-innovations-scaled.jpg');
+@import '../../../index.scss';
+
+.backgroundImage {
+    @include bannerDefault($bannerHome)
+}

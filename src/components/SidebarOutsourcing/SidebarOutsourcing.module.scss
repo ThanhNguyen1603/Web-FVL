@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.navOurS {
+    align-items: center;
+    .oursImg {
+        img {
+            padding-top: 10px;
+            width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    .oursLink {
+        margin: 20px 0px 0px 10px;
+        color: lightblue;
+        font-size: 1.1rem;
+        font-weight: 500;
+        .sidebarlink{
+            padding-top: 20px;
+            display: flex;
+            .sidebarIcon{
+                padding-right: 8px;
+            }
+            a {
+                text-decoration: none;
+                color: lightblue;
+            }
+            
+            .sidebarIcon:hover,a:hover {
+                color: #fff;
+            }
+    
+            a:focus {
+                @include colorPrimaryText;
+            }
+        }
+    }
+}
