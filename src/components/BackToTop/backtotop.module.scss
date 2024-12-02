@@ -4,17 +4,17 @@
         bottom: 20px;
         right: 20px;
         padding: 11px 15px;
-        border: 1.5px solid #d12bec;
+        border: 1.5px solid #232730;
         color: black;
         border-radius: 50%;  
         z-index: 1500;
         background: white;
 }
 .buttonStyle:hover {
-        background: $colorPrimary;
+        background: $backgroundHover;
         svg {
                 path {
-                    color: white;
+                    color: #fff;
                 }
             }
   }

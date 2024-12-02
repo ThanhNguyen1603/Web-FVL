@@ -46,14 +46,14 @@ const Header = () => {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg sticky-top ${header.navbarBackground} ${isScrolled ? `${header.navbarScrolled}` : ''}`}>
+    <nav className={`navbar navbar-dark navbar-expand-lg sticky-top ${header.navbarBackground} ${isScrolled ? `${header.navbarScrolled}` : ''}`}>
       <div className="container-fluid">
         <div className={header.logo}>
           <NavLink to='/'><img src={fvlLogo} alt="Logo FVL" className={header.logoFVL} /></NavLink>
           <NavLink to='/'><img src={tplLogo} alt="Logo TPL" className={header.logoTPL} /></NavLink>
         </div>
         <button
-          className="navbar-toggler bg-light"
+          className="navbar-toggler bg-none border-0"
           type="button"
           data-bs-toggle="collapse"
           aria-expanded={isMenuOpen}
