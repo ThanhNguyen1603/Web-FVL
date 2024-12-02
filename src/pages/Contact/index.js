@@ -39,9 +39,9 @@ const Contact = () => {
         }
     };
     const contactList = [
-        { title: 'Phone', content: ['+1 (650) 472 2233 (USA)', '+ (84) 28 3948 4086 (Vietnam)'] },
+        { title: 'Phone', content: ['+1 (650) 472 2233 (USA)', '+84 (28) 3948 4086 (Vietnam)'] },
         // { title: '', content: ['+ (84) 28 3948 4086 (Vietnam)'] },
-        { title: 'General Inquiries', content: ['info@1stvirtue.com','info@transcendpeople.com'] },
+        { title: 'General Inquiries', content: ['info@1stvirtue.com', 'info@transcendpeople.com'] },
         // { title: 'Careers:', content: ['hr@1stvirtue.com - hr@transcendpeople.com'] },
         // {
         //     title: 'Address:', content: [
@@ -85,7 +85,7 @@ const Contact = () => {
                                         <h3>
                                             Our Location
                                         </h3>
-                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> Find office locations</a>
+                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> Binh Loi address</a>
                                     </div>
                                 </div>
                             </div>

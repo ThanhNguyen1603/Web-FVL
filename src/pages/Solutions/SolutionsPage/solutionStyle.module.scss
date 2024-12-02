@@ -15,7 +15,8 @@
 
     h6 {
         color: #929292;
-        @include fontSizeDefault;
+        // @include colorText;
+        font-size: 25px;
         padding-top: 30px;
     }
 
