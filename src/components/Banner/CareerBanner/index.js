@@ -9,7 +9,7 @@ const HomeBanner = () => {
         <div className={bannerHomeStyle.backgroundImage}>
             <div className={bannerGeneral.overlay}></div>
             <div className={bannerGeneral.titlePage}>
-                <h1>CAREERS</h1>
+                {/* <h1>CAREERS</h1> */}
             </div>
         </div>
     )

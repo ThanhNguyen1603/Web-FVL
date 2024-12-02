@@ -7,9 +7,9 @@ import bannerHomeStyle from './bannerHome.module.scss'
 const HomeBanner = () => {
     return (
         // <div className={bannerHomeStyle.backgroundImage}>
-            <div className={bannerGeneral.titlePage}>
-                <h1>GET IN TOUCH</h1>
-            </div>
+        <div className={bannerGeneral.titlePage}>
+            {/* <h1>GET IN TOUCH</h1> */}
+        </div>
         // </div>
     )
 }

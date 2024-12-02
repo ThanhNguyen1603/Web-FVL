@@ -42,8 +42,9 @@ const FormSubmitSolutions = () => {
 
                             <div className={formSubmitStyle.ctcContent}>
                                 <h3>We love to hear from you</h3>
+                                <h5>We appreciate your interest in us. Please submit your questions below.</h5>
                                 <div className="row">
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-12">
                                         <input
                                             type="text"
                                             name="entry.1118792528"
@@ -69,7 +70,7 @@ const FormSubmitSolutions = () => {
                                         />
                                         <br />
                                     </div>
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-12">
                                         <input
                                             type="text"
                                             name="entry.798698470"
@@ -119,9 +120,7 @@ const FormSubmitSolutions = () => {
                             </div>
                         </form>
                     </div>
-                    <div className='col-lg-12 d-flex pt-3'>
-                        <img className={formSubmitStyle.contactImage} src={contactImage} alt="contact image" />
-                    </div>
+
                 </div>
             </div>
         </>

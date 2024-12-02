@@ -4,6 +4,7 @@ import home from '../../Home/home.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faChartLine, faIdCard, faGlobe, faCalculator, faAnglesRight, faGears } from '@fortawesome/free-solid-svg-icons'
 import SolutionsStyle from "./solutionStyle.module.scss"
+import AdvantageSolution from "../AdvantageSolution";
 const SolutionPage = () => {
     const serviceList = [
         {
@@ -33,17 +34,10 @@ const SolutionPage = () => {
 
     return (
         <>
-            <div className="container-fluid">
-                <div className={SolutionsStyle.content}>
-                    {/* <div className={SolutionsStyle.paragraph}>
-                    <p>
-                        Whether you are a private enterprise or a large publicly listed company, FVL & TPL has a solution tailored to suit your need.
-                        At FVL & TPL, we support you by creating and implementing new services to sharpen your competitive edge and we offer flexibility to help you respond better to cyclical troughs and peaks.
-                        Our commitment comes in the form of long-term partnerships built on trust, open communication and transparency, giving you a smooth and seamless transition from day one.
-                    </p>
-                </div> */}
+            <div>
 
-                    <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
+                <div className={SolutionsStyle.content}>
+                    <div className={`${SolutionsStyle.titleContent}`}>
                         <h2>What we can do for you</h2>
                     </div>
                     <div className="row">
@@ -75,41 +69,9 @@ const SolutionPage = () => {
                         }
                     </div>
                 </div>
-                {/* <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
-                    <h2>Our Process</h2>
-                </div>
-                <div className={SolutionsStyle.content}>
-                    <div className={SolutionsStyle.paragraph}>
-                        <p>
-                            From proposal to implementation to follow-up of your BPO project, we are committed to providing superior ease of integration and friendly and responsive customer service.
-                            Our managers will work closely with your team to ensure timely and accurate results are delivered each and every time.
-                        </p>
-                    </div>
-                    <div className="col-md-12">
-                        <div className="row">
-                            {
-                                stepList.map((stepItem, index) => {
-                                    return (
-                                        <>
-                                            <div className="col-md-1 d-flex" key={index}>
-                                                <div className={SolutionsStyle.iconStep}>
-
-                                                    {index > 0 ? <FontAwesomeIcon icon={faAnglesRight} /> : <FontAwesomeIcon icon={faGears} />}
-                                                </div>
-                                            </div>
-                                            <div className={`col-md-3 d-flex ${SolutionsStyle.contStep}`} key={index}>
-                                                <div>
-                                                    {stepItem.content.map((content, subindex) => <p key={subindex}> {subindex > 0 ? content : <h6>{content}</h6>}</p>)}
-                                                </div>
-                                            </div>
-
-                                        </>
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
-                </div> */}
+            </div>
+            <div>
+                <AdvantageSolution />
             </div>
         </>
     )
