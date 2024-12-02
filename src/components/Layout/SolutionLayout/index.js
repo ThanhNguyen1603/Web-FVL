@@ -17,14 +17,12 @@ const SolutionLayout = () => {
                 <div className='container-fluid pt-3'>
                     <div className="col-lg-12">
                         <div className="row">
-                            <div className="col-lg-9">
+                            <div className="col-lg-12">
 
                                 <Outlet />
 
                             </div>
-                            <div className={`${solutionStyle.sideBarstyle} ${"col-lg-3"}`}>
-                                <FormSubmitSolutions />
-                            </div>
+
                         </div>
                     </div>
                 </div>

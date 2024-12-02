@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faChartLine, faIdCard, faGlobe, faCalculator, faAnglesRight, faGears } from '@fortawesome/free-solid-svg-icons'
 import SolutionsStyle from "./solutionStyle.module.scss"
 import AdvantageSolution from "../AdvantageSolution";
+import FormSubmitSolutions from "../../../components/FormSubmitSolutions/FormSubmitSolutions";
 const SolutionPage = () => {
     const serviceList = [
         {
@@ -34,40 +35,44 @@ const SolutionPage = () => {
 
     return (
         <>
-            <div>
-
-                <div className={SolutionsStyle.content}>
-                    <div className={`${SolutionsStyle.titleContent}`}>
-                        <h2>What we can do for you</h2>
-                    </div>
-                    <div className="row">
-                        {
-                            serviceList.map((serviceItem, index) => {
-                                return (
-                                    <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
-                                        <div className={`${SolutionsStyle.contentSolution}`}>
-                                            {/* <div className={SolutionsStyle.iconSolut}>
+            <div className="row">
+                <div className="col-lg-9">
+                    <div className={SolutionsStyle.content}>
+                        <div className={`${SolutionsStyle.titleContent}`}>
+                            <h2>What we can do for you</h2>
+                        </div>
+                        <div className="row">
+                            {
+                                serviceList.map((serviceItem, index) => {
+                                    return (
+                                        <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
+                                            <div className={`${SolutionsStyle.contentSolution}`}>
+                                                {/* <div className={SolutionsStyle.iconSolut}>
                                                 <FontAwesomeIcon icon={serviceItem.icon} />
 
                                             </div> */}
-                                            <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
-                                            <div className={SolutionsStyle.contentSub}>
-                                                {
-                                                    serviceItem.content.map((subcontent, subindex) => {
-                                                        return (
-                                                            <p key={subindex}>
-                                                                {subcontent}
-                                                            </p>
-                                                        )
-                                                    })
-                                                }
+                                                <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
+                                                <div className={SolutionsStyle.contentSub}>
+                                                    {
+                                                        serviceItem.content.map((subcontent, subindex) => {
+                                                            return (
+                                                                <p key={subindex}>
+                                                                    {subcontent}
+                                                                </p>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                )
-                            })
-                        }
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
+                </div>
+                <div className="col-lg-3">
+                    <FormSubmitSolutions />
                 </div>
             </div>
             <div>

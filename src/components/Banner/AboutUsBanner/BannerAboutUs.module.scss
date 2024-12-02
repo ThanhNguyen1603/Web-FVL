@@ -14,7 +14,8 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
         background-image: $image;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 380px
+        min-height: 500px;
+
     }
 
     .bannerWhoWeAre {
@@ -32,5 +33,18 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
         color: #ebe9e9;
         @include fontSizeDefault;
         padding-left: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .AIbrainBackground {
+
+
+        .AIbrian {
+
+            min-height: 380px;
+
+        }
     }
 }

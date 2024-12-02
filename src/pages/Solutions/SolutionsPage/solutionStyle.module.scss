@@ -16,14 +16,14 @@
     h6 {
         color: #929292;
         @include fontSizeDefault;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     p {
         @include colorText;
         @include fontSizeDefault;
         margin: 0px;
-        padding-bottom: 12px;
+        padding: 10px 0px;
     }
 }
 
