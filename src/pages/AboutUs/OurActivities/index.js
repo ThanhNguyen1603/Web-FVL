@@ -10,15 +10,19 @@ import WeGive from "../../../components/WeGive/WeGive";
 const OurActivities = () => {
     return (
         <>
-            <div className={ouractiv.content}>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className={ouractiv.contActiv}>
-                            <div className={ouractiv.titleContent}>
-                                <h2>Our Activities</h2>
-                            </div>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className={ouractiv.content}>
+                        <div className={ouractiv.titleContent}>
+                            <h2>Our Activities</h2>
+                        </div>
+                        <div className={ouractiv.weWork}>
                             <WeWork />
+                        </div>
+                        <div className={ouractiv.wePlay}>
                             <WePlay />
+                        </div>
+                        <div className={ouractiv.weGive}>
                             <WeGive />
                         </div>
                     </div>

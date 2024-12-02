@@ -20,17 +20,17 @@ import carouselContainer from "../../../components/CarouselContainer/carouselCon
 const OurAchievements = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
+        { url: fvlcup1, nameImage: fvlcup1, title: 'Cup 01' },
+        { url: wethankyou, nameImage: wethankyou, title: 'We thank you' },
         { url: fvliso27001, nameImage: fvliso27001, title: 'ISO 27001' },
-        { url: bangkhenthutuong, nameImage: bangkhenthutuong, title: 'Bang khen thu tuong' },
-        { url: dichCovid, nameImage: dichCovid, title: 'Dich Covid' },
         { url: thucamon, nameImage: thucamon, title: 'Thu Cam On' },
         { url: KHCN, nameImage: KHCN, title: 'Khoa hoc cong nghe' },
-        { url: wethankyou, nameImage: wethankyou, title: 'We thank you' },
-        { url: fvlcup1, nameImage: fvlcup1, title: 'Cup 01' },
-        { url: fvlcn2, nameImage: fvlcn2, title: 'FVL CN 02' },
-        { url: ubndtphcm2018, nameImage: ubndtphcm2018, title: 'Uy ban nhanh dan thanh pho HCM 2018' },
-        { url: benhnhanngheo2015, nameImage: benhnhanngheo2015, title: 'Benh nhan ngheo 2015' },
         { url: hinhcongnghe, nameImage: hinhcongnghe, title: 'Hinh cong nghe' },
+        { url: benhnhanngheo2015, nameImage: benhnhanngheo2015, title: 'Benh nhan ngheo 2015' },
+        { url: ubndtphcm2018, nameImage: ubndtphcm2018, title: 'Uy ban nhanh dan thanh pho HCM 2018' },
+        { url: fvlcn2, nameImage: fvlcn2, title: 'FVL CN 02' },
+        { url: bangkhenthutuong, nameImage: bangkhenthutuong, title: 'Bang khen thu tuong' },
+        { url: dichCovid, nameImage: dichCovid, title: 'Dich Covid' },
     ]
 
 

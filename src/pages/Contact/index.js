@@ -3,8 +3,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../Home/home.module.scss';
 import contact from '../Contact/contact.module.scss';
 import ContactBanner from '../../components/Banner/ContactBanner'
-import Iframe from "react-iframe";
-import FormfacadeEmbed from "@formfacade/embed-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
 const Contact = () => {
@@ -85,8 +85,7 @@ const Contact = () => {
                                         <h3>
                                             Our Location
                                         </h3>
-                                        <i class="far fa-compass"></i>
-                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank">Find office locations</a>
+                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> Find office locations</a>
                                     </div>
                                 </div>
                             </div>

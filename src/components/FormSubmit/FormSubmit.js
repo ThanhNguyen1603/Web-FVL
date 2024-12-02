@@ -42,6 +42,7 @@ const FormSubmit = () => {
 
                             <div className={formSubmitStyle.ctcContent}>
                                 <h3>We love to hear from you</h3>
+                                <h5>We appreciate your interest in us. Please submit your questions below.</h5>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <input

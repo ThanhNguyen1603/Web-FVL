@@ -1,5 +1,0 @@
-$bannerHome : url('../../../Image/Banner/newsBanner.jpg');
-@import '../../../index.scss';
-.backgroundImage{
-    @include bannerDefault($bannerHome)
-}
