@@ -1,5 +1,30 @@
 @import '../../index.scss';
 
+
+.titleContent {
+    @include backgroundWhite;
+    height: 1000px;
+
+    h2 {
+        @include fontSizeTitle;
+        @include colorBlack;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .detailCareer {
     border-radius: 40px;
     background-color: #fff;
@@ -9,25 +34,30 @@
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     margin-bottom: 10px;
-    .image{
+
+    .image {
         padding-right: 20px;
     }
+
     img {
         width: 100%;
         height: auto;
-        
+
         border-radius: 10px;
     }
+
     i {
         font-size: 1rem;
         margin-right: 5px;
+
         svg {
             path {
                 color: #646adc;
             }
         }
     }
-    li{
+
+    li {
         margin-left: 10px;
     }
 }
@@ -42,13 +72,15 @@
     i {
         font-size: 1rem;
         margin-right: 5px;
+
         svg {
             path {
                 color: #646adc;
             }
         }
     }
-    li{
+
+    li {
         margin-left: 10px;
     }
 }

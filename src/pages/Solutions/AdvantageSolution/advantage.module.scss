@@ -29,4 +29,9 @@
         @include colorText;
         @include fontSizeDefault;
     }
+
+    h2 {
+        @include colorText;
+        @include fontSizeTitle;
+    }
 }

@@ -8,6 +8,7 @@
     transition: transform .2s;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     background-color: #fff;
+
     .iconWfh {
         padding: 0;
     }
@@ -94,11 +95,13 @@
     bottom: 0;
     right: 0;
 }
-.imgWfh{
+
+.imgWfh {
     height: 100%;
     display: flex;
     align-items: center;
-    img{
+
+    img {
         border-radius: 10px;
     }
 }

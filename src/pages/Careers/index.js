@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../Home/home.module.scss';
 import wfh from '../WorkFromHome/WFH.module.scss';
-import careerScss from '../Careers/careers.module.scss';
+import careerStyle from '../Careers/careers.module.scss';
 import { useState } from 'react';
 import Modal from 'react-modal';
 import { CareersList } from '../../components/Careers';
@@ -20,17 +20,24 @@ const Careers = () => {
     }
     return (
         <>
-            <CareerBanner />
-            <div className={home.content}>
-                <div className="container">
-                    {
+            {/* <CareerBanner /> */}
+
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className={careerStyle.titleContent}>
+                            <h2>Job Opportunities</h2>
+                        </div>
+                    </div>
+                </div>
+                {/* {
                         CareersList.map((career, index) => {
                             return (
                                 <>
                                     <div className="row" key={index}>
-                                        <div className={careerScss.detailCareer}>
+                                        <div className={careerStyle.detailCareer}>
                                             <div className="col-lg-3">
-                                                <div className={careerScss.image}>{career.image}</div>
+                                                <div className={careerStyle.image}>{career.image}</div>
                                             </div>
                                             <div className="col-lg-9">
                                                 <h5>{career.jobName}</h5>
@@ -63,74 +70,74 @@ const Careers = () => {
                                             </div>
                                         </div>
                                     </div>
-                                   
+
                                 </>
                             )
                         })
-                    }
+                    } */}
 
-                </div>
-                <Modal isOpen={modalIsOpen}
-                    onRequestClose={closeModal}
-                    contentLabel='MOdal Example'
-                    style={
-                        {
-                            overlay: {
-                                zIndex: 1020,
-                            }
+            </div>
+            <Modal isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel='MOdal Example'
+                style={
+                    {
+                        overlay: {
+                            zIndex: 1020,
                         }
                     }
+                }
 
-                >
-                    <div className="container">
-                        <div className={careerScss.modalDet}>
-                            {
-                                CareersList.map((career, index) => {
-                                    return (
-                                        index === modalID && <div>
-                                            <div key={index}>
-                                                <h4>{career.jobName}</h4>
-                                                <div className="d-flex">
-                                                    <i>{career.iconCalendar}</i>
-                                                    <p>{career.datePublish}</p>
-                                                </div>
-                                                {
-                                                    career.description.map((descItem, index) => {
-                                                        return (
-                                                            <div key={index} >
-                                                                <div className="d-flex">
-                                                                    <i>{career.icontitle}</i>
-                                                                    <h5>{descItem.title}</h5>
-                                                                </div>
-                                                                {
-                                                                    descItem.content.map((contentItem, index) =>
-                                                                        <div key={index}>
-                                                                            <div className="row">
-                                                                                <li>
-                                                                                    {contentItem}
-                                                                                </li>
-                                                                            </div>
-                                                                        </div>)
-                                                                }
-                                                            </div>
-                                                        )
-                                                    })
-                                                }
+            >
+                <div className="container">
+                    <div className={careerStyle.modalDet}>
+                        {
+                            CareersList.map((career, index) => {
+                                return (
+                                    index === modalID && <div>
+                                        <div key={index}>
+                                            <h4>{career.jobName}</h4>
+                                            <div className="d-flex">
+                                                <i>{career.iconCalendar}</i>
+                                                <p>{career.datePublish}</p>
                                             </div>
+                                            {
+                                                career.description.map((descItem, index) => {
+                                                    return (
+                                                        <div key={index} >
+                                                            <div className="d-flex">
+                                                                <i>{career.icontitle}</i>
+                                                                <h5>{descItem.title}</h5>
+                                                            </div>
+                                                            {
+                                                                descItem.content.map((contentItem, index) =>
+                                                                    <div key={index}>
+                                                                        <div className="row">
+                                                                            <li>
+                                                                                {contentItem}
+                                                                            </li>
+                                                                        </div>
+                                                                    </div>)
+                                                            }
+                                                        </div>
+                                                    )
+                                                })
+                                            }
                                         </div>
-                                    )
-                                })
-                            }
-                            <button className={wfh.btnapply} type="button" onClick={closeModal}>
-                                Close
-                            </button>
-                            <button className={wfh.btnapply} type="button">
-                                <a href="https://forms.gle/61BoPx74zQTUhxRH6" target="_blank" rel="noopener noreferrer">Apply Now</a>
-                            </button>
-                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+                        <button className={wfh.btnapply} type="button" onClick={closeModal}>
+                            Close
+                        </button>
+                        <button className={wfh.btnapply} type="button">
+                            <a href="https://forms.gle/61BoPx74zQTUhxRH6" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        </button>
                     </div>
-                </Modal>
-            </div>
+                </div>
+            </Modal>
+
         </>
     )
 }
