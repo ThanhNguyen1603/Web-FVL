@@ -154,12 +154,7 @@ const ClientSay = () => {
                     </div>
                 </div>
             </div>
-
-
         </>
     )
-
-
-
 }
 export default ClientSay;

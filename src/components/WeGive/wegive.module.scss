@@ -12,13 +12,13 @@
 }
 
 .titleContent {
-    @include colorPrimaryText;
+    @include colorBlack;
 
 
     h2 {
         font-weight: 600;
         padding-top: 20px;
-        color: #fff;
+        color: #000;
         @include font40;
     }
 

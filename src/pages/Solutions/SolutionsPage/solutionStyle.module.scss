@@ -4,16 +4,7 @@
     margin-bottom: 10px;
 }
 
-.contSolut {
-    border-radius: 30px;
-    background-color: #fff;
-    /* margin: 10px; */
-    /* padding: 0; */
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
-    min-height: 400px;
-    padding-left: 10px;
-    margin-top: 10px;
-}
+.contentSolution {}
 
 .contentTitle {
     padding-top: 10px;
@@ -95,12 +86,15 @@
     @include colorText;
 }
 
-h2 {
-    @include fontSizeTitle;
-    font-weight: 600;
-    @include colorText;
-    margin-top: 20px;
+.titleContent {
+    h2 {
+        @include fontSizeTitle;
+        font-weight: 600;
+        @include colorText;
+        margin-top: 20px;
+    }
 }
+
 
 h6 {
     @include fontSizeDefault;

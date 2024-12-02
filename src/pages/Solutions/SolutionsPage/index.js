@@ -33,28 +33,29 @@ const SolutionPage = () => {
 
     return (
         <>
-            <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
-                <h2>Our BPO Solutions</h2>
-            </div>
-            <div className={SolutionsStyle.content}>
-                <div className={SolutionsStyle.paragraph}>
+            <div className="container-fluid">
+                <div className={SolutionsStyle.content}>
+                    {/* <div className={SolutionsStyle.paragraph}>
                     <p>
                         Whether you are a private enterprise or a large publicly listed company, FVL & TPL has a solution tailored to suit your need.
                         At FVL & TPL, we support you by creating and implementing new services to sharpen your competitive edge and we offer flexibility to help you respond better to cyclical troughs and peaks.
                         Our commitment comes in the form of long-term partnerships built on trust, open communication and transparency, giving you a smooth and seamless transition from day one.
                     </p>
-                </div>
-                <div className="container">
+                </div> */}
+
+                    <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
+                        <h2>What we can do for you</h2>
+                    </div>
                     <div className="row">
                         {
                             serviceList.map((serviceItem, index) => {
                                 return (
                                     <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
-                                        <div className={`${SolutionsStyle.contSolut}`}>
-                                            <div className={SolutionsStyle.iconSolut}>
+                                        <div className={`${SolutionsStyle.contentSolution}`}>
+                                            {/* <div className={SolutionsStyle.iconSolut}>
                                                 <FontAwesomeIcon icon={serviceItem.icon} />
 
-                                            </div>
+                                            </div> */}
                                             <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
                                             <div className={SolutionsStyle.contentSub}>
                                                 {
@@ -74,7 +75,7 @@ const SolutionPage = () => {
                         }
                     </div>
                 </div>
-                <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
+                {/* <div className={`${SolutionsStyle.title} ${home.titleContent}`}>
                     <h2>Our Process</h2>
                 </div>
                 <div className={SolutionsStyle.content}>
@@ -92,7 +93,7 @@ const SolutionPage = () => {
                                         <>
                                             <div className="col-md-1 d-flex" key={index}>
                                                 <div className={SolutionsStyle.iconStep}>
-                                                   
+
                                                     {index > 0 ? <FontAwesomeIcon icon={faAnglesRight} /> : <FontAwesomeIcon icon={faGears} />}
                                                 </div>
                                             </div>
@@ -108,7 +109,7 @@ const SolutionPage = () => {
                             }
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

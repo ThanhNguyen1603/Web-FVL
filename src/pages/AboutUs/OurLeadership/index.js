@@ -9,7 +9,7 @@ import ManiImg from '../../../Image/AboutUs/Our_LeadershipTeam/Mani2.jpg'
 import MichelleNgoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Michelle Ngo.jpg'
 import SenNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Sen Nguyen.jpg'
 import TungDoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Tung Do.jpg'
-import VinNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Vin Nguyen2.jpg'
+import VinNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Vin Nguyen.jpg'
 import KhanhTruongImg from '../../../Image/AboutUs/Our_LeadershipTeam/KhanhTruong.jpg'
 import PhuongTranImg from '../../../Image/AboutUs/Our_LeadershipTeam/PhuongTran.jpg'
 import ChauNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/ChauNguyen.jpg'
@@ -78,7 +78,7 @@ const OurLeadership = () => {
     };
     return (
         <>
-            <div className={home.content} >
+            <div className={LeadershipStyle.content} >
 
                 < div className={`container-fluid`}>
                     <div className={LeadershipStyle.backgroundcontent}>

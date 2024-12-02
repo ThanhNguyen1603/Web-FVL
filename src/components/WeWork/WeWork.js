@@ -49,7 +49,7 @@ const WeWork = () => {
         <>
             <div className="container-fluid">
                 <div className={weworkStyle.titleContent}>
-                    <h2>Word Smart</h2>
+                    <h2>Work Smart</h2>
                 </div>
                 <div className="row">
                     <div className="col-lg-12">

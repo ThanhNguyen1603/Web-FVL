@@ -283,52 +283,6 @@ p {
 
 }
 
-// .detailClient:hover {
-//     box-shadow: 0px 6px 30px rgba(172, 172, 172, 0.3);
-//     color: #ffffff;
-
-//     .btnapply {
-//         a {
-//             color: #ffffff;
-//         }
-//     }
-// }
-
-// .detailClient:hover::before {
-//     width: 100%;
-//     background: $colorPrimary;
-// }
-
-// .detailClient::before {
-//     border-radius: 40px 40px 0 0;
-//     content: "";
-//     position: absolute;
-//     width: 0;
-//     height: 50%;
-//     transition: all 0.7s ease-in;
-//     background: $colorPrimary;
-//     z-index: -1;
-//     top: 0;
-//     left: 0;
-// }
-
-// .detailClient:hover::after {
-//     width: 100%;
-//     background: $colorPrimary;
-// }
-
-// .detailClient::after {
-//     border-radius: 0 0 40px 40px;
-//     content: "";
-//     position: absolute;
-//     width: 0;
-//     height: 50%;
-//     transition: all 0.7s ease-in;
-//     background: $colorPrimary;
-//     z-index: -1;
-//     bottom: 0;
-//     right: 0;
-// }
 
 
 .fepBackground {
@@ -340,8 +294,9 @@ p {
 
     h2 {
         @include colorText;
-        text-align: left;
+        text-align: center;
         margin: 0;
+        padding-top: 20px;
     }
 
     span {
@@ -350,12 +305,12 @@ p {
     }
 
     .fast {
-        padding-right: 30px;
+        padding-right: 60px;
     }
 
     .imagefep {
         width: 100%;
-        height: 50px;
+        height: 100px;
         width: auto;
         margin: auto;
     }

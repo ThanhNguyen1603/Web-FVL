@@ -6,143 +6,149 @@ $bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
     background-color: #120505;
 }
 
-.backgroundcontent {
-    @include backgroundColor;
-}
+// .backgroundcontent {
+//     @include backgroundColor;
+// }
+
+.content {
+    @include backgroundWhite;
+
+    .contLead {
 
 
+        .titleContent {
+            color: #333;
+            // @include colorPrimaryText;
+            text-align: center;
+            @include fontSizeTitle;
+        }
 
-.contLead {
+        img {
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            // border-radius: 30px;
+            padding: 10px 0 10px 0;
+        }
 
-
-    .titleContent {
-        @include colorPrimaryText;
-        text-align: center;
-        @include fontSizeTitle;
-    }
-
-    img {
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        border-radius: 30px;
-        padding: 10px 0 10px 0;
-    }
-
-    p {
-        text-align: justify;
-        color: #ebe9e9;
-        @include font16;
-    }
-
-    h4 {
-        @include fontSizeDefault;
-        text-align: center;
-        font-weight: 600;
-        color: #333;
-    }
-
-    h5 {
-        font-size: 26px;
-        text-align: center;
-        font-weight: 600;
-        color: #333;
-    }
-
-    .itemLead {
-        border-radius: 31px;
-        @include colorText;
-
-        h5 {
-            @include colorText;
+        p {
+            text-align: justify;
+            color: #000;
+            @include font16;
         }
 
         h4 {
-            @include colorText;
+            @include fontSizeDefault;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
         }
-
-
-    }
-
-    .OurLeaders {
-        @include colorText;
-        @include fontSizeTitle;
-        font-weight: 600;
-    }
-
-    .ceo {
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 31px;
-        // box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
-        border: 4px solid transparent;
-        // background-color: white;
-        margin-top: 20px;
-        padding: 0px 10px;
-        @include colorText;
 
         h5 {
-            @include colorText;
+            font-size: 26px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
         }
 
-        h4 {
+        .itemLead {
+            border-radius: 31px;
             @include colorText;
+
+            h5 {
+                color: #000;
+                // @include colorText;
+            }
+
+            h4 {
+                color: #000;
+            }
+
+
         }
 
+        .OurLeaders {
+            color: #333;
+            // @include colorText;
+            @include fontSizeTitle;
+            font-weight: 600;
+        }
 
-    }
+        .ceo {
+            margin-left: auto;
+            margin-right: auto;
+            // border-radius: 31px;
+            // box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+            // border: 4px solid transparent;
+            // background-color: white;
+            margin-top: 20px;
+            padding: 0px 10px;
+            @include colorText;
 
-    .carouselContainer {
-        position: relative;
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
+            h5 {
+                color: #000;
+                // @include colorText;
+            }
 
-    .ceo img,
-    .itemLead img {
-        width: 100%;
-        object-fit: cover;
-    }
+            h4 {
+                color: #000;
+            }
 
-    .prevButton,
-    .nextButton {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 50%;
-        cursor: pointer;
-        z-index: 10;
-        font-size: 16px;
-    }
 
-    .prevButton:hover,
-    .nextButton:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
+        }
 
-    .prevButton {
-        left: 1%;
-    }
+        .carouselContainer {
+            position: relative;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
 
-    .nextButton {
-        right: 1%;
-    }
+        .ceo img,
+        .itemLead img {
+            width: 100%;
+            object-fit: cover;
+        }
 
-    @media (max-width: 768px) {
+        .prevButton,
+        .nextButton {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 16px;
+        }
+
+        .prevButton:hover,
+        .nextButton:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
 
         .prevButton {
             left: 1%;
         }
 
         .nextButton {
-
             right: 1%;
         }
-    }
 
+        @media (max-width: 768px) {
+
+            .prevButton {
+                left: 1%;
+            }
+
+            .nextButton {
+
+                right: 1%;
+            }
+        }
+
+    }
 }

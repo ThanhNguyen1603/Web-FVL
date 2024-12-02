@@ -2,7 +2,7 @@ import formSubmitStyle from './formsubmit.module.scss'
 import contactImage from "../../Image/Contact/contact.jpg"
 import { useState } from "react";
 
-const FormSubmit = () => {
+const FormSubmitSolutions = () => {
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
@@ -37,7 +37,7 @@ const FormSubmit = () => {
         <>
             <div className="container-fluid pt-3 pb-3">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-12">
                         <form onSubmit={handleSubmit}>
 
                             <div className={formSubmitStyle.ctcContent}>
@@ -119,7 +119,7 @@ const FormSubmit = () => {
                             </div>
                         </form>
                     </div>
-                    <div className='col-lg-6 d-flex'>
+                    <div className='col-lg-12 d-flex pt-3'>
                         <img className={formSubmitStyle.contactImage} src={contactImage} alt="contact image" />
                     </div>
                 </div>
@@ -128,4 +128,4 @@ const FormSubmit = () => {
     )
 
 }
-export default FormSubmit
+export default FormSubmitSolutions

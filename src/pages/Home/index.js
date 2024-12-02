@@ -119,47 +119,56 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-5 col-5">
+                            <div className="col-lg-3 col-3">
 
                             </div>
-                            <div className="col-lg-2 col-2 flex-column d-flex align-items-center ">
+
+                            <div className="col-lg-6 col-6">
                                 <div className="row">
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="col-lg-3 col-3 d-flex justify-content-center ">
-                                            <img className={`${home.imagefep} ${home.fast}`} src={fast} alt="Fast" />
-                                        </div>
-                                        <div className="col-lg-9 col-9">
-                                            <h2>F<span>ast</span></h2>
-                                        </div>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="col-lg-3 col-3 d-flex justify-content-center ">
-                                            <img className={home.imagefep} src={effective} alt="Effective" />
-                                        </div>
-                                        <div className="col-lg-9 col-9">
-                                            <h2>E<span>ffective</span></h2>
+                                    <div className="col-lg-4">
+                                        <div className="row">
+                                            <div className="d-flex flex-column align-items-center mb-3">
+                                                <div className="col-lg-12 col-12 d-flex justify-content-center ">
+                                                    <img className={`${home.imagefep} ${home.fast}`} src={fast} alt="Fast" />
+                                                </div>
+                                                <div className="col-lg-12 col-12">
+                                                    <h2>F<span>ast</span></h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="col-lg-3 col-3 d-flex justify-content-center ">
-                                            <img className={home.imagefep} src={professional} alt="Professional" />
-                                        </div>
-                                        <div className="col-lg-9 col-9">
-                                            <h2>P<span>rofessional</span></h2>
+                                    <div className="col-lg-4">
+                                        <div className="row">
+                                            <div className="d-flex flex-column align-items-center mb-3">
+                                                <div className="col-lg-12 col-12 d-flex justify-content-center ">
+                                                    <img className={home.imagefep} src={effective} alt="Effective" />
+                                                </div>
+                                                <div className="col-lg-12 col-12">
+                                                    <h2>E<span>ffective</span></h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div className="col-lg-4">
+                                        <div className="row">
+                                            <div className="d-flex flex-column align-items-center mb-3">
+                                                <div className="col-lg-12 col-12 d-flex justify-content-center ">
+                                                    <img className={home.imagefep} src={professional} alt="Professional" />
+                                                </div>
+                                                <div className="col-lg-12 col-12">
+                                                    <h2>P<span>rofessional</span></h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-5">
+                            <div className="col-lg-3 col-3">
 
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-2"></div>
-                            <div className="col-lg-8">
-                                <img className={home.fepImage} src={FEPImage} alt="FEP image" />
-                            </div>
-                            <div className="col-lg-2"></div>
                         </div>
                     </div>
                 </div>
