@@ -35,9 +35,9 @@ const FormSubmit = () => {
     };
     return (
         <>
-            <div className="container-fluid pt-3 pb-3">
+            <div className="container pt-3 pb-3">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-12">
                         <form onSubmit={handleSubmit}>
 
                             <div className={formSubmitStyle.ctcContent}>
@@ -119,9 +119,9 @@ const FormSubmit = () => {
                             </div>
                         </form>
                     </div>
-                    <div className='col-lg-6 d-flex'>
+                    {/* <div className='col-lg-6 d-flex'>
                         <img className={formSubmitStyle.contactImage} src={contactImage} alt="contact image" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

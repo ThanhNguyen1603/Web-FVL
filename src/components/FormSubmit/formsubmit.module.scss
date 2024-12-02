@@ -4,25 +4,29 @@
 
 .ctcContent {
     border-radius: 40px;
-    background-color: #fff;
+    // background-color: #fff;
     padding: 40px;
-    transition: transform .2s;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    // transition: transform .2s;
+    // box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     margin-bottom: 10px;
+
+    h3, h5 {
+        color: #fff;
+    }
 
     .ctcInput {
         width: 100%;
         border-radius: 10px;
         padding: 10px;
         margin: 15px 0px;
-        border: 1px solid #232730;
-        background-color: #232730;
-        color: #fff;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #232730;
     }
 
     .ctcInput::placeholder {
-        color: #fff;
+        color: #232730;
         font-weight: 500;
     }
 
