@@ -91,13 +91,17 @@ const ClientSay = () => {
         <>
             <div className={clientSayStyle.clientSay}>
                 <div className="container-fluid">
-                    <div className={clientSayStyle.titleContent}>
-                        <h1 className={clientSayStyle.titleclientSay}>
-                            Success Stories from our Clients:
-                        </h1>
-                        <h2>
-                            Having experienced the outstanding advantages of FVL and TPL, our clients have plenty of success stories to share. Here are some of their testimonials:
-                        </h2>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <div className={clientSayStyle.titleContent}>
+                                <h1 className={clientSayStyle.titleclientSay}>
+                                    Success Stories from our Clients:
+                                </h1>
+                                <h2>
+                                    Having experienced the outstanding advantages of FVL and TPL, our clients have plenty of success stories to share. Here are some of their testimonials:
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="row">
                         <div className='col-lg-2'>

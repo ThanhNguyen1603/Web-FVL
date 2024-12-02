@@ -1,4 +1,5 @@
 @import '../../../index.scss';
+$image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
 $bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
 
 .background {
@@ -9,35 +10,7 @@ $bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
     @include backgroundColor;
 }
 
-.AIbrainBackground {
-    background-color: #120505;
-    display: flex;
-    align-content: center;
-    margin-left: -12px;
-    margin-right: -12px;
 
-    img {
-        width: 100%;
-    }
-
-    .bannerWhoWeAre {
-        @include colorPrimaryText;
-        text-align: center;
-        @include fontSizeTitle;
-        display: flex;
-        // justify-content: center;
-        padding-left: 12px;
-        font-weight: 600;
-        padding-top: 50px;
-        padding-bottom: 30px;
-    }
-
-    p {
-        color: #ebe9e9;
-        @include fontSizeDefault;
-        padding-left: 20px;
-    }
-}
 
 .contLead {
 

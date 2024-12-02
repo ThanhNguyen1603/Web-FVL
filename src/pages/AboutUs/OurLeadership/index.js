@@ -22,21 +22,31 @@ import Header from "../../../components/Header";
 
 const OurLeadership = () => {
     const directorList = [
-        { url: MichelleNgoImg, name: 'Michelle Ngo', jobTitle: 'CEO & Co-Founder', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: JingHimImg, name: 'Jing Him', jobTitle: 'Operations Director', decription: 'Jing is the Operations Director of Transcend People and First Virtue Limited. She is a seasoned professional with 16 years of experience in the BPO industry, which includes extensive background on customer service and support,  implementation of ISO 27001, projects management and process improvements.Jing has a proven track record of leading multiple projects effectively showcasing strong leadership. Her dedication to continuous growth and teamwork defines her professional and personal pursuits.Outside of work, enjoys quality time with her family, reading books, and participating in sports like volleyball and badminton.' },
+        {
+            url: MichelleNgoImg,
+            name: 'Michelle Ngo',
+            jobTitle: 'Chief Executive Officer & Co-Founder',
+            decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "",
+        },
+        {
+            url: JingHimImg,
+            name: 'Jing Him',
+            jobTitle: 'Chief Operating Officer',
+            decription: 'Jing is the Operations Director of Transcend People and First Virtue Limited. She is a seasoned professional with 16 years of experience in the BPO industry, which includes extensive background on customer service and support,  implementation of ISO 27001, projects management and process improvements.Jing has a proven track record of leading multiple projects effectively showcasing strong leadership. Her dedication to continuous growth and teamwork defines her professional and personal pursuits.Outside of work, enjoys quality time with her family, reading books, and participating in sports like volleyball and badminton.', decription2: "",
+        },
     ]
     const leadershipList = [
 
         // { url: ManiImg, name: 'Mani Chinna', jobTitle: 'Senior Operation Manager' },
-        { url: HueNguyenImg, name: 'Hue Nguyen', jobTitle: 'Admin Controller', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: VinNguyenImg, name: 'Vin Nguyen', jobTitle: 'IT Manager', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: TungDoImg, name: 'Tung Do', jobTitle: 'Operations Manager', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: SenNguyenImg, name: 'Lianna Nguyen', jobTitle: 'HR Manager', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
+        { url: HueNguyenImg, name: 'Hue Nguyen', jobTitle: 'Chief Finacial Officer', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "", },
+        { url: VinNguyenImg, name: 'Vin Nguyen', jobTitle: 'Chief Information Officer', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "", },
+        { url: TungDoImg, name: 'Tung Do', jobTitle: 'Operations Director', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "", },
+        { url: SenNguyenImg, name: 'Lianna Nguyen', jobTitle: 'HR Director', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "", },
 
-        { url: KhanhTruongImg, name: 'Khanh Truong', jobTitle: 'Senior Team Leader', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: PhuongTranImg, name: 'Phuong Tran', jobTitle: 'Senior Team Leader', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: TruongNguyenImg, name: 'Truong Nguyen', jobTitle: 'Senior Team Leader', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
-        { url: ChauNguyenImg, name: 'Chau Nguyen', jobTitle: 'Senior Team Leader', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." },
+        { url: KhanhTruongImg, name: 'Khanh Truong', jobTitle: 'Senior Team Leader', decription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", decription2: "", },
+        { url: PhuongTranImg, name: 'Phuong Tran', jobTitle: 'Senior Team Leader', decription: "Phuong Tran is the Senior Leader at First Virtue, bringing 10 years of experience. She has nurtured FV's positive culture, with notable achievements in onboarding FA projects. Phuong holds a BA in corporate finance from Customs Finance College in Ho Chi Minh City, Vietnam.", decription2: "In her free time, Phuong enjoys spending time with her kids, listening to music and reading stories.", },
+        { url: TruongNguyenImg, name: 'Truong Nguyen', jobTitle: 'Senior Team Leader', decription: "Truong Nguyen is the Senior Leader at First Virtue, bringing 6 years of experience. He is an experienced professional in the field of Title Research and Data Entry, with skills in team management, tracking progress, and operating special projects. Truong holds a degree in engineering from Ho Chi Minh City University of Technology in Vietnam.", decription2: "In his free time, Truong enjoys taking care of and enjoying life with his family.", },
+        { url: ChauNguyenImg, name: 'Chau Nguyen', jobTitle: 'Senior Team Leader', decription: "Chau Nguyen is the Senior Leader at First Virtue, bringing 5 years of experience. She has nurtured FV's positive culture, with notable achievements in onboarding FA projects. Chau holds a BA in the English Major from Saigon University in Ho Chi Minh City, Vietnam.", decription2: "In her free time, Chau enjoys playing video games and reading.", }
     ]
     const [currentIndex, setCurrentIndex] = useState(0);
     const getDisplayedItems = () => {
@@ -68,26 +78,9 @@ const OurLeadership = () => {
     };
     return (
         <>
-            {/* <Header /> */}
             <div className={home.content} >
-                {/* <BannerAboutUs /> */}
-                < div className={`container-fluid`}>
-                    {/* <Header /> */}
-                    <div className={LeadershipStyle.AIbrainBackground}>
-                        <div className="row">
-                            <div className="col-lg-7">
-                                <div className={LeadershipStyle.bannerWhoWeAre}>Who We Are</div>
-                                <p>We are the western-managed Business Process Outsourcing business based in Ho Chi Minh City, Vietnam</p>
-                                <p>Transcend People LLC (TPL) since 2004 & First Virtue LLC (FVL) since 2013 offer long-term, flexible outsourcing solutions to a broad range of clients to help drive operational cost efficiency and business growth.</p>
-                                <p>FVL & TPL combine in-depth understanding of our clients' businesses and expertise in business process outsourcing, we take on clients' challenges and develop innovative solutions to address them.</p>
-                                <p>Through our commitment to ease of integration, transparent communication, and superior customer service, we help to free up their time and resources, enabling them to focus on what they do best.</p>
-                            </div>
-                            <div className="col-lg-5">
-                                <img className={LeadershipStyle.AIbrain} src={AIbrain} alt="AI Brain" />
-                            </div>
-                        </div>
-                    </div>
 
+                < div className={`container-fluid`}>
                     <div className={LeadershipStyle.backgroundcontent}>
                         <div className="row">
                             <div className={LeadershipStyle.contLead}>
@@ -103,6 +96,7 @@ const OurLeadership = () => {
                                                 <h5 className={LeadershipStyle.name}>{directorItem.name}</h5>
                                                 <h4 className={LeadershipStyle.jobTitle}>{directorItem.jobTitle}</h4>
                                                 <p className={LeadershipStyle.jobTitle}>{directorItem.decription}</p>
+                                                <p className={LeadershipStyle.jobTitle}>{directorItem.decription2}</p>
                                             </div>
                                         </div>
                                     ))}
@@ -117,6 +111,7 @@ const OurLeadership = () => {
                                                         <h5 className={LeadershipStyle.name}>{leadershipListItem.name}</h5>
                                                         <h4 className={LeadershipStyle.jobTitle}>{leadershipListItem.jobTitle}</h4>
                                                         <p className={LeadershipStyle.jobTitle}>{leadershipListItem.decription}</p>
+                                                        <p className={LeadershipStyle.jobTitle}>{leadershipListItem.decription2}</p>
                                                     </div>
                                                 </div>
                                             ))}

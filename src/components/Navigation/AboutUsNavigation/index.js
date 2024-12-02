@@ -1,21 +1,22 @@
 import { Route, Routes } from "react-router-dom";
 import AboutUsLayout from '../../Layout/AboutUsLayout';
-import { AboutUsRoutes} from "../../../routes";
+import { AboutUsRoutes } from "../../../routes";
+import MainLayout from "../../Layout/MainLayout";
 
 const AboutUsRouter = () => {
-        return (
-            <Routes>
-                <Route path='/' element={<AboutUsLayout/>}>
-                    {
-                        AboutUsRoutes.map((route, index) => {
-                            const Page = route.component;
-                            return (
-                                <Route key={index} path={route.path} element={<Page />} />
-                            )
-                        })
-                    }
-                </Route>
-            </Routes>
-        )
+    return (
+        <Routes>
+            <Route path='/' element={<AboutUsLayout />}>
+                {
+                    AboutUsRoutes.map((route, index) => {
+                        const Page = route.component;
+                        return (
+                            <Route key={index} path={route.path} element={<Page />} />
+                        )
+                    })
+                }
+            </Route>
+        </Routes>
+    )
 }
 export default AboutUsRouter;

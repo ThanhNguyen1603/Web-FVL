@@ -9,6 +9,7 @@ $fontSizeTitle: 50px;
 $fontSizeDefault: 20px;
 $backgroundFooter: #17181d;
 $font16: 16px;
+$font40: 40px;
 
 @mixin colorPrimaryText {
     color: $colorPrimary;
@@ -16,6 +17,10 @@ $font16: 16px;
 
 @mixin font16 {
     font-size: $font16;
+}
+
+@mixin font40 {
+    font-size: $font40;
 }
 
 @mixin bannerDefault ($image) {

@@ -57,7 +57,7 @@ const WeGive = () => {
                             <div className="row">
                                 {getDisplayedItems().map((OurAchwegiveItem, index) => (
                                     <div className={"col-lg-4"}>
-                                        <img className="d-block " src={OurAchwegiveItem.url} alt={OurAchwegiveItem.title} />
+                                        <img className={`d-block ${wegiveStyle.imageStyle}`} src={OurAchwegiveItem.url} alt={OurAchwegiveItem.title} />
                                     </div>
                                 ))}
                             </div>

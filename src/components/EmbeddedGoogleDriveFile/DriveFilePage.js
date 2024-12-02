@@ -52,7 +52,8 @@ const WeGiveVideo = () => {
 const DreamSmile = () => {
   return (
     <iframe src="https://player.vimeo.com/video/1031456896?h=4c67ac9925"
-      className="embed-responsive-item" style={{ border: 'none', display: "inline" }} scrolling="no" frameborder="0"
+
+      className="embed-responsive-item" style={{ width: '100%', height: '675px' }} frameborder="0"
       allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
       title="Tệp từ Vimeo" as="scipt">
     </iframe>

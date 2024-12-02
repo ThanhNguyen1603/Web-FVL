@@ -1,6 +1,36 @@
 $bannerAboutUs : url('../../../Image/Banner/aboutUsBanner.jpg');
 @import '../../../index.scss';
+$image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
+// .backgroundImage {
+//     @include bannerDefault($bannerAboutUs);
+// }
 
-.backgroundImage {
-    @include bannerDefault($bannerAboutUs);
+.AIbrainBackground {
+    background-color: #120505;
+    // display: flex;
+    align-content: center;
+
+    .AIbrian {
+        background-image: $image;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 380px
+    }
+
+    .bannerWhoWeAre {
+        @include colorPrimaryText;
+        text-align: center;
+        @include fontSizeTitle;
+        display: flex;
+        // justify-content: center;
+        padding-left: 12px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    p {
+        color: #ebe9e9;
+        @include fontSizeDefault;
+        padding-left: 20px;
+    }
 }

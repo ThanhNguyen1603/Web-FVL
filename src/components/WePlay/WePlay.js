@@ -57,7 +57,7 @@ const WePlay = () => {
                             <div className="row">
                                 {getDisplayedItems().map((OurAchweplayItem, index) => (
                                     <div className={"col-lg-4"}>
-                                        <img className="d-block " src={OurAchweplayItem.url} alt={OurAchweplayItem.title} />
+                                        <img className={`d-block ${weplayStyle.imageStyle}`} src={OurAchweplayItem.url} alt={OurAchweplayItem.title} />
                                     </div>
                                 ))}
                             </div>

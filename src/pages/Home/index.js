@@ -14,6 +14,7 @@ import Header from "../../components/Header";
 import ClientSay from "../../components/ClientSay/ClientSay";
 import bpoImage from "../../Image/Home/1701906057260.jpg";
 import bpoImage2 from "../../Image/Home/1690352330561.png";
+import FEPImage from "../../Image/Home/FEP.png"
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
 
 
@@ -116,6 +117,8 @@ const Home = () => {
                             <div className="col-lg-3">
 
                             </div>
+                        </div>
+                        <div className="row">
                             <div className="col-lg-5 col-5">
 
                             </div>
@@ -150,6 +153,13 @@ const Home = () => {
                             <div className="col-lg-5 col-5">
 
                             </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-2"></div>
+                            <div className="col-lg-8">
+                                <img className={home.fepImage} src={FEPImage} alt="FEP image" />
+                            </div>
+                            <div className="col-lg-2"></div>
                         </div>
                     </div>
                 </div>

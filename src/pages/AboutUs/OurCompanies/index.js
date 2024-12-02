@@ -16,10 +16,9 @@ const OurCompanies = () => {
     return (
         <>
             <OurLeadership />
+            <OurAchievements />
             <OurActivities />
             <OurCharity />
-            <OurAchievements />
-
         </>
     )
 }
