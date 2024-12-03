@@ -22,9 +22,10 @@ const Careers = () => {
                                         <img src={DataProcess} />
                                     </div>
                                 </div>
+
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
-                                        <h1>Here, the sky is the limit.</h1>
+                                        <h1>Here, the sky is the limit</h1>
                                         <h2>Join us and work at the heart of change. Make a positive impact by bringing value to our clients and helping to shape a more connected, sustainable future.</h2>
                                     </div>
                                 </div>
@@ -35,10 +36,11 @@ const Careers = () => {
 
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
-                                        <h1>Flex and connect.</h1>
+                                        <h1>Flex and Connect</h1>
                                         <h2>Flexibility extends beyond where you work—to what you do and when and how you do it. For all of us, making connections is a key part of flexible working. We believe in its power to build strong relationships and innovate to create change.</h2>
                                     </div>
                                 </div>
+
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
                                         <img src={merryChristmas} />

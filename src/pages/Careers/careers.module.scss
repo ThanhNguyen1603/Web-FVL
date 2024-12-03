@@ -10,14 +10,17 @@
         @include backgroundColor;
 
         .titleBackground {
+            padding-top: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             justify-items: center;
 
             .workAH {
+                padding: 0px 30px;
+
                 img {
-                    width: 50%;
+                    width: 100%;
                     display: block;
                 }
 
