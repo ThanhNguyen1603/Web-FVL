@@ -103,6 +103,9 @@
 .inforfooter {
     @include backgroundFooter;
     @include colorText;
+    z-index: 2;
+    display: block;
+    position: relative;
 }
 
 .btnapply {

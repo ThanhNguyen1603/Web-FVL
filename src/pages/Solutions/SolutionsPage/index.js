@@ -41,6 +41,21 @@ const SolutionPage = () => {
                                         <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
                                             <div className={`${SolutionsStyle.contentSolution}`}>
                                                 {/* <div className={SolutionsStyle.iconSolut}>
+            <div className={SolutionsStyle.soluContent}>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className={SolutionsStyle.content}>
+                            <div className={`${SolutionsStyle.titleContent}`}>
+                                <h2>What we can do for you</h2>
+                            </div>
+                            <div className="row">
+                                {
+                                    serviceList.map((serviceItem, index) => {
+                                        return (
+                                            <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
+                                                <div className={`${SolutionsStyle.contentSolution}`}>
+                                                    {/* <div className={SolutionsStyle.iconSolut}>
+>>>>>>> c79a8869a5b27bea72189f540e41e3aaa7bcdbc0
                                                 <FontAwesomeIcon icon={serviceItem.icon} />
 
                                             </div> */}
@@ -63,14 +78,12 @@ const SolutionPage = () => {
                             }
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-3">
-                    <FormSubmitSolutions />
+                    <div>
+                        <AdvantageSolution />
+                    </div>
                 </div>
             </div>
-            <div>
-                <AdvantageSolution />
-            </div>
+
         </>
     )
 }
