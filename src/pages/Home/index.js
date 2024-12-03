@@ -43,7 +43,7 @@ const Home = () => {
                                         <div className={home.contentSub}>
                                             <p>
                                                 Boost your business efficiency with our tailored outsourcing solutions. Save time, reduce costs, and eliminate inefficiencies, allowing you to focus on growth.
-                                                Outsourcing is no longer just an option—it's a smart strategy.
+                                                Outsourcing is no longer just an option - it's a smart strategy.
                                             </p>
                                         </div>
                                     </div>

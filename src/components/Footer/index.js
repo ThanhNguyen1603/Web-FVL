@@ -24,7 +24,7 @@ const Footer = () => {
                             <div className={footer.namesubject}>First Virtue LLC & Transcend People LLC</div>
                             <div className={footer.infodetail}><a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> 78/2A Binh Loi, Ward 13, Binh Thanh District, HCMC, Vietnam.</a></div>
                             <div className={footer.infodetail}><FontAwesomeIcon icon={faPhoneVolume} className={footer.inforIcon} />VoIP: +1 (650) 472 2233 (USA)</div>
-                            <div className={footer.infodetail}><FontAwesomeIcon icon={faPhone} className={footer.inforIcon} />Phone: + (84) 28 3948 4086 (Vietnam)</div>
+                            <div className={footer.infodetail}><FontAwesomeIcon icon={faPhone} className={footer.inforIcon} />Phone: +84 (28) 3948 4086 (Vietnam)</div>
                         </div>
                         <div className='col-lg-2'>
                             <div className={footer.namesubject}>Compliance</div>

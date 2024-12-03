@@ -43,11 +43,6 @@ const ClientSay = () => {
             urlImage: logoTherabreath,
         },
         {
-            content: " By utilizing FVL & TPL, we were able to scale portions of our business much faster than if we were to have attempted the support work on our own. The FVL & TPL team provides efficient, consistent, and high-quality work. No matter what project we have thrown at them, the deliverable has always met the highest standards and results were produced in an exceedingly timely manner.",
-            author: "Collin J. Tyler, Corporate Development Access Nurses, Inc.",
-            urlImage: logoAccessNurses,
-        },
-        {
             content: "Interactions are friendly and professional, and we have access to those at FVL & TPL via Skype, AIM, email, and landline phone. We never have trouble reaching our partners at FVL & TPL, and they are available at hours convenient to us. But, the most important aspect of their services we value is their reliability. We can count on our tasks and projects to be completed on time, and for the results to be accurately checked for error.",
             author: "Andrew Mowery, Presidentdebnroo, inc.",
             urlImage: logoDebnroo,
