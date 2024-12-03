@@ -8,6 +8,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
 import contactImg from "../../Image/Contact/Office-image.jpg"
+import merryChristmas from "../../Image/Contact/Xmas WAH and WAO Opt2.jpg"
 const Contact = () => {
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
@@ -61,6 +62,19 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-lg-12 pt-3">
                             <div className={contact.ctcContent}>
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <div className={contact.workAH}>
+                                            <h1>Flex and connect.</h1>
+                                            <h2>Flexibility extends beyond where you work—to what you do and when and how you do it. For all of us, making connections is a key part of flexible working. We believe in its power to build strong relationships and innovate to create change.</h2>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <div className={contact.workAH}>
+                                            <img src={merryChristmas} />
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="row">
                                     {/* <h6>
                                     Please contact our managers to learn more about how your business can make the most of business process outsourcing (BPO) solutions.
