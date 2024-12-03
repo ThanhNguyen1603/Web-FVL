@@ -13,6 +13,8 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import spotlight1 from "../../Image/Home/spotlight.png";
 import spotlight2 from "../../Image/Home/IMG_0864.png";
 import { useState } from 'react';
+import { useSwipeable } from 'react-swipeable';
+
 const ClientSay = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -80,7 +82,13 @@ const ClientSay = () => {
         setCurrentIndex((prevIndex) => (prevIndex < OurCustomersSayList.length - 1 ? prevIndex + 1 : 0));
         console.log(currentIndex)
     };
-
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: handleNext, // Lướt trái chuyển tới mục tiếp theo
+        onSwipedRight: handlePrev, // Lướt phải chuyển tới mục trước đó
+        preventDefaultTouchmoveEvent: false, // Không chặn sự kiện cuộn dọc
+        trackMouse: true, // Hỗ trợ chuột
+        delta: 10, // Ngưỡng vuốt (độ nhạy)// Hỗ trợ trên cả máy tính
+    });
 
     return (
         <>
@@ -113,7 +121,7 @@ const ClientSay = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className={`${clientSayStyle.carouselContainer}`}>
+                        <div className={`${clientSayStyle.carouselContainer}`} {...swipeHandlers}>
 
                             <div className="row">
                                 {getDisplayedItems().map((clientSayItem, index) => (

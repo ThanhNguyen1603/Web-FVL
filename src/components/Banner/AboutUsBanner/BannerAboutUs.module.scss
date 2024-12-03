@@ -48,6 +48,10 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
     }
 }
 
+.mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .AIbrainBackground {
 
@@ -57,5 +61,13 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
             min-height: 260px;
             width: 100%;
         }
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
     }
 }

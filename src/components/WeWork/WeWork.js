@@ -8,7 +8,8 @@ import carouselContainer from "../CarouselContainer/carouselContainer.module.scs
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
-import { WeWorkVideo } from "../EmbeddedGoogleDriveFile/DriveFilePage"
+import { WeWorkVideo } from "../EmbeddedGoogleDriveFile/DriveFilePage";
+import { useSwipeable } from 'react-swipeable';
 const WeWork = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const ImagesWeWork = [
@@ -44,7 +45,13 @@ const WeWork = () => {
         setCurrentIndex((prevIndex) => (prevIndex < ImagesWeWork.length - 1 ? prevIndex + 1 : 0));
         console.log(currentIndex)
     };
-
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: handleNext, // Lướt trái chuyển tới mục tiếp theo
+        onSwipedRight: handlePrev, // Lướt phải chuyển tới mục trước đó
+        preventDefaultTouchmoveEvent: false, // Không chặn sự kiện cuộn dọc
+        trackMouse: true, // Hỗ trợ chuột
+        delta: 10, // Ngưỡng vuốt (độ nhạy)
+    });
     return (
         <>
             <div className="container-fluid">
@@ -53,7 +60,7 @@ const WeWork = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className={`${carouselContainer.carouselContainer}`}>
+                        <div className={`${carouselContainer.carouselContainer}`} {...swipeHandlers}>
                             <div className="row">
                                 {getDisplayedItems().map((OurAchweplayItem, index) => (
                                     <div className={"col-lg-4"}>

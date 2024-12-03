@@ -42,19 +42,42 @@ const AdvantageSolution = () => {
                     return (
                         <>
 
-                            {index % 2 === 1 && <div className={`${advantageStyle.contSol} ${"row"} d-flex align-items-center`} key={index}>
-                                <div className="col-md-7">
-                                    <div className={`${advantageStyle.subtitle} ${advantageStyle.titleContent}`}>
-                                        <h5>{contentItem.subtitle}</h5>
+                            <div className={advantageStyle.mobile}>
+                                {index % 2 === 1 && <div className={`${advantageStyle.contSol} ${"row"} d-flex align-items-center`} key={index}>
+                                    <div className={`${advantageStyle.imgSol1} ${"col-md-5"}`}>
+                                        <img src={contentItem.icon} alt="" />
                                     </div>
-                                    <div className={advantageStyle.subcontent}>
-                                        <p>{contentItem.subcontent}</p>
+                                    <div className="col-md-7 pt-3">
+                                        <div className={`${advantageStyle.subtitle} ${advantageStyle.titleContent}`}>
+                                            <h5>{contentItem.subtitle}</h5>
+                                        </div>
+                                        <div className={advantageStyle.subcontent}>
+                                            <p>{contentItem.subcontent}</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={`${advantageStyle.imgSol1} ${"col-md-5"}`}>
-                                    <img src={contentItem.icon} alt="" />
-                                </div>
-                            </div>}
+
+                                </div>}
+                            </div>
+                            <div className={advantageStyle.desktop}>
+                                {index % 2 === 1 && <div className={`${advantageStyle.contSol} ${"row"} d-flex align-items-center`} key={index}>
+                                    <div className="col-md-7">
+                                        <div className={`${advantageStyle.subtitle} ${advantageStyle.titleContent}`}>
+                                            <h5>{contentItem.subtitle}</h5>
+                                        </div>
+                                        <div className={advantageStyle.subcontent}>
+                                            <p>{contentItem.subcontent}</p>
+                                        </div>
+                                    </div>
+                                    <div className={`${advantageStyle.imgSol1} ${"col-md-5"}`}>
+                                        <img src={contentItem.icon} alt="" />
+                                    </div>
+                                </div>}
+                            </div>
+
+
+
+
+
                             {index % 2 === 0 && <div className={`${advantageStyle.contSol} ${"row"} d-flex align-items-center`} key={index}>
                                 <div className={`${advantageStyle.imgSol2} ${"col-md-5"}`}>
                                     <img src={contentItem.icon} alt="" />
@@ -67,7 +90,6 @@ const AdvantageSolution = () => {
                                         <p>{contentItem.subcontent}</p>
                                     </div>
                                 </div>
-
                             </div>}
                         </>
                     )

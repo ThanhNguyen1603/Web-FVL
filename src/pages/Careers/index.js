@@ -14,46 +14,71 @@ const Careers = () => {
 
                 <div className={careerStyle.title}>
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className={careerStyle.titleBackground}>
 
+                        <div className={careerStyle.titleBackground}>
+                            <div className="row d-flex align-items-center">
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
                                         <img src={DataProcess} />
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 pt-3">
                                     <div className={careerStyle.workAH}>
                                         <h1>Here, the sky is the limit!</h1>
-                                        <h2>Join us and be at the forefront of change. Make a positive impact by delivering exceptional value to our clients and contributing to a more connected, sustainable future. Embrace the opportunity to innovate, grow, and make a difference in a dynamic and supportive environment.</h2>
+                                        <h4>Join us and be at the forefront of change. Make a positive impact by delivering exceptional value to our clients and contributing to a more connected, sustainable future. Embrace the opportunity to innovate, grow, and make a difference in a dynamic and supportive environment.</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className={`${careerStyle.title} ${careerStyle.title1}`}>
-                    <div className="contrainer-fluid">
-                        <div className="row">
+                <div className={careerStyle.desktop}>
+                    <div className={`${careerStyle.title} ${careerStyle.title1}`}>
+                        <div className="container-fluid">
                             <div className={careerStyle.titleBackground}>
-
-                                <div className="col-lg-6">
-                                    <div className={careerStyle.workAH}>
-                                        <h1>Flex and Connect</h1>
-                                        <h2>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h2>
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className={careerStyle.workAH}>
+                                            <h1>Flex and Connect</h1>
+                                            <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className="col-lg-6">
-                                    <div className={careerStyle.workAH}>
-                                        <img src={merryChristmas} />
+                                    <div className="col-lg-6">
+                                        <div className={careerStyle.workAH}>
+                                            <img src={merryChristmas} />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className={careerStyle.mobile}>
+                    <div className={`${careerStyle.title} ${careerStyle.title1}`}>
+                        <div className="container-fluid">
+                            <div className={careerStyle.titleBackground}>
+                                <div className="row d-flex align-items-center">
+
+                                    <div className="col-lg-6">
+                                        <div className={careerStyle.workAH}>
+                                            <img src={merryChristmas} />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 pt-3">
+                                        <div className={careerStyle.workAH}>
+                                            <h1>Flex and Connect</h1>
+                                            <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="container-fluid pt-3">
                     <div className="row">
                         <div className="col-lg-12">
@@ -67,24 +92,40 @@ const Careers = () => {
                         {
                             CareersList.map((careerItem, index) => {
                                 return (
-                                    <>
-                                        <div key={index} className={`col-lg-4`}>
-                                            <div className={careerStyle.careersListBackground}>
-                                                <h5>{careerItem.jobName}</h5>
-                                                <h6>{careerItem.hashtag}</h6>
-                                                {/* <div className="row">
-                                                    <div className="col-lg-12">
-                                                        <div className={careerStyle.imageCareer}> {careerItem.image}</div>
-                                                    </div>
-                                                </div> */}
-                                                <button className={`${careerStyle.btnapply}`} type="button">
-                                                    <NavLink to='/CareerDetails' state={{
-                                                        jobName: careerItem.jobName,
-                                                    }}>Apply Now</NavLink>
-                                                </button>
+
+                                    <div key={index} className={`col-lg-4 pt-3`}>
+                                        <div className={careerStyle.careersListBackground}>
+                                            <div className="row">
+                                                <div className="col-lg-12">
+                                                    <h5>{careerItem.jobName}</h5>
+                                                </div>
                                             </div>
+                                            <div className="row">
+                                                <div className="col-lg-12">
+                                                    <h6>{careerItem.hashtag}</h6>
+                                                </div>
+                                            </div>
+
+                                            <div className="row">
+                                                <div className="col-lg-12">
+                                                    <div className={careerStyle.imageCareer}>
+                                                        {careerItem.image}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-lg-12">
+                                                    <button className={`${careerStyle.btnapply}`} type="button">
+                                                        <NavLink to='/CareerDetails' state={{
+                                                            jobName: careerItem.jobName,
+                                                        }}>Apply Now</NavLink>
+                                                    </button>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                    </>
+                                    </div>
+
                                 )
                             })
                         }

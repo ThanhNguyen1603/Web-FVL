@@ -8,14 +8,15 @@ import carouselContainer from "../CarouselContainer/carouselContainer.module.scs
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
-import { WePlayVideo } from "../EmbeddedGoogleDriveFile/DriveFilePage"
+import { WePlayVideo } from "../EmbeddedGoogleDriveFile/DriveFilePage";
+import { useSwipeable } from 'react-swipeable';
 const WePlay = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const ImagesWePlay = [
-        { url: weplay2, nameImage: weplay2, title: 'weplay2' },
         { url: weplay3, nameImage: weplay3, title: 'weplay2' },
         { url: hpbd1, nameImage: hpbd1, title: 'hpbd1' },
         { url: congra1, nameImage: congra1, title: 'congra1' },
+        { url: weplay2, nameImage: weplay2, title: 'weplay2' },
         { url: hpbd2, nameImage: hpbd2, title: 'hpbd2' },
     ]
     const getDisplayedItems = () => {
@@ -44,7 +45,13 @@ const WePlay = () => {
         setCurrentIndex((prevIndex) => (prevIndex < ImagesWePlay.length - 1 ? prevIndex + 1 : 0));
         console.log(currentIndex)
     };
-
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: handleNext, // Lướt trái chuyển tới mục tiếp theo
+        onSwipedRight: handlePrev, // Lướt phải chuyển tới mục trước đó
+        preventDefaultTouchmoveEvent: false, // Không chặn sự kiện cuộn dọc
+        trackMouse: true, // Hỗ trợ chuột
+        delta: 10, // Ngưỡng vuốt (độ nhạy)
+    });
     return (
         <>
             <div className="container-fluid">
@@ -53,7 +60,7 @@ const WePlay = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className={`${carouselContainer.carouselContainer}`}>
+                        <div className={`${carouselContainer.carouselContainer}`} {...swipeHandlers}>
                             <div className="row">
                                 {getDisplayedItems().map((OurAchweplayItem, index) => (
                                     <div className={"col-lg-4"}>

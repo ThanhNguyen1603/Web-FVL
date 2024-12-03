@@ -2,11 +2,11 @@
 
 .clientSay {
     background-color: #18191e;
-    padding-top: 10px;
+    padding-top: 30px;
 
     .titleContent {
         @include colorText;
-        @include fontSizeTitle;
+        // @include fontSizeTitle;
         text-align: center;
         padding-bottom: 20px;
         @include colorText;

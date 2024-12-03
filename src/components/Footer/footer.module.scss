@@ -142,40 +142,4 @@
 
         transition: all 0.3s ease;
     }
-
-    // a:hover::before {
-    //     width: 100%;
-    //     background: $colorPrimary;
-    // }
-
-    // a::before {
-    //     border-radius: 50px 50px 0 0;
-    //     content: "";
-    //     position: absolute;
-    //     width: 0;
-    //     height: 50%;
-    //     transition: all 0.3s ease-in;
-    //     background: $colorPrimary;
-    //     z-index: -2;
-    //     top: 0;
-    //     left: 0;
-    // }
-
-    // a:hover::after {
-    //     width: 100%;
-    //     background: $colorPrimary;
-    // }
-
-    // a::after {
-    //     border-radius: 0 0 50px 50px;
-    //     content: "";
-    //     position: absolute;
-    //     width: 0;
-    //     height: 50%;
-    //     transition: all 0.3s ease-in;
-    //     background: $colorPrimary;
-    //     z-index: -2;
-    //     bottom: 0;
-    //     right: 0;
-    // }
 }

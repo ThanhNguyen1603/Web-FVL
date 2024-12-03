@@ -19,7 +19,8 @@ import bangKhenThue from "../../../Image/AboutUs/Our_Achievements/thue.jpg"
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import carouselContainer from "../../../components/CarouselContainer/carouselContainer.module.scss"
+import carouselContainer from "../../../components/CarouselContainer/carouselContainer.module.scss";
+import { useSwipeable } from 'react-swipeable';
 const OurAchievements = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
@@ -64,7 +65,12 @@ const OurAchievements = () => {
         setCurrentIndex((prevIndex) => (prevIndex < images.length - 1 ? prevIndex + 1 : 0));
         console.log(currentIndex)
     };
-
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: handleNext, // Lướt trái chuyển tới mục tiếp theo
+        onSwipedRight: handlePrev, // Lướt phải chuyển tới mục trước đó
+        preventDefaultTouchmoveEvent: true,
+        trackMouse: true, // Hỗ trợ trên cả máy tính
+    });
     return (
         <>
             <div className={OurAchieve.content}>
@@ -77,7 +83,7 @@ const OurAchievements = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-12">
-                                        <div className={`${carouselContainer.carouselContainer}`}>
+                                        <div className={`${carouselContainer.carouselContainer}`}  {...swipeHandlers}>
                                             <div className="row">
                                                 {getDisplayedItems().map((OurAchieveItem, index) => (
                                                     <div key={index} className={"col-lg-4 d-flex align-items-center"}>

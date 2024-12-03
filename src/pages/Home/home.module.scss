@@ -198,7 +198,8 @@ p {
     background-attachment: fixed;
     background-position: center center;
     color: #ffffff;
-    padding: 50px 0 50px 0;
+    padding-bottom: 50px;
+    // padding: 50px 0 50px 0;
     width: 100%;
 
 
@@ -208,12 +209,14 @@ p {
             color: #ffffff;
         }
     }
+
+
 }
 
 
-
-
-
+.mobile {
+    display: none;
+}
 
 .bodycontent {
     display: flex;
@@ -292,5 +295,15 @@ p {
     .fepImage {
         width: 100%;
         margin: auto;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
     }
 }

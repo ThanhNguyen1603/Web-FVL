@@ -2,6 +2,10 @@
     position: relative;
     margin-top: 20px;
     padding-bottom: 20px;
+    overflow-x: hidden; // Chỉ ẩn nội dung ngang
+    overflow-y: auto; // Bật cuộn dọc
+    touch-action: pan-x pan-y; // Hỗ trợ cả vuốt ngang và dọc
+    scroll-behavior: smooth; // Lướt mượt mà
 }
 
 .prevButton,

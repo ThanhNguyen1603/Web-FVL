@@ -91,27 +91,48 @@ const Home = () => {
 
                 <div className={home.experience}>
                     <div className="container-fluid text-center d-flex flex-column">
-                        <div className="row">
-                            <div className={`col-lg-6 ${home.bodycontent}`}>
-                                <div className={home.titleContent}>
-                                    <h1>
-                                        Delivering Excellence: Our Unique Advantage
-                                    </h1>
-                                </div>
-                                <div className={home.contentSub2}>
-                                    <p>We are the dynamic company pioneering in the Global Outsourcing Industry, and have 20+ years of experience in BPO Services.</p>
-                                    <div className="container-fluid">
-                                        <div className='row'>
-
+                        <div className={home.titleContent}>
+                            <h1>
+                                Delivering Excellence: Our Unique Advantage
+                            </h1>
+                        </div>
+                        <div className={home.desktop}>
+                            <div className="row">
+                                <div className={`col-lg-6 ${home.bodycontent}`}>
+                                    <div className={home.contentSub2}>
+                                        <p>We are the dynamic company pioneering in the Global Outsourcing Industry, and have 20+ years of experience in BPO Services.</p>
+                                        <div className="container-fluid">
+                                            <div className='row'>
+                                            </div>
                                         </div>
+                                        <p>When you get in touch with us, you'll notice the difference immediately. At First Virtue & Transcend People, we provide professional, personalized, and responsive customer service. Our experienced executives ensure seamless integration and consistent, high-quality deliverables every step of the way.</p>
+                                        <p>Get to know the dedicated professionals you'll be collaborating with, and you'll quickly see why we consistently outperform the competition.</p>
                                     </div>
-                                    <p>When you get in touch with us, you'll notice the difference immediately. At First Virtue & Transcend People, we provide professional, personalized, and responsive customer service. Our experienced executives ensure seamless integration and consistent, high-quality deliverables every step of the way.</p>
-                                    <p>Get to know the dedicated professionals you'll be collaborating with, and you'll quickly see why we consistently outperform the competition.</p>
+                                    <div className={`${home.btnapply} ${home.btnapplyAdvantage} pt-4`}><NavLink to='/AboutUs/OurCompanies'>Explore Who We Are</NavLink></div>
                                 </div>
-                                <div className={`${home.btnapply} ${home.btnapplyAdvantage} pt-4`}><NavLink to='/AboutUs/OurCompanies'>Explore Who We Are</NavLink></div>
+                                <div className="col-lg-6">
+                                    <img className={home.image} src={image} alt="Video FVL TPL" />
+                                </div>
                             </div>
-                            <div className="col-lg-6">
-                                <img className={home.image} src={image} alt="Video FVL TPL" />
+                        </div>
+                        <div className={home.mobile}>
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <img className={home.image} src={image} alt="Video FVL TPL" />
+                                </div>
+                                <div className={`col-lg-6 ${home.bodycontent} pt-4`}>
+                                    <div className={home.contentSub2}>
+                                        <p>We are the dynamic company pioneering in the Global Outsourcing Industry, and have 20+ years of experience in BPO Services.</p>
+                                        <div className="container-fluid">
+                                            <div className='row'>
+                                            </div>
+                                        </div>
+                                        <p>When you get in touch with us, you'll notice the difference immediately. At First Virtue & Transcend People, we provide professional, personalized, and responsive customer service. Our experienced executives ensure seamless integration and consistent, high-quality deliverables every step of the way.</p>
+                                        <p>Get to know the dedicated professionals you'll be collaborating with, and you'll quickly see why we consistently outperform the competition.</p>
+                                    </div>
+                                    <div className={`${home.btnapply} ${home.btnapplyAdvantage} pt-4`}><NavLink to='/AboutUs/OurCompanies'>Explore Who We Are</NavLink></div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

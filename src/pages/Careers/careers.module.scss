@@ -16,7 +16,7 @@
             justify-items: center;
 
             .workAH {
-                padding: 0px 30px;
+                // padding: 0px 30px;
 
                 img {
                     width: 100%;
@@ -25,17 +25,16 @@
                 }
 
                 h1 {
-                    font-size: 5rem;
                     @include colorText;
                     text-align: left;
-                    @include fontSizeTitle;
+                    font-size: 5vh;
                 }
 
-                h2 {
+                h4 {
                     @include colorText;
                     text-align: left;
                     padding-top: 10px;
-                    @include font30;
+                    font-weight: 400;
                 }
 
                 h5 {
@@ -47,16 +46,7 @@
         }
     }
 
-    .title1 {
-        background-color: #1a1d24 !important;
 
-        .workAH {
-            img {
-                width: 80% !important;
-                border-radius: 0px !important
-            }
-        }
-    }
 
     .titleContent {
 
@@ -65,7 +55,7 @@
             @include fontSizeTitle;
             @include colorBlack;
             text-align: center;
-            padding-bottom: 25px;
+            padding-bottom: 15px;
         }
     }
 
@@ -78,11 +68,14 @@
         border-radius: 10px;
 
         .imageCareer {
+            min-height: 370px;
+
             img {
-                width: 100%;
+                width: 60%;
                 display: block;
                 margin: auto;
                 height: auto;
+                object-fit: contain;
             }
         }
 
@@ -94,9 +87,9 @@
         }
 
         h6 {
-            padding: 100px 0px;
+            padding: 10px 0px;
             color: #727171;
-            @include font30;
+            font-size: 25px;
             font-weight: 300;
         }
 
@@ -105,6 +98,7 @@
             background: none;
             float: left;
             padding-bottom: 50px;
+            padding-top: 20px;
 
             a {
                 display: inline-block;
@@ -136,4 +130,75 @@
 
     }
 
+    .title1 {
+        background-color: #1a1d24 !important;
+
+        .workAH {
+            img {
+                width: 80% !important;
+                border-radius: 0px !important
+            }
+        }
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 786px) {
+    .workAH {
+        // padding: 0px 30px;
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 50%;
+        }
+    }
+
+    .title1 {
+
+        .workAH {
+            img {
+                width: 100% !important;
+                border-radius: 0px !important;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+
+    .imageCareer {
+        min-height: 0px !important;
+
+        img {
+            width: 100% !important;
+            display: block;
+            margin: auto;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .careersListBackground {
+
+        h5 {
+            text-align: center;
+
+        }
+
+        .btnapply {
+            padding-top: 10px;
+        }
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
 }

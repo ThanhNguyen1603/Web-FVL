@@ -47,6 +47,10 @@
     }
 }
 
+.mobile {
+    display: none;
+}
+
 .note {
     text-align: center;
 }
@@ -91,11 +95,21 @@
 
     }
 
-    .titleContent {
-        h5 {
-            text-align: center
-        }
+    // .titleContent {
+    //     h5 {
+    //         text-align: center
+    //     }
 
 
+    // }
+}
+
+@media only screen and (max-width: 786px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
     }
 }
