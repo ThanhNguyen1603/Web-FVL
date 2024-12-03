@@ -20,9 +20,9 @@ import carouselContainer from "../../../components/CarouselContainer/carouselCon
 const OurAchievements = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
+        { url: fvliso27001, nameImage: fvliso27001, title: 'ISO 27001' },
         { url: fvlcup1, nameImage: fvlcup1, title: 'Cup 01' },
         { url: wethankyou, nameImage: wethankyou, title: 'We thank you' },
-        { url: fvliso27001, nameImage: fvliso27001, title: 'ISO 27001' },
         { url: thucamon, nameImage: thucamon, title: 'Thu Cam On' },
         { url: KHCN, nameImage: KHCN, title: 'Khoa hoc cong nghe' },
         { url: hinhcongnghe, nameImage: hinhcongnghe, title: 'Hinh cong nghe' },

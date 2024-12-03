@@ -9,27 +9,20 @@ import FormSubmitSolutions from "../../../components/FormSubmitSolutions/FormSub
 const SolutionPage = () => {
     const serviceList = [
         {
-            icon: faCartShopping, title: 'Data Services:', content: ['Data Entry', 'Data Processing', 'Data Abstracting', 'Document Coding', 'List Management']
+            icon: faCartShopping, title: 'Data Services - Big Data:', content: ['Title Plant', 'Title Search', 'Data Abstracting', 'Data Indexing']
         },
         {
-            icon: faChartLine, title: 'Sales and Marketing:', content: ['Lead Generation', 'Market Research', 'Business Intelligence']
+            icon: faGlobe, title: 'Web Services:', content: ['Content Management', 'Photo Editing', 'Order Processing', 'SEO - Digital Marketing']
+        },
+        {
+            icon: faChartLine, title: 'E-Commerce:', content: ['Business Intelligence', 'Market Research', 'Lead Generation', 'List Management']
+        },
+        {
+            icon: faCalculator, title: 'Accounting:', content: ['Book Keeping', 'Journal Entries', 'Billing and Invoicing', 'Freight Management']
         },
         {
             icon: faIdCard, title: 'Human Resources:', content: ['Recruitment Support', 'Candidate Sourcing', 'Human Resources Administration']
         },
-        {
-            icon: faGlobe, title: 'Web Services:', content: ['Content Management', 'Photo Editing', 'Order Processing', 'Search Engine Marketing (SEM)', 'Link Building']
-        },
-        {
-            icon: faCalculator, title: 'Accounting:', content: ['Book Keeping', 'Journal Entries', 'Billing and Invoicing']
-        },
-    ]
-
-    const stepList = [
-        { content: ['Step 1: Project Proposal', 'Identify Objectives and Deliverables', 'Map Procedures and Metrics', 'Project Review and Education'] },
-        { content: ['Step 2: Project Launch', 'Environmental Set-Up', 'Resource Allocation', 'Client-Team Training'] },
-        { content: ['Step 3: Project Implementation', 'Service and Performance Monitoring', 'Quality Control', 'Time and Production Reporting'] },
-
     ]
 
 

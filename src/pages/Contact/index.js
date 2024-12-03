@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
+import contactImg from "../../Image/Contact/Office-image.jpg"
 const Contact = () => {
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
@@ -85,7 +86,7 @@ const Contact = () => {
                                         <h3>
                                             Our Location
                                         </h3>
-                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> Binh Loi address</a>
+                                        <a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> 78/2A Binh Loi, Ward 13, Binh Thanh District, HCMC, Vietnam.</a>
                                     </div>
                                 </div>
                             </div>
@@ -100,6 +101,13 @@ const Contact = () => {
                                 referrerPolicy="no-referrer-when-downgrade"
                             />
                         </div> */}
+                    </div>
+                </div>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <img className={contact.contactImg} src={contactImg} alt="Company Image" />
+                        </div>
                     </div>
                 </div>
                 <FormSubmit />

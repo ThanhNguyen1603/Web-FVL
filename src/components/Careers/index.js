@@ -3,11 +3,14 @@ import { faCircle, faCalendar, faLocationDot, faEnvelope, faPen } from "@fortawe
 import hiringDataProcessingImage from '../../Image/Careers/hiring_dataProcessing.png'
 import nhanvienhanhchinhImage from '../../Image/Careers/nhanvienhanhchinhposter.jpg'
 import ketoannoiboImage from '../../Image/Careers/ketoannoibo.jpg'
+import Realtime from "../RealTime/realtime";
 const CareersList = [
     {
         image: <img src={hiringDataProcessingImage} alt='Hiring Data Processing' />,
-        jobName: 'DATA PROCESSING STAFF',
-        datePublish: 'March 30, 2023',
+        jobName: 'Data Processing Staff',
+        hashtag: 'VN & PH | Fulltime',
+        address: '78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam.',
+        datePublish: <Realtime />,
         description: [
             {
                 title: "Job Mission",
@@ -63,73 +66,76 @@ const CareersList = [
     },
     {
         image: <img src={nhanvienhanhchinhImage} alt='Nhan Vien Hanh Chinh' />,
-        jobName: 'Nhân Viên Hành Chính',
-        datePublish: 'October 02, 2023',
+        jobName: 'Nhân Viên Nhân Sự Tổng Hợp - C&B',
+        address: '78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam.',
+        hashtag: 'HCMC | Fulltime',
+        datePublish: <Realtime />,
         description: [
             {
                 title: "Mô tả công việc:",
+
                 content: [
-                    "Quản lý, mua sắm tài sản, VPP, trang thiết bị, công cụ dụng cụ văn phòng.",
-                    "Quản lý tạp vụ, Bảo vệ đảm bảo văn phòng luôn sạch sẽ, chuyên nghiệp.",
-                    "Phối hợp tổ chức các chương trình, sự kiện, hoạt động của Công ty.",
-                    "Theo dõi và cấp phát thẻ xăng cho Tài xế, chi phí sửa chữa, bảo dưỡng xe và chi phí khác của Tài xế.",
-                    "Theo dõi, quản lý, lên lịch bảo trì, bảo dưỡng, sửa chữa, thay mới các thiết bị văn phòng: máy in, hệ thống máy lạnh…",
-                    "Kiểm tra hóa đơn, tình trạng sử dụng, làm báo cáo và đề nghị thanh toán các chi phí cố định: taxi, grab, điện, nước, điện thoại, internet, rác sinh hoạt, chuyển phát nhanh…",
-                    " Định kỳ kiểm tra, đảm bảo thực hiện các công tác liên quan đến hệ thống PCCC theo đúng quy định của pháp luật.",
-                    "Thực hiện các công việc khác theo sự phân công của cấp trên.",
+                    "Kiểm tra, giám sát việc chấm công và thực hiện nội quy lao động về giờ giấc làm việc của toàn bộ nhân viên. Quản lý chế độ về nghỉ phép, nghỉ bù, tăng ca và các chế độ khác theo nội quy, quy định của công ty.",
+                    "Đảm bảo nhân viên tuân thủ nội quy lao động; Thiết lập và Phát triển quan hệ lao động, cũng như hướng dẫn, giải đáp mọi thắc mắc cho nhân viên về quyền lợi, chính sách, xử lý khen thưởng - kỷ luật lao động. Báo cáo công tác quản lý nhân sự hàng tuần, hàng tháng.",
+                    "Cập nhật các quy định của pháp luật về chế độ, chính sách, lương, kịp thời bổ sung, sửa đổi chế độ, chính sách của công ty phù hợp với quy định của pháp luật.",
+                    "Tổ chức lưu trữ, sắp xếp, cập nhật và bảo quản hồ sơ nhân sự.",
+                    "Thực hiện tăng giảm, chế độ BHXH, BHYT, BHTN cho người lao động. Đối chiếu số liệu với cơ quan BHXH hàng tháng. Hoàn thiện các hồ sơ, thủ tục theo đúng quy định.",
+                    "Thực hiện các báo cáo nhân sự, đăng ký với cơ quan nhà nước theo quy định.",
+                    "Giải quyết thôi việc cho nhân viên theo đúng quy định của pháp luật.",
+                    "Thuế TNCN: làm thủ tục đăng ký thuế cho nhân viên, ủy quyền quyết toán thuế.",
+                    "Tham gia thiết lập công cụ đo lường và tiêu chí đánh giá, Tổ chức đo lường và đánh giá hiệu quả công việc (KPIs), Tổng hợp kết quả đánh giá, Tham gia phân tích kết quả & đề xuất ý kiến cải thiện.",
+                    "Hỗ trợ các công tác tuyển dụng nhân sự khi có yêu cầu.",
+                    "Phối hợp giám sát dịch vụ Vệ sinh, Bảo vệ hàng ngày.",
+                    "Phối hợp tổ chức các sự kiện nội bộ của công ty.",
+                    "Các công việc khác theo sự sắp xếp của cấp trên."
                 ],
 
             },
             {
-                title: "Thời gian: ",
+                title: "Yêu cầu ứng viên: ",
                 content: [
-                    "Thứ 2 đến thứ 7 ( Thứ 7 luân phiên)",
-                    "Time: 7:30 - 16:30",
+                    "Tối thiểu 2 năm làm việc tại vị trí nhân viên C&B, chuyên viên C&B hoặc các vị trí tương đương.",
+                    "Kiến thức về chính sách, pháp luật lao động và các quy định liên quan đến nhân sự.",
+                    "Thành thạo tin học văn phòng, đặc biệt Excel.",
+                    "Nhanh nhẹn, giao tiếp tốt, có thể giao tiếp bằng tiếng Anh là một lợi thế.",
+                    "Khả năng giải quyết vấn đề tốt.",
+                    "Bảo mật thông tin, trung thực và cẩn thận.",
                 ],
             },
 
             {
-                title: "Lương cơ bản:",
+                title: "Phúc lợi:",
                 content: [
-                    "Thỏa thuận"
+                    "Tiền lương: từ 12.000.000, thỏa thuận theo năng lực.",
+                    "Thưởng hiệu quả KPI hàng tháng, thưởng cuối năm theo năng lực.",
+                    "Phúc lợi theo luật lao động.",
+                    "Nâng cao kỹ năng tiếng Anh, kỷ luật, chuyên nghiệp.",
+                    "Môi trường năng động, có cơ hội thăng tiến.",
+                    "Tham gia xây dựng đội ngũ, đào tạo lãnh đạo."
                 ],
             },
             {
-                title: "Yêu cầu:",
+                title: "Địa chỉ làm việc:",
                 content: [
-                    "Thành thạo Excel.",
-                    "Trung thực, chăm chỉ, cẩn thận.",
-                    "Có trách nhiệm trong công việc.",
-                    "Tiếng anh cơ bản.",
-                    "Không yêu cầu kinh nghiệm.",
+                    "Văn phòng: 78/2A Bình Lợi, P. 13, Q. Bình Thạnh, TP. HCM",
                 ]
             },
             {
-                title: "Quyền Lợi:",
+                title: "Thời gian làm việc:",
                 content: [
-                    "Đào tạo nội bộ các kỹ năng.",
-                    "Môi trường làm việc tích cực, có cơ hội thăng tiến.",
-                    "Cơ hội nâng cao khả năng tiếng anh.",
-                    "Lương, thưởng KPI theo năng lực."
+                    "Từ 07:00 đến 16:00.",
+                    "Thứ 2 - Thứ 6, và Thứ 7 luân phiên.",
                 ]
             },
             {
-                title: "Liên hệ phòng nhân sự:",
+                title: "Thông tin liên hệ:",
                 content: [
-                    "Email: hr@transcendpeople.com",
-                    "Chị Nhàn: 0968 100 763",
-                    "Chị Vi: 0983 317 011",
-                    "Chị Sen: 0935 552 184",
+                    "Email: hr@1stvirtue.com; hr@transcendpeople.com",
+                    "Ms Linh: 0983 317 011",
+                    "Ms Sen: 0935 552 184",
                     "Tel: 028 3948 4086",
                 ]
             },
-            {
-                title: "Địa chỉ làm việc: ",
-                content: [
-                    "78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam."
-                ]
-            },
-
         ],
         iconContent: <FontAwesomeIcon icon={faCircle} />,
         icontitle: <FontAwesomeIcon icon={faPen} />,
@@ -139,46 +145,49 @@ const CareersList = [
     },
     {
         image: <img src={ketoannoiboImage} alt='Ke toan noi bo' />,
-        jobName: 'Nhân Viên Kế Toán Nội Bộ',
-        datePublish: 'September 30, 2023',
+        jobName: 'Nhân Viên Kế Toán',
+        address: '78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam.',
+        hashtag: 'HCMC | Fulltime',
+        datePublish: <Realtime />,
         description: [
             {
                 title: "Mô tả công việc:",
                 content: [
-                    "Quản lý, kiểm tra, làm đề nghị thanh toán, theo dõi và báo cáo các chi phí.",
-                    "Lập phiếu thu chi, đối chiếu với thủ quỹ hàng ngày.",
-                    "Tổng hợp hóa đơn, chứng từ.",
-                    "Theo dõi tài khoản ngân hàng.",
-                    "Mua hàng hóa, thiết bị.",
-                    "Lập, kiểm tra hợp đồng dịch vụ, đối chiếu đề xuất mua hàng của các bộ phận.",
-                    "Thực hiên các báo cáo doanh thu, chi phí và báo cáo nội bộ khác.",
-                    "Quản lý tài sản công ty.",
-                    "Sắp xếp hồ sơ, giấy tờ.",
-                    "Công việc phát sinh khác theo yêu cầu của cấp trên.",
+                    "Kiểm tra, lưu hóa đơn mua vào. Xuất hóa đơn bán ra.",
+                    "Theo dõi, báo cáo thu chi quỹ tiền mặt, tài khoản ngân hàng.",
+                    "Thanh toán chi phí hàng tháng.",
+                    "Theo dõi công nợ.",
+                    "Tổng hợp, báo cáo tất cả các chi phí công ty, căn hộ cho thuê.",
+                    "Báo cáo chi phí thẻ tín dụng.",
+                    "Thu chi tài chính công đoàn.",
+                    "Các công việc khác theo yêu cầu của Quản lý."
                 ],
             },
             {
                 title: "Thời gian: ",
                 content: [
                     "Thứ 2 đến thứ 7 ( Thứ 7 luân phiên)",
-                    "Time: 7:30 - 16:30",
+                    "Time: 7:00 - 16:00",
                 ],
             },
 
             {
-                title: "Lương cơ bản:",
+                title: "Yêu cầu:",
                 content: [
-                    "Thỏa thuận"
+                    "Không yêu cầu kinh nghiệm.",
+                    "Nhanh nhẹn. chịu khó, có tinh thần cầu tiến.",
+                    "Bảo mật thông tin, trung thực và cẩn thận.",
+                    "Có thể giao tiếp bằng tiếng Anh là một lợi thế.",
                 ],
             },
             {
-                title: "Yêu cầu:",
+                title: "Phúc lợi:",
                 content: [
-                    "Có ít nhất 1 năm kinh nghiệm ở vị trí tương đương.",
-                    "Thành thạo Excel.",
-                    "TTrung thực, cẩn thận, chủ động.",
-                    "Có trách nhiệm trong công việc.",
-                    "Tiếng anh cơ bản.",
+                    "Tiền lương, từ 8 - 12 triệu.",
+                    "Thưởng hiệu quả, thưởng cuối năm.",
+                    "Phúc lợi theo luật lao động.",
+                    "Nâng cao kỹ năng tiếng Anh, kỷ luật, chuyên nghiệp.",
+                    "Môi trường trẻ năng động, có cơ hội thăng tiến.",
                 ]
             },
             {
@@ -194,10 +203,9 @@ const CareersList = [
             {
                 title: "Liên hệ phòng nhân sự:",
                 content: [
-                    "Email: hr@transcendpeople.com",
-                    "Chị Nhàn: 0968 100 763",
-                    "Chị Vi: 0983 317 011",
-                    "Chị Sen: 0935 552 184",
+                    "Email: hr@1stvirtue.com; hr@transcendpeople.com",
+                    "Ms Linh: 0983 317 011",
+                    "Ms Sen: 0935 552 184",
                     "Tel: 028 3948 4086",
                 ]
             },

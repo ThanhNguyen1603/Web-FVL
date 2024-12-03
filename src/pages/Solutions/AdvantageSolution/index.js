@@ -5,7 +5,8 @@ import advantageStyle from "./advantage.module.scss";
 import communication from "../../../Image/Solution/licensed-image.jpg"
 import quality from "../../../Image/Solution/quanlity.jpg"
 import staffExcellence from "../../../Image/Solution/employee-excellence-award-slide.jpg"
-import bpo from "../../../Image/Solution/bpo.jpg"
+import bpo from "../../../Image/Solution/bponew.jpg"
+import award from "../../../Image/Solution/award.png"
 const AdvantageSolution = () => {
     const contentList = [
         {
@@ -21,7 +22,7 @@ const AdvantageSolution = () => {
         {
             subtitle: "Commitment to Staff Excellence",
             subcontent: "As an extension of your business, our team members become your team members. That's why we're committed to recruiting and retaining the best and the brightest talent. Our managers - who you'll work with directly - represent a diverse array of industries and management backgrounds from the US. Our team members are dedicated and hardworking graduates from top universities. Read more about our team and our unique staff development and retention programs.",
-            icon: staffExcellence
+            icon: award
         },
         {
             subtitle: "More than a BPO Provider",

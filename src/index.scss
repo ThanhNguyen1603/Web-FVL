@@ -12,6 +12,9 @@ $font16: 16px;
 $font40: 40px;
 $backgroundWhite: #fff;
 $color: #333;
+$careerlistbackground: #f5f5f3;
+$colorBlack: #000;
+$colorGray: #d4d1d1;
 
 @mixin colorPrimaryText {
     color: $colorPrimary;
@@ -78,4 +81,20 @@ $color: #333;
 
 @mixin fontSizeDefault {
     font-size: $fontSizeDefault;
+}
+
+@mixin careerListBackground {
+    background-color: $careerlistbackground;
+}
+
+@mixin backgroundBlack {
+    background-color: $colorBlack;
+}
+
+@mixin colorGray {
+    color: $colorGray;
+}
+
+@mixin font30 {
+    font-size: 30px;
 }

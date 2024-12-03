@@ -21,6 +21,7 @@ import AdvantageSolution from "../pages/Solutions/AdvantageSolution";
 import CaseStudies from "../pages/Solutions/CaseStudies";
 import Portfolio from "../pages/Solutions/Portfolio";
 import Testimonials from "../pages/Solutions/Testimonials";
+import CareerDetails from "../pages/Careers/CareerDetails";
 
 const publicRoutes = [
     { path: '/', component: Home },
@@ -33,6 +34,7 @@ const publicRoutes = [
     { path: '/Careers', component: Careers },
     { path: '/Contact', component: Contact },
     { path: '/PrivacyPolice', component: PrivacyPolice, },
+    { path: '/CareerDetails', component: CareerDetails, },
 ];
 const AboutUsRoutes = [
     { path: '/', component: OurCompanies, },
@@ -59,10 +61,15 @@ const SolutionRoutes = [
     { path: '/CaseStudies', component: CaseStudies, },
 ]
 
+const CareerRoutes = [
+    { path: '/', component: Careers, },
+    { path: '/CareerDetails', component: CareerDetails, },
+]
+
 const privateRoutes = [
 
 ];
 
-export { publicRoutes, privateRoutes, AboutUsRoutes, OutsourcingRoutes, SolutionRoutes }
+export { publicRoutes, privateRoutes, AboutUsRoutes, OutsourcingRoutes, SolutionRoutes, CareerRoutes }
 
 
