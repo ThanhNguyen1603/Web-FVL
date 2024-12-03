@@ -14,19 +14,24 @@ const SolutionLayout = () => {
         <>
             <div className={home.content}>
                 {/* <SolutionBanner /> */}
-                <div className='container-fluid pt-3'>
-                    <div className="col-lg-12">
+                <div className={solutionStyle.Outlet}>
+                    <div className='container-fluid pt-3'>
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-9">
 
                                 <Outlet />
 
-                            </div>
 
+                            </div>
+                            <div className="col-lg-3">
+                                <div className={solutionStyle.soluForm}>
+                                    <FormSubmitSolutions />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div >
+                </div >
+            </div>
         </>
     )
 

@@ -28,48 +28,47 @@ const SolutionPage = () => {
 
     return (
         <>
-            <div className="row">
-                <div className="col-lg-9">
-                    <div className={SolutionsStyle.content}>
-                        <div className={`${SolutionsStyle.titleContent}`}>
-                            <h2>What we can do for you</h2>
-                        </div>
-                        <div className="row">
-                            {
-                                serviceList.map((serviceItem, index) => {
-                                    return (
-                                        <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
-                                            <div className={`${SolutionsStyle.contentSolution}`}>
-                                                {/* <div className={SolutionsStyle.iconSolut}>
+            <div className={SolutionsStyle.soluContent}>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className={SolutionsStyle.content}>
+                            <div className={`${SolutionsStyle.titleContent}`}>
+                                <h2>What we can do for you</h2>
+                            </div>
+                            <div className="row">
+                                {
+                                    serviceList.map((serviceItem, index) => {
+                                        return (
+                                            <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
+                                                <div className={`${SolutionsStyle.contentSolution}`}>
+                                                    {/* <div className={SolutionsStyle.iconSolut}>
                                                 <FontAwesomeIcon icon={serviceItem.icon} />
 
                                             </div> */}
-                                                <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
-                                                <div className={SolutionsStyle.contentSub}>
-                                                    {
-                                                        serviceItem.content.map((subcontent, subindex) => {
-                                                            return (
-                                                                <p key={subindex}>
-                                                                    {subcontent}
-                                                                </p>
-                                                            )
-                                                        })
-                                                    }
+                                                    <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
+                                                    <div className={SolutionsStyle.contentSub}>
+                                                        {
+                                                            serviceItem.content.map((subcontent, subindex) => {
+                                                                return (
+                                                                    <p key={subindex}>
+                                                                        {subcontent}
+                                                                    </p>
+                                                                )
+                                                            })
+                                                        }
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    )
-                                })
-                            }
+                                        )
+                                    })
+                                }
+                            </div>
+                        </div>
+                        <div>
+                            <AdvantageSolution />
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <FormSubmitSolutions />
-                </div>
-            </div>
-            <div>
-                <AdvantageSolution />
             </div>
         </>
     )

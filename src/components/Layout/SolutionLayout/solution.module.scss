@@ -3,3 +3,11 @@
     flex-direction: column;
     background-color: #2a2b2d;
 }
+.Outlet{
+    position: relative;
+}
+.soluForm{
+    position: fixed;
+    margin-right: 10px;
+    z-index: 1;
+}
