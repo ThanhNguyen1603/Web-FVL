@@ -106,24 +106,13 @@ const Home = () => {
                 <div className={home.fepBackground}>
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-lg-3">
-
-                            </div>
-                            <div className={`col-lg-6 ${home.bodycontent}`}>
+                            <div className={`col-lg-12 ${home.bodycontent}`}>
                                 <div className={home.titleContent}>
                                     <h1>Our Key Elements To Business Success:</h1>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
 
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-3 col-3">
-
-                            </div>
-
-                            <div className="col-lg-6 col-6">
+                            <div className="col-lg-12 col-12">
                                 <div className="row">
                                     <div className="col-lg-4">
                                         <div className="row">

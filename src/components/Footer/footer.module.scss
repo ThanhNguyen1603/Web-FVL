@@ -41,7 +41,7 @@
 
 .isoLogo {
     img {
-        width: 100px;
+        width: 100%;
         height: auto;
         display: block;
         margin: auto;
@@ -81,6 +81,13 @@
     color: lightgray;
     margin-top: 10px;
     letter-spacing: .5px;
+    a{
+        text-decoration: none;
+        color: lightgray;
+    }
+    a:hover{
+        @include colorPrimaryText;
+    }
 }
 
 .namesubject {

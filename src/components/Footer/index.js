@@ -8,6 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 import turkeydash from '../../Image/Footer/turkeydash.jpg'
 import spotlightImage from '../../Image/AboutUs/Our_Achievements/FVL-ISO27001.png'
 import isoLogo from '../../Image/Footer/iso27001.png'
+import bvLogo from '../../Image/Footer/Logo_Bureau_Veritas.png'
 import { useState } from "react";
 import { Modal, Button } from 'react-bootstrap';
 const Footer = () => {
@@ -21,7 +22,7 @@ const Footer = () => {
                     <div className="row">
                         <div className='col-lg-5'>
                             <div className={footer.namesubject}>First Virtue LLC & Transcend People LLC</div>
-                            <div className={footer.infodetail}><FontAwesomeIcon icon={faLocationDot} className={footer.inforIcon} />Address: 78/2A Binh Loi, Ward 13, Binh Thanh District, HCMC, Vietnam. </div>
+                            <div className={footer.infodetail}><a href="https://maps.app.goo.gl/5rwZTfwYciDf5qSe8" target="_blank"><FontAwesomeIcon icon={faLocationDot} /> 78/2A Binh Loi, Ward 13, Binh Thanh District, HCMC, Vietnam.</a></div>
                             <div className={footer.infodetail}><FontAwesomeIcon icon={faPhoneVolume} className={footer.inforIcon} />VoIP: +1 (650) 472 2233 (USA)</div>
                             <div className={footer.infodetail}><FontAwesomeIcon icon={faPhone} className={footer.inforIcon} />Phone: +84 (28) 3948 4086 (Vietnam)</div>
                         </div>
@@ -32,12 +33,19 @@ const Footer = () => {
                                     {/* viet ham onclick here */}
                                     <div className={`${footer.isoModal}`} onClick={handleShow}>
                                         <div className="row">
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-8">
                                                 <div className={footer.isoLogo}>
-                                                    <img src={isoLogo} alt="ISO 27001" />
+                                                    <div className="row">
+                                                        <div className="col-lg-7">
+                                                            <img src={isoLogo} alt="ISO 27001" />
+                                                        </div>
+                                                        <div className="col-lg-5">
+                                                            <img src={bvLogo} alt="BV" />
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className={`col-lg-6 ${footer.isoIEC}`}>
+                                            <div className={`col-lg-4 ${footer.isoIEC}`}>
                                                 <div>ISO/IEC 27001:2013</div>
                                             </div>
                                         </div>
