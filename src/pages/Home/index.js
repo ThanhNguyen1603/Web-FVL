@@ -121,7 +121,7 @@ const Home = () => {
                                                     <img className={`${home.imagefep} ${home.fast}`} src={fast} alt="Fast" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>F<span>ast</span></h2>
+                                                    <h2>Fast</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ const Home = () => {
                                                     <img className={home.imagefep} src={effective} alt="Effective" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>E<span>ffective</span></h2>
+                                                    <h2>Effective</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@ const Home = () => {
                                                     <img className={home.imagefep} src={professional} alt="Professional" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>P<span>rofessional</span></h2>
+                                                    <h2>Professional</h2>
                                                 </div>
                                             </div>
                                         </div>

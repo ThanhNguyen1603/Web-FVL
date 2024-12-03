@@ -244,7 +244,7 @@ p {
     h1::after {
         content: "";
         display: block;
-        width: 50%;
+        width: 26%;
         height: 1px;
         background-color: #fff;
         margin: 0 auto;
@@ -270,18 +270,18 @@ p {
         font-size: 32px;
     }
 
-    span {
-        font-size: 30px;
+    // span {
+    //     font-size: 30px;
 
-    }
+    // }
 
-    .fast {
-        padding-right: 60px;
-    }
+    // .fast {
+    //     padding-right: 60px;
+    // }
 
     .imagefep {
         width: 100%;
-        // height: 130px;
+        height: 150px;
         width: auto;
         margin: auto;
     }
