@@ -35,10 +35,7 @@ const AdvantageSolution = () => {
     return (
         <>
             <div className={`${advantageStyle.title} ${advantageStyle.titleContent}`}>
-                <h2>The FVL & TPL Advantage</h2>
-            </div>
-            <div className={advantageStyle.note}>
-                <h4>At FVL & TPL, our mission is to do it better. How are we different?</h4>
+                <h2>Our Mission Is To Do It Better</h2>
             </div>
             {
                 contentList.map((contentItem, index) => {

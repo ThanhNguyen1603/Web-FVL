@@ -62,7 +62,7 @@ p {
     p {
         margin-bottom: 0;
         @include fontSizeDefault;
-        text-align: justify;
+        text-align: left;
     }
 
     .imageBPO {
@@ -250,10 +250,7 @@ p {
         margin: 0 auto;
     }
 
-
 }
-
-
 
 .fepBackground {
 
@@ -267,16 +264,16 @@ p {
         text-align: center;
         margin: 0;
         padding-top: 20px;
-        font-size: 32px;
+        @include fontSizeTitle;
     }
 
     span {
-        font-size: 30px;
+        @include font40;
 
     }
 
     .fast {
-        padding-right: 60px;
+        padding-right: 57px;
     }
 
     .imagefep {
@@ -284,6 +281,7 @@ p {
         height: 100px;
         width: auto;
         margin: auto;
+        padding-top: 20px;
     }
 
     .fepImage {
