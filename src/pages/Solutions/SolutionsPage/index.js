@@ -32,7 +32,7 @@ const SolutionPage = () => {
                 <div className="col-lg-9">
                     <div className={SolutionsStyle.content}>
                         <div className={`${SolutionsStyle.titleContent}`}>
-                            <h2>What we can do for you</h2>
+                            <h2>What We Can Do For You</h2>
                         </div>
                         <div className="row">
                             {

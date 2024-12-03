@@ -22,6 +22,7 @@ import CaseStudies from "../pages/Solutions/CaseStudies";
 import Portfolio from "../pages/Solutions/Portfolio";
 import Testimonials from "../pages/Solutions/Testimonials";
 import CareerDetails from "../pages/Careers/CareerDetails";
+import BPOIndustry from "../pages/Outsourcing/BPOIndustry";
 
 const publicRoutes = [
     { path: '/', component: Home },
@@ -50,6 +51,7 @@ const OutsourcingRoutes = [
     { path: '/Advantage', component: AdvantageOutsourcing, },
     { path: '/Faqs', component: Faqs, },
     { path: '/Tips', component: Tips, },
+    { path: '/BPOIndustry', component: BPOIndustry }
 ]
 
 const SolutionRoutes = [

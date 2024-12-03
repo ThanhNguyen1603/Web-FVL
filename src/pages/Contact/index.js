@@ -113,8 +113,6 @@ const Contact = () => {
                     </div>
                 </div>
                 <FormSubmit />
-
-
             </div>
         </>
     );

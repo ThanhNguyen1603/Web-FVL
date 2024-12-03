@@ -22,6 +22,7 @@
                 img {
                     width: 100%;
                     display: block;
+                    border-radius: 50%;
                 }
 
                 h1 {
@@ -53,6 +54,7 @@
         .workAH {
             img {
                 width: 80% !important;
+                border-radius: 0px !important
             }
         }
     }

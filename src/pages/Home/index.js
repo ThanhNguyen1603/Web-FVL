@@ -104,7 +104,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={home.fepBackground}>
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="row">
                             <div className={`col-lg-12 ${home.bodycontent}`}>
                                 <div className={home.titleContent}>
@@ -121,7 +121,7 @@ const Home = () => {
                                                     <img className={`${home.imagefep} ${home.fast}`} src={fast} alt="Fast" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>Fast</h2>
+                                                    <h2><span>F</span>ast</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ const Home = () => {
                                                     <img className={home.imagefep} src={effective} alt="Effective" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>Effective</h2>
+                                                    <h2><span>E</span>ffective</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@ const Home = () => {
                                                     <img className={home.imagefep} src={professional} alt="Professional" />
                                                 </div>
                                                 <div className="col-lg-12 col-12">
-                                                    <h2>Professional</h2>
+                                                    <h2><span>P</span>rofessional</h2>
                                                 </div>
                                             </div>
                                         </div>

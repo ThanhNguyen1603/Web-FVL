@@ -11,22 +11,17 @@ const outsourcLayout = () => {
     return (
         <>
             <div className={home.content}>
-                <OutsourcingBanner />
-                <div className='container-fluid'>
+                {/* <OutsourcingBanner /> */}
+
+
+                <div className="row">
                     <div className="col-lg-12">
-                        <div className="row">
-                            <div className="col-lg-10">
-                                <div className="container">
-                                    <Outlet />
-                                </div>
-                            </div>
-                            <div className={`${osLayout.sideBarstyle} ${"col-lg-2"}`}>
-                                <Sidebar />
-                            </div>
-                        </div>
+                        <Outlet />
                     </div>
                 </div>
-            </div >
+
+            </div>
+
         </>
     )
 

@@ -10,10 +10,10 @@ const BannerAboutUs = () => {
     return (
 
         <div className={bannerStyle.AIbrainBackground}>
-            <div className='container-fluid'>
+            <div className='container-fluid pt-3'>
                 <div className="row">
                     <div className="col-lg-7">
-                        <div className={bannerStyle.bannerWhoWeAre}>Who We Are</div>
+                        <div className={bannerStyle.bannerWhoWeAre}><h2>Who We Are</h2></div>
                         <p>We are the western-managed Business Process Outsourcing business based in Ho Chi Minh City, Vietnam.</p>
                         <p>Established in 2004 and 2013 respectively, Transcend People LLC & First Virtue LLC offer long-term, flexible outsourcing solutions to a broad range of clients to help drive operational cost efficiency and business growth.</p>
                         <p>FVL & TPL combine in-depth understanding of our clients' businesses and expertise in business process outsourcing, we take on clients' challenges and develop innovative solutions to address them.</p>

@@ -14,7 +14,7 @@ $backgroundWhite: #fff;
 $color: #333;
 $careerlistbackground: #f5f5f3;
 $colorBlack: #000;
-$colorGray: #d4d1d1;
+$colorGray: #ececec;
 
 @mixin colorPrimaryText {
     color: $colorPrimary;
@@ -93,6 +93,10 @@ $colorGray: #d4d1d1;
 
 @mixin colorGray {
     color: $colorGray;
+}
+
+@mixin backgroundGray {
+    background-color: $colorGray;
 }
 
 @mixin font30 {

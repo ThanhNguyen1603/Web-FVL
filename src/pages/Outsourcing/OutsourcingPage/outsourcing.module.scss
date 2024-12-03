@@ -1,5 +1,22 @@
 @import "../../../index.scss";
 
+.titleContent {
+    h2 {
+        padding-top: 20px;
+        @include colorText;
+        @include fontSizeTitle;
+    }
+}
+
+.detailsContent {
+    h5 {
+        @include colorText;
+        @include fontSizeDefault;
+        padding: 20px 0px;
+
+    }
+}
+
 .contOurS {
     border-radius: 40px;
     margin: 10px 0px 20px 0;

@@ -29,6 +29,11 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
         padding-bottom: 30px;
     }
 
+    h2 {
+        @include fontSizeTitle;
+        @include colorPrimaryText;
+    }
+
     p {
         color: #ebe9e9;
         @include fontSizeDefault;

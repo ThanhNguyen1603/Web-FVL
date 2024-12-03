@@ -1,0 +1,30 @@
+@import '../../../index.scss';
+
+.wrapper {
+    .titleContent {
+        h2 {
+            @include fontSizeTitle;
+            @include colorText;
+        }
+    }
+
+    .detailsContent {
+        .content {
+            @include fontSizeDefault;
+            @include colorGray;
+            padding-top: 10px;
+            padding-left: 12px;
+        }
+
+        .title {
+            @include fontSizeDefault;
+            @include colorText;
+            font-weight: 600;
+        }
+    }
+
+    .BPOImage {
+        width: 100%;
+        display: block;
+    }
+}

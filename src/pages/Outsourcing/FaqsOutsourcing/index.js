@@ -30,8 +30,9 @@ const Faqs = () => {
         },
     ]
     return (
-        <>
-            <div className="container">
+        <>  <div className="container-fluid">
+            <div className={faqsStyle.wrapper}>
+
                 <div className={`${faqsStyle.title} ${faqsStyle.titleContent}`}>
                     <h2>FAQs: Still Have Concerns?</h2>
                 </div>
@@ -42,17 +43,19 @@ const Faqs = () => {
                                 <div key={index}>
                                     <div className={faqsStyle.question}>
                                         <div className="row">
-                                            <div className="col-md-12 d-flex">
+                                            <div className="col-md-6 d-flex">
                                                 <div className={faqsStyle.contFaqs}>
                                                     <i><FontAwesomeIcon icon={faCircleQuestion} /></i>
                                                     <p>{aqItem.question}</p>
                                                 </div>
                                             </div>
+                                            <div className="col-md-6"></div>
                                         </div>
                                     </div>
                                     <div className={faqsStyle.answer}>
                                         <div className="row">
-                                            <div className="col-md-12 d-flex">
+                                            <div className="col-md-6"></div>
+                                            <div className="col-md-6 d-flex">
                                                 <div className={faqsStyle.contFaqs}>
                                                     <i><FontAwesomeIcon icon={faCommentDots} /></i>
                                                     <p>{aqItem.answer}</p>
@@ -66,6 +69,7 @@ const Faqs = () => {
                     }
                 </div>
             </div>
+        </div>
         </>
     )
 }

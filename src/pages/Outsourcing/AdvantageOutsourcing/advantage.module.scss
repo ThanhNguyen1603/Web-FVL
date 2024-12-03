@@ -1,29 +1,53 @@
 @import "../../../index.scss";
 
-.contOurS {
-    border-radius: 40px;
-    margin: 10px 0px 20px 0;
-    padding: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    display: flex;
-    align-items: center;
-    min-height: 150px;
+.wrapper {
+    background-color: #1a1d24;
 
-    .contItem {
+    .contOurS {
+        border-radius: 10px;
+        margin: 10px 0px 20px 0;
+        padding: 10px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+        background-color: #242831;
+        display: flex;
         align-items: center;
+        min-height: 200px;
+
+        .contItem {
+            align-items: center;
+        }
+
+        .numberItem {
+            @include colorText;
+        }
+
+        .contentSub {
+            text-align: left;
+            @include colorText;
+        }
     }
-}
 
-.titleContent {
+    .titleContent {
 
-    h2 {
-        @include colorText;
-        @include fontSizeTitle;
+        h2 {
+            @include colorText;
+            @include fontSizeTitle;
+        }
+
+        h3 {
+            @include colorText;
+            @include fontSizeDefault;
+            text-align: center;
+        }
+
+
     }
 
-    h3 {
-        @include colorText;
-        @include fontSizeDefault;
+    .detailsContent {
+        p {
+            @include colorText;
+            @include fontSizeDefault;
+            padding-top: 10px;
+        }
     }
 }
