@@ -34,7 +34,7 @@ const Faqs = () => {
             <div className={faqsStyle.wrapper}>
 
                 <div className={`${faqsStyle.title} ${faqsStyle.titleContent}`}>
-                    <h2>FAQs: Still Have Concerns?</h2>
+                    <h2>FAQs: Have More Queries?</h2>
                 </div>
                 <div className={faqsStyle.faqs}>
                     {

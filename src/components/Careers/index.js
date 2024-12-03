@@ -66,7 +66,7 @@ const CareersList = [
     },
     {
         image: <img src={nhanvienhanhchinhImage} alt='Nhan Vien Hanh Chinh' />,
-        jobName: 'Nhân Viên Nhân Sự Tổng Hợp - C&B',
+        jobName: 'General Human Resources Officer',
         address: '78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam.',
         hashtag: 'HCMC | Fulltime',
         datePublish: <Realtime />,
@@ -145,7 +145,7 @@ const CareersList = [
     },
     {
         image: <img src={ketoannoiboImage} alt='Ke toan noi bo' />,
-        jobName: 'Nhân Viên Kế Toán',
+        jobName: 'Accounting Officer',
         address: '78/2A Binh Loi, Ward 13, Binh Thanh District, Ho Chi Minh City, Vietnam.',
         hashtag: 'HCMC | Fulltime',
         datePublish: <Realtime />,

@@ -5,21 +5,28 @@ import osLayout from './OSLayout.module.scss'
 import Sidebar from "../../SidebarOutsourcing";
 import { Outlet } from "react-router-dom";
 import OutsourcingBanner from '../../../components/Banner/OutsourcingBanner'
-
+import solutionStyle from '../SolutionLayout/solution.module.scss'
+import FormSubmitSolutions from "../../FormSubmitSolutions/FormSubmitSolutions";
 
 const outsourcLayout = () => {
     return (
         <>
             <div className={home.content}>
-                {/* <OutsourcingBanner /> */}
-
-
-                <div className="row">
-                    <div className="col-lg-12">
-                        <Outlet />
+                {/* <SolutionBanner /> */}
+                <div className={solutionStyle.Outlet}>
+                    <div className='container-fluid pt-3'>
+                        <div className="row">
+                            <div className="col-lg-9">
+                                <Outlet />
+                            </div>
+                            <div className="col-lg-3">
+                                <div className={solutionStyle.soluForm}>
+                                    <FormSubmitSolutions />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
+                </div >
             </div>
 
         </>

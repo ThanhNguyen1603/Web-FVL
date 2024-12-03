@@ -33,21 +33,25 @@ const Footer = () => {
                                     {/* viet ham onclick here */}
                                     <div className={`${footer.isoModal}`} onClick={handleShow}>
                                         <div className="row">
-                                            <div className="col-lg-8">
+                                            <div className="col-lg-12">
                                                 <div className={footer.isoLogo}>
                                                     <div className="row">
-                                                        <div className="col-lg-7">
+                                                        {/* <div className="col-lg-4 col-6">
                                                             <img src={isoLogo} alt="ISO 27001" />
-                                                        </div>
-                                                        <div className="col-lg-5">
+                                                        </div> */}
+                                                        <div className="col-lg-12 col-12">
                                                             <img src={bvLogo} alt="BV" />
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className={`col-lg-4 ${footer.isoIEC}`}>
-                                                <div>ISO/IEC 27001:2013</div>
-                                            </div>
+                                            {/* <div className={`col-lg-12 ${footer.isoIEC}`}>
+                                                <div>
+                                                    <p>
+                                                        ISO/IEC 27001:2013
+                                                    </p>
+                                                </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <Modal show={showModal} onHide={handleClose}>

@@ -9,7 +9,7 @@ import FormSubmitSolutions from "../../../components/FormSubmitSolutions/FormSub
 const SolutionPage = () => {
     const serviceList = [
         {
-            icon: faCartShopping, title: 'Data Services - Big Data:', content: ['Title Plant', 'Title Search', 'Data Abstracting', 'Data Indexing']
+            icon: faCartShopping, title: "Data Services -  Big Data:", content: ['Title Plant', 'Title Search', 'Data Abstracting', 'Data Indexing']
         },
         {
             icon: faGlobe, title: 'Web Services:', content: ['Content Management', 'Photo Editing', 'Order Processing', 'SEO - Digital Marketing']
@@ -29,7 +29,7 @@ const SolutionPage = () => {
     return (
         <>
             <div className="row">
-                <div className="col-lg-9">
+                <div className="col-lg-12">
                     <div className={SolutionsStyle.content}>
                         <div className={`${SolutionsStyle.titleContent}`}>
                             <h2>What We Can Do For You</h2>
@@ -40,25 +40,6 @@ const SolutionPage = () => {
                                     return (
                                         <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
                                             <div className={`${SolutionsStyle.contentSolution}`}>
-                                                {/* <div className={SolutionsStyle.iconSolut}>
-            <div className={SolutionsStyle.soluContent}>
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className={SolutionsStyle.content}>
-                            <div className={`${SolutionsStyle.titleContent}`}>
-                                <h2>What we can do for you</h2>
-                            </div>
-                            <div className="row">
-                                {
-                                    serviceList.map((serviceItem, index) => {
-                                        return (
-                                            <div className={`${SolutionsStyle.colmd5ths} ${SolutionsStyle.colsm5ths}`} key={index}>
-                                                <div className={`${SolutionsStyle.contentSolution}`}>
-                                                    {/* <div className={SolutionsStyle.iconSolut}>
->>>>>>> c79a8869a5b27bea72189f540e41e3aaa7bcdbc0
-                                                <FontAwesomeIcon icon={serviceItem.icon} />
-
-                                            </div> */}
                                                 <h6 className={SolutionsStyle.contentTitle}>{serviceItem.title}</h6>
                                                 <div className={SolutionsStyle.contentSub}>
                                                     {
@@ -78,11 +59,14 @@ const SolutionPage = () => {
                             }
                         </div>
                     </div>
-                    <div>
-                        <AdvantageSolution />
-                    </div>
+
                 </div>
             </div>
+
+
+            <AdvantageSolution />
+
+
 
         </>
     )

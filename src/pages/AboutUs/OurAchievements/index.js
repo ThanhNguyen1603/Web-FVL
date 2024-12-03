@@ -13,6 +13,9 @@ import fvlcn2 from '../../../Image/AboutUs/Our_Achievements/FVL-CN2.png';
 import ubndtphcm2018 from '../../../Image/AboutUs/Our_Achievements/UBND TP. HCM 2018.jpg';
 import benhnhanngheo2015 from '../../../Image/AboutUs/Our_Achievements/UBND TP. HCM Bệnh nhân nghèo 2015.jpg';
 import hinhcongnghe from '../../../Image/AboutUs/Our_Achievements/Hình công nghệ.jpg';
+import KHCN2 from "../../../Image/AboutUs/Our_Achievements/FVL-DN-KHCN.png";
+import FVLCUP2 from "../../../Image/AboutUs/Our_Achievements/FVL-CUP2B.jpg";
+import bangKhenThue from "../../../Image/AboutUs/Our_Achievements/thue.jpg"
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -21,19 +24,20 @@ const OurAchievements = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
         { url: fvliso27001, nameImage: fvliso27001, title: 'ISO 27001' },
-        { url: fvlcup1, nameImage: fvlcup1, title: 'Cup 01' },
-        { url: wethankyou, nameImage: wethankyou, title: 'We thank you' },
-        { url: thucamon, nameImage: thucamon, title: 'Thu Cam On' },
-        { url: KHCN, nameImage: KHCN, title: 'Khoa hoc cong nghe' },
-        { url: hinhcongnghe, nameImage: hinhcongnghe, title: 'Hinh cong nghe' },
+        { url: KHCN2, nameImage: KHCN2, title: 'KHCN2' },
+        { url: bangkhenthutuong, nameImage: bangkhenthutuong, title: 'Bang khen thu tuong' },
         { url: benhnhanngheo2015, nameImage: benhnhanngheo2015, title: 'Benh nhan ngheo 2015' },
         { url: ubndtphcm2018, nameImage: ubndtphcm2018, title: 'Uy ban nhanh dan thanh pho HCM 2018' },
+        { url: KHCN, nameImage: KHCN, title: 'Khoa hoc cong nghe' },
+        { url: hinhcongnghe, nameImage: hinhcongnghe, title: 'Hinh cong nghe' },
+        { url: thucamon, nameImage: thucamon, title: 'Thu Cam On' },
         { url: fvlcn2, nameImage: fvlcn2, title: 'FVL CN 02' },
-        { url: bangkhenthutuong, nameImage: bangkhenthutuong, title: 'Bang khen thu tuong' },
         { url: dichCovid, nameImage: dichCovid, title: 'Dich Covid' },
+        { url: wethankyou, nameImage: wethankyou, title: 'We thank you' },
+        { url: fvlcup1, nameImage: fvlcup1, title: 'Cup 01' },
+        { url: FVLCUP2, nameImage: FVLCUP2, title: 'FVLCUP2' },
+        { url: bangKhenThue, nameImage: bangKhenThue, title: 'bangKhenThue' },
     ]
-
-
     const getDisplayedItems = () => {
         const listLength = images.length;
 
@@ -64,7 +68,7 @@ const OurAchievements = () => {
     return (
         <>
             <div className={OurAchieve.content}>
-                <div className="container-fluid">
+                <div className="container-fluid pt-3">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className={OurAchieve.imgAchieve}>

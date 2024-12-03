@@ -11,8 +11,15 @@
     margin-top: 10px;
     margin-bottom: 10px;
 
-    h3, h5 {
-        color: #fff;
+    h3 {
+        @include colorText;
+        @include font40;
+        padding-bottom: 10px;
+    }
+
+    h5 {
+        @include colorText;
+        @include fontSizeDefault;
     }
 
     .ctcInput {

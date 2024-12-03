@@ -10,7 +10,12 @@ const BPOIndustry = () => {
                         <h2>Advantages of the BPO Industry</h2>
                     </div>
                     <div className='row'>
-                        <div className='col-lg-9'>
+                        <div className='col-lg-12 d-flex align-items-center'>
+                            <img className={bpoindustryStyle.BPOImage} src={bpoImage} alt="BPO" />
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-lg-12'>
                             {
                                 BPOList.map((item, index) => {
                                     return (
@@ -21,9 +26,7 @@ const BPOIndustry = () => {
                                 })
                             }
                         </div>
-                        <div className='col-lg-3 d-flex align-items-center'>
-                            <img className={bpoindustryStyle.BPOImage} src={bpoImage} alt="BPO" />
-                        </div>
+
                     </div>
 
                 </div>

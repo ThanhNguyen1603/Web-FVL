@@ -18,10 +18,7 @@ const SolutionLayout = () => {
                     <div className='container-fluid pt-3'>
                         <div className="row">
                             <div className="col-lg-9">
-
                                 <Outlet />
-
-
                             </div>
                             <div className="col-lg-3">
                                 <div className={solutionStyle.soluForm}>

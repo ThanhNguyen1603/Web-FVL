@@ -171,8 +171,11 @@ p {
 }
 
 .contentSub2 {
+
+
     p {
         text-align: left;
+        margin-bottom: 30px;
     }
 
     .fast {
@@ -218,6 +221,7 @@ p {
     justify-content: center;
     // align-items: center;
     text-align: center;
+    padding-bottom: 30px;
 
     h1 {
         align-items: center;
@@ -232,8 +236,8 @@ p {
         // text-decoration: underline 1px;
         // text-underline-offset: 15px;
         // text-decoration-color: #ffffff;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
         text-align: center;
     }
 
@@ -249,6 +253,7 @@ p {
 }
 
 .fepBackground {
+    padding-bottom: 10px;
 
     p {
         @include colorText;
@@ -259,8 +264,12 @@ p {
         @include colorText;
         text-align: center;
         margin: 0;
-        padding-top: 20px;
+        padding-top: 30px;
         @include fontSizeTitle;
+    }
+
+    .fepContent {
+        padding-bottom: 0px;
     }
 
     span {

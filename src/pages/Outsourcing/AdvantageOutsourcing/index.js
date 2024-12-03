@@ -29,7 +29,7 @@ const Advantage = () => {
 
     return (
         <>
-            <div className={advantageStyle.wrapper}>
+            <div className={`${advantageStyle.wrapper}`}>
                 <div className="container-fluid">
                     <div className={`${outsourcingStyle.titleContent}`}>
                         <h2>Your Business Can Do More</h2>
@@ -40,12 +40,12 @@ const Advantage = () => {
                             <div className="row">
                                 <div className="col-md-12">
                                     <p>
-                                        Your business has many pressures. Staff recruitment and retention, costs related to labor and operations, and increasing administrative tasks that need to get done. With all this attention on the day-to-day, your capacity to focus on what's most important is limited.
+                                        Your business faces numerous pressures, from staff recruitment and retention to labor and operational costs, and the increasing administrative tasks that demand attention. These day-to-day challenges can limit your capacity to focus on what truly matters.
                                     </p>
                                 </div>
                                 <div className="col-md-12">
                                     <p>
-                                        Instead, outsource your business processes to FVL & TPL. Unload management burden and reduce costs with a dedicated team that we manage for you. Improve productivity through our expertise and economies of scale. Most importantly, drive your business forward by concentrating on what's really critical - increasing your customer base, sales revenues, and profit margins.
+                                        Outsource your business processes to FVL & TPL and alleviate these burdens. With a dedicated team managed by us, you can reduce costs and improve productivity through our expertise and economies of scale. Most importantly, you can drive your business forward by concentrating on what's critical - increasing your customer base, sales revenues, and profit margins.
                                     </p>
                                 </div>
                             </div>

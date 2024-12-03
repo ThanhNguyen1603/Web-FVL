@@ -2,7 +2,7 @@
 $bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
 
 .content {
-    background-color: #202020;
+    @include backgroundColor;
 }
 
 .imgAchieve {
@@ -14,7 +14,7 @@ $bgcolor: linear-gradient(264deg, #6549d50d -22%, #ffffff 73%, #fb534308 78%);
     }
 
     img {
-        height: 750px;
+        height: 600px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;

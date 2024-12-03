@@ -5,6 +5,7 @@
         h2 {
             @include fontSizeTitle;
             @include colorText;
+            text-align: center
         }
     }
 
@@ -24,7 +25,22 @@
     }
 
     .BPOImage {
-        width: 100%;
+        width: 40%;
         display: block;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .wrapper {
+        .BPOImage {
+            width: 80%;
+            display: block;
+            margin: auto;
+        }
+    }
+
 }

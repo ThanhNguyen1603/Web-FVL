@@ -5,12 +5,11 @@
     padding-bottom: 40px;
 
     .title {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         @include backgroundColor;
 
         .titleBackground {
-            padding-top: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -66,7 +65,7 @@
             @include fontSizeTitle;
             @include colorBlack;
             text-align: center;
-            padding-bottom: 50px;
+            padding-bottom: 25px;
         }
     }
 
@@ -78,9 +77,18 @@
         align-items: center;
         border-radius: 10px;
 
+        .imageCareer {
+            img {
+                width: 100%;
+                display: block;
+                margin: auto;
+                height: auto;
+            }
+        }
+
         h5 {
             @include colorBlack;
-            @include fontSizeDefault;
+            @include font30;
             font-weight: 600;
             padding-top: 50px;
         }
@@ -88,7 +96,7 @@
         h6 {
             padding: 100px 0px;
             color: #727171;
-            @include fontSizeDefault;
+            @include font30;
             font-weight: 300;
         }
 

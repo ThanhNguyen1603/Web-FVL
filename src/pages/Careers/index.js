@@ -25,8 +25,8 @@ const Careers = () => {
 
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
-                                        <h1>Here, the sky is the limit</h1>
-                                        <h2>Join us and work at the heart of change. Make a positive impact by bringing value to our clients and helping to shape a more connected, sustainable future.</h2>
+                                        <h1>Here, the sky is the limit!</h1>
+                                        <h2>Join us and be at the forefront of change. Make a positive impact by delivering exceptional value to our clients and contributing to a more connected, sustainable future. Embrace the opportunity to innovate, grow, and make a difference in a dynamic and supportive environment.</h2>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Careers = () => {
                                 <div className="col-lg-6">
                                     <div className={careerStyle.workAH}>
                                         <h1>Flex and Connect</h1>
-                                        <h2>Flexibility extends beyond where you work—to what you do and when and how you do it. For all of us, making connections is a key part of flexible working. We believe in its power to build strong relationships and innovate to create change.</h2>
+                                        <h2>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h2>
                                     </div>
                                 </div>
 
@@ -54,7 +54,7 @@ const Careers = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid">
+                <div className="container-fluid pt-3">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className={careerStyle.titleContent}>
@@ -63,25 +63,33 @@ const Careers = () => {
                         </div>
                     </div>
                     <div className="row">
+
                         {
                             CareersList.map((careerItem, index) => {
                                 return (
-                                    <div key={index} className={`col-lg-3`}>
-                                        <div className={careerStyle.careersListBackground}>
-                                            <h5>{careerItem.jobName}</h5>
-                                            <h6>{careerItem.hashtag}</h6>
-                                            <button className={`${careerStyle.btnapply}`} type="button">
-                                                <NavLink to='/CareerDetails' state={{
-                                                    jobName: careerItem.jobName,
-                                                }}>Apply Now</NavLink>
-                                            </button>
+                                    <>
+                                        <div key={index} className={`col-lg-4`}>
+                                            <div className={careerStyle.careersListBackground}>
+                                                <h5>{careerItem.jobName}</h5>
+                                                <h6>{careerItem.hashtag}</h6>
+                                                {/* <div className="row">
+                                                    <div className="col-lg-12">
+                                                        <div className={careerStyle.imageCareer}> {careerItem.image}</div>
+                                                    </div>
+                                                </div> */}
+                                                <button className={`${careerStyle.btnapply}`} type="button">
+                                                    <NavLink to='/CareerDetails' state={{
+                                                        jobName: careerItem.jobName,
+                                                    }}>Apply Now</NavLink>
+                                                </button>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </>
                                 )
                             })
-
                         }
                     </div>
+
                 </div>
             </div>
 
