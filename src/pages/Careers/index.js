@@ -31,6 +31,10 @@ const Careers = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className={`${careerStyle.title} ${careerStyle.title1}`}>
+                    <div className="contrainer-fluid">
                         <div className="row">
                             <div className={careerStyle.titleBackground}>
 
@@ -50,7 +54,6 @@ const Careers = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">
