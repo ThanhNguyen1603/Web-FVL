@@ -1,0 +1,75 @@
+@import "../../index.scss";
+
+.wrapper {
+    background-color: #1a1d24;
+    margin-left: -12px;
+
+    .titleContent {
+        h1 {
+            @include colorText;
+            @include fontSizeTitle;
+
+        }
+    }
+
+    .contentItem {
+        text-decoration: none;
+        background-color: #17181d;
+        display: block;
+        padding: 12px;
+        border-radius: 5px;
+
+        .title {
+            h6 {
+                @include fontSizeDefault;
+                @include colorText;
+                padding-top: 20px;
+                padding-bottom: 0px;
+                text-align: left;
+                // overflow: hidden;
+                // text-overflow: ellipsis;
+                display: -webkit-box;
+                line-clamp: 1;
+                -webkit-line-clamp: 1;
+                /* Số dòng hiển thị tối đa */
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                /* Hiển thị nội dung trên một dòng */
+            }
+        }
+
+        p {
+            @include fontSizeDefault;
+            @include colorGray;
+            // padding-top: 10px;
+            margin: 0;
+            text-align: left;
+            overflow: hidden;
+            overflow: hidden; // Ẩn phần nội dung tràn
+            text-overflow: ellipsis; // Thêm dấu "..." khi tràn
+            // white-space: nowrap;
+            display: -webkit-box; // Định dạng vùng hiển thị dạng hộp
+            line-clamp: 4;
+            -webkit-line-clamp: 4; // Giới hạn hiển thị tối đa 2 dòng
+            -webkit-box-orient: vertical; // Hướng hộp theo chiều dọc
+            overflow: hidden; // Ẩn phần dư
+            text-overflow: ellipsis;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+            margin: auto;
+            object-fit: contain;
+            max-height: 300px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .contentItem {
+        height: 520px;
+    }
+}

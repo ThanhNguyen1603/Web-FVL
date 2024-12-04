@@ -10,6 +10,8 @@ import OurLeadership from "../OurLeadership";
 import OurActivities from "../OurActivities";
 import OurAchievements from "../OurAchievements";
 import OurCharity from "../OurCharity";
+import Charity from "../../../components/Charity/Charity";
+import TurkeyDash from "../../../components/TurkeyDash/TurkeyDash";
 
 const OurCompanies = () => {
 
@@ -19,6 +21,8 @@ const OurCompanies = () => {
             <OurAchievements />
             <OurActivities />
             <OurCharity />
+            <TurkeyDash />
+            <Charity />
         </>
     )
 }

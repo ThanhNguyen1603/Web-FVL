@@ -1,1 +1,38 @@
-@import '../../index.scss';
+@import "../../index.scss";
+
+.wrapper {
+
+    margin-left: -12px;
+    padding-bottom: 20px;
+
+    .titleContent {
+        h1 {
+            @include colorText;
+            @include fontSizeTitle;
+            text-align: center;
+        }
+    }
+
+    .contentItem {
+        text-decoration: none;
+        // background-color: #17181d;
+        display: block;
+        // padding: 12px;
+        border-radius: 5px;
+
+        img {
+            width: 100%;
+            display: block;
+            margin: auto;
+            object-fit: cover;
+            max-height: 400px;
+        }
+    }
+
+}
+
+// @media screen and (min-width: 992px) {
+//     .contentItem {
+//         height: 320px;
+//     }
+// }

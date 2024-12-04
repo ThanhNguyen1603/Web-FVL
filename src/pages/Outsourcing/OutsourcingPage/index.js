@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import BPOIndustry from "../BPOIndustry";
 import Advantage from "../AdvantageOutsourcing";
 import Faqs from "../FaqsOutsourcing";
+import NewsBPO from "../../../components/NewsBPO/NewsBPO";
 
 const OutsourcingPage = () => {
 
@@ -23,6 +24,7 @@ const OutsourcingPage = () => {
             <BPOIndustry />
             <Advantage />
             <Faqs />
+            <NewsBPO />
         </>
     )
 
