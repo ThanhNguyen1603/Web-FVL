@@ -7,18 +7,17 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
 
 .AIbrainBackground {
     background-color: #232730;
-    // display: flex;
-    align-content: center;
 
     .AIbrian {
-        background-image: $image;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
     }
-
-
 
     .bannerWhoWeAre {
         @include colorPrimaryText;
@@ -48,26 +47,10 @@ $image : url('../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg');
     }
 }
 
-.mobile {
-    display: none;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .AIbrainBackground {
-
-
-        .AIbrian {
-            display: block;
-            min-height: 260px;
-            width: 100%;
+        p {
+            font-size: 17px;
         }
-    }
-
-    .mobile {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
     }
 }

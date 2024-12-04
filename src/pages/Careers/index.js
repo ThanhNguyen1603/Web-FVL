@@ -14,7 +14,6 @@ const Careers = () => {
 
                 <div className={careerStyle.title}>
                     <div className="container-fluid">
-
                         <div className={careerStyle.titleBackground}>
                             <div className="row d-flex align-items-center">
                                 <div className="col-lg-6">
@@ -33,52 +32,26 @@ const Careers = () => {
                         </div>
                     </div>
                 </div>
-                <div className={careerStyle.desktop}>
-                    <div className={`${careerStyle.title} ${careerStyle.title1}`}>
-                        <div className="container-fluid">
-                            <div className={careerStyle.titleBackground}>
-                                <div className="row d-flex align-items-center">
-                                    <div className="col-lg-6">
-                                        <div className={careerStyle.workAH}>
-                                            <h1>Flex and Connect</h1>
-                                            <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
-                                        </div>
+                <div className={`${careerStyle.title} ${careerStyle.title1}`}>
+                    <div className="container-fluid">
+                        <div className={careerStyle.titleBackground}>
+                            <div className="row d-flex align-items-center">
+                                <div className="col-lg-6">
+                                    <div className={careerStyle.workAH}>
+                                        <h1>Flex and Connect</h1>
+                                        <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
                                     </div>
+                                </div>
 
-                                    <div className="col-lg-6">
-                                        <div className={careerStyle.workAH}>
-                                            <img src={merryChristmas} />
-                                        </div>
+                                <div className="col-lg-6">
+                                    <div className={careerStyle.workAH}>
+                                        <img src={merryChristmas} />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className={careerStyle.mobile}>
-                    <div className={`${careerStyle.title} ${careerStyle.title1}`}>
-                        <div className="container-fluid">
-                            <div className={careerStyle.titleBackground}>
-                                <div className="row d-flex align-items-center">
-
-                                    <div className="col-lg-6">
-                                        <div className={careerStyle.workAH}>
-                                            <img src={merryChristmas} />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 pt-3">
-                                        <div className={careerStyle.workAH}>
-                                            <h1>Flex and Connect</h1>
-                                            <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div className="container-fluid pt-3">
                     <div className="row">
                         <div className="col-lg-12">
