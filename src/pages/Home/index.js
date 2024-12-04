@@ -16,6 +16,7 @@ import bpoImage from "../../Image/Home/1701906057260.jpg";
 import bpoImage2 from "../../Image/Home/1690352330561.png";
 import FEPImage from "../../Image/Home/FEP.png"
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
+import NewsCompany from "../../components/NewsCompany/NewsCompany";
 
 
 const Home = () => {
@@ -191,8 +192,11 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
                 <ClientSay />
+                <NewsCompany />
                 <FormSubmit />
+
             </div>
         </>
     );

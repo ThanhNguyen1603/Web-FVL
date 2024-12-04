@@ -61,7 +61,7 @@ const News = () => {
                             breakLinkClassName="page-link"
                             containerClassName="pagination"
                             activeClassName="active"
-                            renderOnZeroPageCount={null}               
+                            renderOnZeroPageCount={null}
                         />
                     </div>
                 </div>

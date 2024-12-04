@@ -75,12 +75,10 @@ const ClientSay = () => {
 
     const handlePrev = () => {
         setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : OurCustomersSayList.length - 1));
-        console.log(currentIndex)
     };
 
     const handleNext = () => {
         setCurrentIndex((prevIndex) => (prevIndex < OurCustomersSayList.length - 1 ? prevIndex + 1 : 0));
-        console.log(currentIndex)
     };
     const swipeHandlers = useSwipeable({
         onSwipedLeft: handleNext, // Lướt trái chuyển tới mục tiếp theo
