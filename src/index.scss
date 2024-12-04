@@ -36,6 +36,10 @@ $colorGray: #ececec;
     color: $color;
 }
 
+@mixin scaleByScreen ($base-size, $viewport-width) {
+    transform: scale(calc(#{$base-size} * (100vw / #{$viewport-width})));
+}
+
 @mixin bannerDefault ($image) {
     background-image: $image;
     background-size: cover;

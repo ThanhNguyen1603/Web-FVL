@@ -44,14 +44,14 @@ const NewsCompany = () => {
             <div className={newscompanyStyle.wrapper}>
                 <div className="container-fluid text-center d-flex flex-column">
                     <div className={newscompanyStyle.titleContent}>
-                        <h1>News Company</h1>
+                        <h1>Life at First Virtue & Transcend People</h1>
                     </div>
                     <div className="row">
                         <div className={`${carouselContainerStyle.carouselContainer}`} {...swipeHandlers}>
 
                             <div className="row">
                                 {getDisplayedItems().map((contentItem, index) => (
-                                    <div key={index} className="col-lg-4 col-sm-6">
+                                    <div key={index} className="col-lg-4">
                                         <a className={newscompanyStyle.contentItem} href={contentItem.link} target="_blank" rel="noopener noreferrer">
                                             <div className={newscompanyStyle.newItem}>
                                                 <img src={contentItem.urlImage} alt={contentItem.alt} />
@@ -72,7 +72,6 @@ const NewsCompany = () => {
                             <button onClick={handleNext} className={`${carouselContainerStyle.nextButton}`}>
                                 <FontAwesomeIcon icon={faArrowRight} />
                             </button>
-
                         </div>
                     </div>
                 </div>

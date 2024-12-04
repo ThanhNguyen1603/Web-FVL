@@ -14,7 +14,7 @@ const OurActivities = () => {
                 <div className="row">
                     <div className={ouractiv.content}>
                         <div className={ouractiv.titleContent}>
-                            <h2>Our Activities</h2>
+                            <h2>Engage & Explore: Our Journey Together</h2>
                         </div>
                         <div className={ouractiv.weWork}>
                             <WeWork />

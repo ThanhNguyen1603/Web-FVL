@@ -1,11 +1,22 @@
 import formSubmitStyle from './formsubmit.module.scss'
 import contactImage from "../../Image/Contact/contact.jpg"
-import { useState } from "react";
-
+import { useState, useEffect, useRef } from "react";
+import home from "../../pages/Home/home.module.scss"
 const FormSubmit = () => {
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
-
+    const wrapperRef = useRef(null);
+    useEffect(() => {
+        if (wrapperRef.current && wrapperRef.current.parentElement) {
+            const parentClassList = wrapperRef.current.parentElement.classList;
+            // Kiểm tra class compile từ home.module.scss
+            if (parentClassList.contains(home.content)) {
+                wrapperRef.current.style.backgroundColor = "#fff"; // Nền đỏ nếu là home.content
+            } else {
+                wrapperRef.current.style.backgroundColor = "#232730"; // Nền đen nếu không phải
+            }
+        }
+    }, []);
     const handleSubmit = async (e) => {
         e.preventDefault(); // Ngăn chuyển hướng mặc định
         setSuccessMessage("");
@@ -35,94 +46,94 @@ const FormSubmit = () => {
     };
     return (
         <>
-            <div className="container pt-3 pb-3">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <form onSubmit={handleSubmit}>
+            <div ref={wrapperRef} className={formSubmitStyle.wrapper}>
+                <div className="container pt-3 pb-3">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <form onSubmit={handleSubmit}>
 
-                            <div className={formSubmitStyle.ctcContent}>
-                                <h3>We love to hear from you</h3>
-                                <h5>We appreciate your interest in us. Please submit your questions below.</h5>
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <input
-                                            type="text"
-                                            name="entry.1118792528"
-                                            placeholder="Name*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
-                                        <input
-                                            type="text"
-                                            name="entry.1090082395"
-                                            placeholder="Organization*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
-                                        <input
-                                            type="text"
-                                            name="entry.2137226694"
-                                            placeholder="Region*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
+                                <div className={formSubmitStyle.ctcContent}>
+                                    <h3>We love to hear from you</h3>
+                                    <h5>We appreciate your interest in us. Please submit your questions below.</h5>
+                                    <div className="row">
+                                        <div className="col-lg-6">
+                                            <input
+                                                type="text"
+                                                name="entry.1118792528"
+                                                placeholder="Name*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                            <input
+                                                type="text"
+                                                name="entry.1090082395"
+                                                placeholder="Organization*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                            <input
+                                                type="text"
+                                                name="entry.2137226694"
+                                                placeholder="Region*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <input
+                                                type="text"
+                                                name="entry.798698470"
+                                                placeholder="Email*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                            <input
+                                                type="text"
+                                                name="entry.2065993141"
+                                                placeholder="Contact Number*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                            <input
+                                                type="text"
+                                                name="entry.944157045"
+                                                placeholder="Inquiry Type*"
+                                                className={formSubmitStyle.ctcInput}
+                                                required
+                                            />
+                                            <br />
+                                        </div>
                                     </div>
-                                    <div className="col-lg-6">
-                                        <input
-                                            type="text"
-                                            name="entry.798698470"
-                                            placeholder="Email*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
-                                        <input
-                                            type="text"
-                                            name="entry.2065993141"
-                                            placeholder="Contact Number*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
-                                        <input
-                                            type="text"
-                                            name="entry.944157045"
-                                            placeholder="Inquiry Type*"
-                                            className={formSubmitStyle.ctcInput}
-                                            required
-                                        />
-                                        <br />
-                                    </div>
+                                    <textarea
+                                        type="text"
+                                        name="entry.105227074"
+                                        placeholder="Message"
+                                        className={formSubmitStyle.ctcInput}
+                                    ></textarea>
+                                    <br />
+                                    <button type="submit" className={formSubmitStyle.ctcButton}>
+                                        Submit
+                                    </button>
+                                    {successMessage && (
+                                        <div className="alert alert-success mt-3">
+                                            {successMessage}
+                                        </div>
+                                    )}
+                                    {errorMessage && (
+                                        <div className="alert alert-danger mt-3">
+                                            {errorMessage}
+                                        </div>
+                                    )}
                                 </div>
-                                <textarea
-                                    type="text"
-                                    name="entry.105227074"
-                                    placeholder="Message"
-                                    className={formSubmitStyle.ctcInput}
-                                ></textarea>
-                                <br />
-                                <button type="submit" className={formSubmitStyle.ctcButton}>
-                                    Submit
-                                </button>
-                                {successMessage && (
-                                    <div className="alert alert-success mt-3">
-                                        {successMessage}
-                                    </div>
-                                )}
-                                {errorMessage && (
-                                    <div className="alert alert-danger mt-3">
-                                        {errorMessage}
-                                    </div>
-                                )}
-                            </div>
-                        </form>
+                            </form>
+                        </div>
+
                     </div>
-                    {/* <div className='col-lg-6 d-flex'>
-                        <img className={formSubmitStyle.contactImage} src={contactImage} alt="contact image" />
-                    </div> */}
                 </div>
             </div>
         </>

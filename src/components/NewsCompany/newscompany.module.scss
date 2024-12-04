@@ -1,9 +1,12 @@
 @import "../../index.scss";
 
 .wrapper {
+    padding-bottom: 20px;
+
     .titleContent {
         @include colorText;
         @include fontSizeTitle;
+
 
         h1 {
             // text-decoration: underline 1px;
@@ -18,7 +21,7 @@
         h1::after {
             content: "";
             display: block;
-            width: 26%;
+            width: 50%;
             height: 1px;
             background-color: #fff;
             margin: 0 auto;
@@ -27,7 +30,7 @@
     }
 
     .contentItem {
-        height: 500px;
+        // height: 520px;
         text-decoration: none;
         background-color: #17181d;
         display: block;
@@ -67,7 +70,8 @@
                 text-overflow: ellipsis; // Thêm dấu "..." khi tràn
                 // white-space: nowrap;
                 display: -webkit-box; // Định dạng vùng hiển thị dạng hộp
-                -webkit-line-clamp: 5; // Giới hạn hiển thị tối đa 2 dòng
+                line-clamp: 4;
+                -webkit-line-clamp: 4; // Giới hạn hiển thị tối đa 2 dòng
                 -webkit-box-orient: vertical; // Hướng hộp theo chiều dọc
                 overflow: hidden; // Ẩn phần dư
                 text-overflow: ellipsis;
@@ -81,5 +85,11 @@
                 max-height: 300px;
             }
         }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .contentItem {
+        height: 520px;
     }
 }

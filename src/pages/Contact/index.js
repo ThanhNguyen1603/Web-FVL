@@ -57,7 +57,7 @@ const Contact = () => {
     return (
         <>
             <ContactBanner />
-            <div className={home.content}>
+            <div className={contact.content}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12 pt-3">
@@ -113,7 +113,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <FormSubmit />
-            </div>
+            </div >
         </>
     );
 }

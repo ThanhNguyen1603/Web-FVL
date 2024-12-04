@@ -242,12 +242,13 @@ p {
         padding-bottom: 30px;
         padding-top: 30px;
         text-align: center;
+        display: inline-block;
     }
 
     h1::after {
         content: "";
         display: block;
-        width: 26%;
+        width: 50%;
         height: 1px;
         background-color: #fff;
         margin: 0 auto;

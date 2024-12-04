@@ -21,6 +21,7 @@ import PhucTruong_JulyW5 from "../../Image/News/NewsCompany/7031 - Phuc Truong -
 import HPBD_August_2024 from "../../Image/News/NewsCompany/HPBD_August 2024.jpg"
 import NguyenHo_JulW4 from "../../Image/News/NewsCompany/7023 - Nguyen Ho JulW4.jpg"
 import img4166 from "../../Image/News/NewsCompany/HPBD_July.jpg"
+import FVLTPL2 from "../../Image/News/NewsCompany/FVLTPL2.gif"
 
 
 
@@ -42,20 +43,20 @@ const contentEvents = [
         title: "HAPPY BIRTHDAY OCTOBER 2024 !!! ",
         content: ["Wishing you the most wonderful birthday! May your day be filled with boundless joy, heartfelt love, and all the little moments that make life beautiful."],
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02c68tCWdK9ajLV4pwc1jC4noKsPRvj14JjEm8QPuCJuFHAxkgi75xcF3ySPQsvXafl",
-        urlImage: TamHoang_W2Oct,
-        alt: 'image',
-        title: "CONGRATULATIONS ",
-        content: ["Our NEWBIE STAR ⭐️'October - W2 - 2024'", "7039 - TAM HOANG - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02q5aBpN9Ta7iZHHch8hvZQnLhkA8qmKKuFedegb7JzwzyZ6GYafS6p3jELvxZSYh7l",
-        urlImage: ChuongHo_W1October2024,
-        alt: 'image',
-        title: "CONGRATULATIONS ",
-        content: ["Our NEWBIE STAR ⭐️'October - W1 - 2024'", "7035 - CHUONG HO - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02c68tCWdK9ajLV4pwc1jC4noKsPRvj14JjEm8QPuCJuFHAxkgi75xcF3ySPQsvXafl",
+    //     urlImage: TamHoang_W2Oct,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS ",
+    //     content: ["Our NEWBIE STAR ⭐️'October - W2 - 2024'", "7039 - TAM HOANG - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02q5aBpN9Ta7iZHHch8hvZQnLhkA8qmKKuFedegb7JzwzyZ6GYafS6p3jELvxZSYh7l",
+    //     urlImage: ChuongHo_W1October2024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS ",
+    //     content: ["Our NEWBIE STAR ⭐️'October - W1 - 2024'", "7035 - CHUONG HO - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
         link: null,
         urlImage: HPBD_October_2024,
@@ -63,13 +64,13 @@ const contentEvents = [
         title: "HAPPY BIRTHDAY OCTOBER 2024 !!!",
         content: ["Happy birthday! Have a fantastic birthday filled with joy and laughter!."],
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0E3PZScEzfWGatLUSETE4yixBma7DpY1Ns2tFjSEoi3fyHp54Qa6yRHwVjrpHLWFZl",
-        urlImage: AnhNguyen_SepW42024,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'September - W4 - 2024'", "7041 - Anh Nguyen - Team 18", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid0E3PZScEzfWGatLUSETE4yixBma7DpY1Ns2tFjSEoi3fyHp54Qa6yRHwVjrpHLWFZl",
+    //     urlImage: AnhNguyen_SepW42024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'September - W4 - 2024'", "7041 - Anh Nguyen - Team 18", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
         link: "https://www.facebook.com/FVLTPL/posts/pfbid02gMVPrENNRn5xaXLELU7C9Z8vDZX24WTN1QYmc9CK7ypN2GEhZcFGE1L1TiK3Tv9Wl",
         urlImage: HPBD_September2024_Event,
@@ -77,38 +78,38 @@ const contentEvents = [
         title: "HAPPY BIRTHDAY SEPTEMBER 2024 !!!",
         content: ["Happy birthday! Today, you deserve all the cakes, affection, love, and happiness."],
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0M8TAXs2ap8aAXhRaaNgrSyHmLfpcGS9C4yoQExGbRPaEcsCy6Csw61X4pZLuaEHcl",
-        urlImage: HienHo_SepW32024,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'September - W3 - 2024'", "7042 - Hien Ho - Team 10", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid0M8TAXs2ap8aAXhRaaNgrSyHmLfpcGS9C4yoQExGbRPaEcsCy6Csw61X4pZLuaEHcl",
+    //     urlImage: HienHo_SepW32024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'September - W3 - 2024'", "7042 - Hien Ho - Team 10", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
 
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02iRPruHuzpzcqrGAEJu93wZwiU6NyhU4oUjq5rMbLXoZRTBMP6bXVY7LPdTLGjwUal",
-        urlImage: AnhNguyen_SepW22024,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'September - W2 - 2024'", "7041 - Anh Nguyen - Team 18", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02iRPruHuzpzcqrGAEJu93wZwiU6NyhU4oUjq5rMbLXoZRTBMP6bXVY7LPdTLGjwUal",
+    //     urlImage: AnhNguyen_SepW22024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'September - W2 - 2024'", "7041 - Anh Nguyen - Team 18", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
 
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0SphRUg2kHj6MuPBospybez3PAuxc3GfSU4eq9sPPyANcTKMd17FzdDZ9jnd91aWal",
-        urlImage: BinhNguyen_Sep012024,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'September - W1 - 2024'", "7037 - Binh Nguyen - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid0SphRUg2kHj6MuPBospybez3PAuxc3GfSU4eq9sPPyANcTKMd17FzdDZ9jnd91aWal",
+    //     urlImage: BinhNguyen_Sep012024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'September - W1 - 2024'", "7037 - Binh Nguyen - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
 
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0MAjYG1FEUr1WTx6VCFcaNRHBNbRoVxeuyne2rRmniPg2jkw8bU4m9aTptTrhjHUgl",
-        urlImage: ChuongHo_W4August2024,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'August - W4 - 2024'", "7035 - Chuong Ho - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid0MAjYG1FEUr1WTx6VCFcaNRHBNbRoVxeuyne2rRmniPg2jkw8bU4m9aTptTrhjHUgl",
+    //     urlImage: ChuongHo_W4August2024,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'August - W4 - 2024'", "7035 - Chuong Ho - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
 
-    },
+    // },
     {
         link: null,
         urlImage: HPBD_September2024,
@@ -117,14 +118,14 @@ const contentEvents = [
         content: ["Happy birthday! I hope all your birthday wishes and dreams come true."],
 
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02vEMBfqhe43jXUy45ZDbBnMVjdiRSqexiDMoPp8iM3gxGpEtV3Vd6hZ2Z84ouxZsdl",
-        urlImage: HoangNguyen_AugW3,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'August - W3 - 2024'", "7029 - Hoang Nguyen - Team 2", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02vEMBfqhe43jXUy45ZDbBnMVjdiRSqexiDMoPp8iM3gxGpEtV3Vd6hZ2Z84ouxZsdl",
+    //     urlImage: HoangNguyen_AugW3,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'August - W3 - 2024'", "7029 - Hoang Nguyen - Team 2", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
 
-    },
+    // },
     {
         link: "https://www.facebook.com/FVLTPL/posts/pfbid0m5G2FnQVJcHsVLJwawU3Ms7iHece36dNSM4wEmu9183PM5Fj5DM7faWZaRwYYe69l",
         urlImage: HPBD_August2024_2,
@@ -133,19 +134,20 @@ const contentEvents = [
         content: ["Happy birthday! Today, you deserve all the cakes, affection, love, and happiness."],
 
     },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid0fhMSMZ3YqtqtXnSh43LfsjwjLzqipvGC485y9JsD8faJJgReMHC9A243NhEsGak4l",
+    //     urlImage: ChuongHo_W2August2024,
+    //     alt: 'image',
+    //     title: "HAPPY BIRTHDAY AUGUST 2024 !!!",
+    //     content: ["Our NEWBIE STAR ⭐️'August - W2 - 2024'", "7035 - Chuong Ho - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0fhMSMZ3YqtqtXnSh43LfsjwjLzqipvGC485y9JsD8faJJgReMHC9A243NhEsGak4l",
-        urlImage: ChuongHo_W2August2024,
-        alt: 'image',
-        title: "HAPPY BIRTHDAY AUGUST 2024 !!!",
-        content: ["Our NEWBIE STAR ⭐️'August - W2 - 2024'", "7035 - Chuong Ho - Team 12", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid035UEiSGsRegHx1WT9vpg48XdwxYNmdUvLSicM6m3pHeFecUHXxzG92SAgMveV82gfl",
+        link: null,
         urlImage: ksk2024_2,
         alt: 'image',
-        title: "Khám sức khỏe định kỳ cho đại gia đình FVL & TPL năm 2024 💪",
-        content: ["Cùng nhau bảo vệ sức khỏe, đảm bảo năng suất làm việc tốt nhất!", "Khám sức khỏe không chỉ là việc kiểm tra mà còn là sự chuẩn bị cho những thử thách mới với tinh thần và sức khỏe vững vàng! 💼💪"],
+        title: "Health check-ups for the FVL & TPL family in 2024 💪",
+        content: ["Together, let's protect our health and ensure optimal work productivity!",
+            "A health check-up is not just an examination; it's preparation for new challenges with a strong mind and robust health! 💼💪"],
     },
     {
         link: null,
@@ -155,27 +157,27 @@ const contentEvents = [
         content: ["Wishing you a memorable birthday filled with love, laughter, and cherished moments. May this birthday bring you good health, prosperity, and success in all your endeavors.",
             "All of us here in FVL & TPL would like to thank you for being a constant source of inspiration and motivation."],
     },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02eVLwbJbwmg8AnKt4Wyy8Er22t41FNjn2PDVKAgzPFdveY6mFMf3oEM6Cw2v2NQDUl",
+    //     urlImage: TamBui_AugW1,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'August - W1 - 2024'", "7013 - Tam Bui - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02eVLwbJbwmg8AnKt4Wyy8Er22t41FNjn2PDVKAgzPFdveY6mFMf3oEM6Cw2v2NQDUl",
-        urlImage: TamBui_AugW1,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'August - W1 - 2024'", "7013 - Tam Bui - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid0x2RBP2nokZoggySgWKCzpd7J2UUXm5zwiBNRaX4gpUp5msPqtmc6T5FpAwNTMKanl",
+        link: null,
         urlImage: ksk2024,
         alt: 'image',
-        title: "Sức khỏe là món quà vô giá của mỗi chúng ta!!!",
-        content: ["🌈🚴‍♂️ Sức khỏe cần được chăm sóc và bảo vệ. Khám sức khỏe định kỳ là một việc rất cần thiết để bảo vệ sức khỏe của bạn và gia đình bạn"],
+        title: "Health is the most priceless gift we have!!!",
+        content: ["🌈🚴‍♂️ Health must be cared for and protected. Regular health check-ups are essential to safeguard the health of you and your family."],
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid02GEoce2WAqMpc9hLTwquiP1azAPvwvTab7CCeDtxcFaptGedA3h4D5MH7Np9P6QrVl",
-        urlImage: PhucTruong_JulyW5,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'JULY W5 - 2024'", "7031 - Phuc Truong - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid02GEoce2WAqMpc9hLTwquiP1azAPvwvTab7CCeDtxcFaptGedA3h4D5MH7Np9P6QrVl",
+    //     urlImage: PhucTruong_JulyW5,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'JULY W5 - 2024'", "7031 - Phuc Truong - Team 22", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
         link: null,
         urlImage: HPBD_August_2024,
@@ -183,13 +185,13 @@ const contentEvents = [
         title: "HAPPY BIRTHDAY AUGUST 2024 !!!",
         content: ["Wishing you a birthday filled with laughter, love, and wonderful surprises! Happy birthday!"],
     },
-    {
-        link: "https://www.facebook.com/FVLTPL/posts/pfbid03cf1zyd8EpSQesXLz4vxwZw7bHX25HuJNdvXu4UydPsw5jK3CrVAXEvFpnZbz2DSl",
-        urlImage: NguyenHo_JulW4,
-        alt: 'image',
-        title: "CONGRATULATIONS",
-        content: ["Our NEWBIE STAR ⭐️'JULY W4 - 2024'", "7023 - Nguyen Ho - Team 10", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
-    },
+    // {
+    //     link: "https://www.facebook.com/FVLTPL/posts/pfbid03cf1zyd8EpSQesXLz4vxwZw7bHX25HuJNdvXu4UydPsw5jK3CrVAXEvFpnZbz2DSl",
+    //     urlImage: NguyenHo_JulW4,
+    //     alt: 'image',
+    //     title: "CONGRATULATIONS",
+    //     content: ["Our NEWBIE STAR ⭐️'JULY W4 - 2024'", "7023 - Nguyen Ho - Team 10", "Biggest Thank you for your Excellent work!", "Let's stay strong together"],
+    // },
     {
         link: "https://www.facebook.com/FVLTPL/posts/pfbid02Jo77qC7oeQC1NGM4BGomnsSg22mWPGcKEEPAqC74ZmBeNuemHqF3dGVdSbUCfck2l",
         urlImage: img4166,
@@ -197,17 +199,15 @@ const contentEvents = [
         title: "HAPPY BIRTHDAY JULY 2024 !!!",
         content: ["Happy birthday! Today, you deserve all the cakes, affection, love, and happiness."],
     },
-    // <li class="col-md-6 col-lg-4 col-xs-12">
-    //     <div class="content-event">
-    //         <a href="https://www.facebook.com/FVLTPL/posts/pfbid02Jo77qC7oeQC1NGM4BGomnsSg22mWPGcKEEPAqC74ZmBeNuemHqF3dGVdSbUCfck2l"
-    //             target="_blank">
-    //             <img src="./images/news/IMG_4166.JPG" alt="">
-    //             <h4>HAPPY BIRTHDAY JULY 2024 !!!</h4>
-    //         </a>
-    //         <p>Happy birthday! Today, you deserve all the cakes, affection, love, and happiness.
-    //         </p>
-    //     </div>
-    // </li>
+    {
+        link: "https://www.facebook.com/100010242464693/videos/982680806989475/",
+        urlImage: FVLTPL2,
+        alt: 'image',
+        title: "The extraordinary power of unity! 💪💪",
+        content: ["🤝🤝Joining hands to achieve common goals and extraordinary success!",
+            "😍🥳Together: Share, listen, support, trust, and celebrate success.",
+            "Unity is an invincible strength!"],
+    },
     // <li class="col-md-6 col-lg-4 col-xs-12">
     //     <div class="content-event">
     //         <a href="https://www.facebook.com/100010242464693/videos/982680806989475/"

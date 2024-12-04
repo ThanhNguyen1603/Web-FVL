@@ -1,4 +1,9 @@
 @import "../../index.scss";
+
+.content {
+    @include backgroundColor;
+}
+
 .ctcContent {
     border-radius: 40px;
     // background-@include colorPrimaryText;
@@ -10,29 +15,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    .workAH{
-        img{
-            width: 50%;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        h1{
-            font-size: 5rem;
-            @include colorPrimaryText;
-            text-align: left
-        }
-        h2{
-            @include colorPrimaryText;
-            text-align: left
-        }
-        h5{
-            @include colorPrimaryText;
-            @include fontSizeDefault;
-            text-align: left
-        }
-    }
-    h3, p {
+
+    h3,
+    p {
         @include colorPrimaryText;
     }
 
