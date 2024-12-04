@@ -11,7 +11,6 @@ const Careers = () => {
         <>
             {/* <CareerBanner /> */}
             <div className={careerStyle.careerBackground}>
-
                 <div className={careerStyle.title}>
                     <div className="container-fluid">
                         <div className={careerStyle.titleBackground}>
@@ -35,15 +34,15 @@ const Careers = () => {
                 <div className={`${careerStyle.title} ${careerStyle.title1}`}>
                     <div className="container-fluid">
                         <div className={careerStyle.titleBackground}>
-                            <div className="row d-flex align-items-center">
-                                <div className="col-lg-6">
+                            <div className="row align-items-center flex-lg-row flex-md-row flex-column-reverse">
+                                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div className={careerStyle.workAH}>
                                         <h1>Flex and Connect</h1>
                                         <h4>Flexibility extends beyond where you work - to what you do, when, and how you do it. At our company, making connections is a key part of flexible working. We believe in the power of these connections to build strong relationships and drive innovation, creating meaningful change. </h4>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div className={careerStyle.workAH}>
                                         <img src={merryChristmas} />
                                     </div>

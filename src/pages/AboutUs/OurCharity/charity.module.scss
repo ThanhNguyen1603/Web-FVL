@@ -20,8 +20,6 @@
         margin-top: 20px;
     }
 
-
-
     .content {
         display: flex;
 
@@ -37,18 +35,4 @@
     justify-items: center;
     align-items: center;
 
-}
-
-.mobile {
-    display: none;
-}
-
-@media only screen and (max-width: 786px) {
-    .mobile {
-        display: block;
-    }
-
-    .desktop {
-        display: none;
-    }
 }

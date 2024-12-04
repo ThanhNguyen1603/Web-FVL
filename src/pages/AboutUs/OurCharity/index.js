@@ -28,28 +28,15 @@ const OurCharity = () => {
                         <div className={charityStyle.content}>
                             <div className="col-md-12">
                                 <div className={charityStyle.desktop}>
-                                    <div className="row pt-3">
-                                        <div className="col-md-6 d-flex align-items-center">
+                                    <div className="row align-items-center flex-md-row flex-column-reverse">
+                                        <div className="col-md-6 col-sm-12 col-xs-12 d-flex">
                                             <p>Having the grace to be accompanied as a charity ambassador of the Turkey Dash, Do Thuy Khanh, the singer/songwriter, composed and released the song "DREAM SMILE" as a charity with a meaningful message to bring a dream smile for the less fortunate children with cleft palate from a young age. This Turkey Dash theme song was spread with the participation of more than 20 artists as: Thanh Ha, Hua Vi Van, Dieu Nhi, Thuan Nguyen...</p>
                                         </div>
-                                        <div className="col-md-6">
+                                        <div className="col-md-6 col-sm-12 col-xs-12">
                                             <div className="container embed-responsive embed-responsive-21by9">
                                                 <DreamSmile />
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className={charityStyle.mobile}>
-                                    <div className="row pt-3">
-                                        <div className="col-md-6">
-                                            <div className="container embed-responsive embed-responsive-21by9">
-                                                <DreamSmile />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6 d-flex align-items-center">
-                                            <p>Having the grace to be accompanied as a charity ambassador of the Turkey Dash, Do Thuy Khanh, the singer/songwriter, composed and released the song "DREAM SMILE" as a charity with a meaningful message to bring a dream smile for the less fortunate children with cleft palate from a young age. This Turkey Dash theme song was spread with the participation of more than 20 artists as: Thanh Ha, Hua Vi Van, Dieu Nhi, Thuan Nguyen...</p>
-                                        </div>
-
                                     </div>
                                 </div>
 
