@@ -1,13 +1,16 @@
 @import "../../index.scss";
 
 .ctcContent {
-    border-radius: 5px;
-    background-color: #fff;
-    padding: 25px 30px;
-    transition: transform .2s;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+    .ctcSide {
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 25px 30px;
+        transition: transform .2s;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
     .ctcInput {
         width: 100%;
