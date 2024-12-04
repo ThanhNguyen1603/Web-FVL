@@ -73,3 +73,17 @@
         padding-right: 40px;
     }
 }
+
+@media only screen and (max-width: 992px) {
+
+    .titleContent {
+        h2 {
+            font-size: 40px;
+        }
+    }
+    .soluForm {
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+}

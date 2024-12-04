@@ -9,15 +9,15 @@
 }
 
 .soluForm {
-    position: fixed;
-    margin-right: 10px;
-    z-index: 10;
-    min-height: 600px;
+    position: sticky;
+    top: 92px;
+    z-index: 1;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 992px) {
     .soluForm {
         position: relative;
         padding-bottom: 20px;
+        top: auto;
     }
 }

@@ -36,10 +36,10 @@ const Footer = () => {
                                             <div className="col-lg-12">
                                                 <div className={footer.isoLogo}>
                                                     <div className="row d-flex align-items-center">
-                                                        <div className="col-lg-4 col-6">
+                                                        <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                                             <img src={isoLogo} alt="ISO 27001" />
                                                         </div>
-                                                        <div className="col-lg-8 col-6">
+                                                        <div className="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                                             <img src={bvLogo} alt="BV" />
                                                         </div>
                                                     </div>
