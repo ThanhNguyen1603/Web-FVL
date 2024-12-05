@@ -12,7 +12,7 @@ const BannerAboutUs = () => {
         <>
             <div className={bannerStyle.AIbrainBackground}>
                 <div className='container-fluid'>
-                    <div className="row flex-lg-row flex-md-row flex-sm-column-reverse flex-xs-column-reverse">
+                    <div className="row flex-lg-row flex-md-row flex-column-reverse">
                         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                             <div className={bannerStyle.bannerWhoWeAre}><h2>Who We Are</h2></div>
                             <p>We are the western-managed Business Process Outsourcing business based in Ho Chi Minh City, Vietnam.</p>

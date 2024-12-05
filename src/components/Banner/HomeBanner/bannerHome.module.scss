@@ -2,9 +2,11 @@ $bannerHome : url('../../../Image/Banner/wrapper_header_bg1.jpg');
 @import '../../../index.scss';
 
 .backgroundImage {
-    @include bannerDefault($bannerHome);
-
-    @media only screen and (max-width: 768px) {
-        height: 13vh;
+    img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
     }
+
 }
