@@ -55,7 +55,9 @@ const Careers = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className={careerStyle.titleContent}>
-                                <h2>Job Opportunities</h2>
+                                <h2>Join Us</h2>
+                                <p>Welcome to our place where you can grow, learn, and connect. We celebrate everything that makes you unique.</p>
+                                <p>Ready to explore open roles that match your interests and skills?</p>
                             </div>
                         </div>
                     </div>

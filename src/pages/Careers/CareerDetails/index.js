@@ -39,7 +39,7 @@ const CareerDetails = () => {
                                 <NavLink to='/Careers'> Back </NavLink>
                             </button>
                             <button className={`${careerDetailStyle.btnapply}`} type="button">
-                                <NavLink href="https://forms.gle/61BoPx74zQTUhxRH6" target="_blank" rel="noopener noreferrer"> Apply Now </NavLink>
+                                <a href="https://forms.gle/61BoPx74zQTUhxRH6" target="_blank" rel="noopener noreferrer"> Apply Now </a>
                             </button>
                         </div>
                     </div>
