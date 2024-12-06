@@ -37,7 +37,7 @@
     .contentItem {
         // height: 520px;
         text-decoration: none;
-        // background-color: #17181d;
+        @include careerListBackground;
         display: block;
         padding: 12px;
         border-radius: 5px;
@@ -50,7 +50,7 @@
                     @include colorBlack;
                     padding-top: 20px;
                     padding-bottom: 0px;
-                    text-align: justify;
+                    text-align: center;
                     // overflow: hidden;
                     // text-overflow: ellipsis;
                     display: -webkit-box;

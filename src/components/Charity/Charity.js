@@ -20,7 +20,7 @@ const Charity = () => {
         {
             link: "https://www.facebook.com/FVLTPL/posts/pfbid02cHNrmXZUeLxnW7wseguFjYELTwgduKnrEFZyVMSaqKxPEmdUyvnK6SeCNmkFuYy6l",
             imgURL: helppeople,
-            title: "4 Day Charity Trip in Binh Dinh from August 11, 2022 - August 14, 2022",
+            title: "4 Day Charity Trip in Binh Dinh from Aug 11 - Aug 14, 2022",
             content: "We express our heartfelt gratitude and appreciation to Venerable Thich Dong Ngo - Abbot of Thien Hung Pagoda and Thien Hung Zen Monastery - Binh Dinh Province, along with the Buddhists of Thien Hung Pagoda, for creating connections and supporting us to successfully complete this meaningful charity trip..."
         },
         {
