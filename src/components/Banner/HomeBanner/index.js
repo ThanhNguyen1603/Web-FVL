@@ -8,7 +8,7 @@ import bannerHome from '../../../Image/Banner/wrapper_header_bg1.jpg';
 const HomeBanner = () => {
     return (
         <div className={bannerHomeStyle.backgroundImage}>
-            <img src={bannerHome}></img>
+            <img rel="preload" fetchpriority="high" src={bannerHome}></img>
         </div>
     )
 }

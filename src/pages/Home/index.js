@@ -2,19 +2,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from './home.module.scss';
 import { NavLink } from 'react-router-dom';
-import FAlogo from '../../Image/Home/FALogo.png';
-import AccessNurses from '../../Image/Home/AccessNurses.png'
-import bannerBPO from '../../Image/Home/BPO-service-Webdesign-1200x480-removebg.jpg'
 import HomeBanner from "../../components/Banner/HomeBanner";
 import image from "../../Image/Home/IMG_3012.JPG";
 import fast from "../../Image/../Image/Home/Fast.png";
 import effective from "../../Image/../Image/Home/effective.png";
 import professional from "../../Image/../Image/Home/Pro.png";
-import Header from "../../components/Header";
 import ClientSay from "../../components/ClientSay/ClientSay";
-import bpoImage from "../../Image/Home/1701906057260.jpg";
-import bpoImage2 from "../../Image/Home/1690352330561.png";
-import FEPImage from "../../Image/Home/FEP.png"
+import bpoImage from "../../Image/Home/The-power-of-outsourcing.webp";
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
 import NewsCompany from "../../components/NewsCompany/NewsCompany";
 
@@ -39,7 +33,7 @@ const Home = () => {
                                 <div className="row d-flex align-items-center">
                                     <div className="col-lg-6">
                                         <div className={home.contentdetail}>
-                                            <img className={home.imageBPO} src={bpoImage2} alt="BPO Image" />
+                                            <img className={home.imageBPO} src={bpoImage} alt="The power of outsourcing" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
