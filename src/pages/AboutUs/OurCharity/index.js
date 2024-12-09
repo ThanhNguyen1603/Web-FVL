@@ -1,6 +1,6 @@
 import charityStyle from "./charity.module.scss";
-import nganImage from "../../../Image/AboutUs/Charity/1.png";
-import turkeydashImage from "../../../Image/AboutUs/Charity/1573547088_img_1024.jpg";
+import nganImage from "../../../Image/AboutUs/Charity/charity-Ngan-From-Viet-Nam.webp";
+import turkeydashImage from "../../../Image/AboutUs/Charity/Turkeydash.webp";
 import { DreamSmile } from "../../../components/EmbeddedGoogleDriveFile/DriveFilePage"
 const OurCharity = () => {
     return (

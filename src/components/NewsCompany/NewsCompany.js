@@ -5,7 +5,6 @@ import { contentEvents } from "../News";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import carouselContainerStyle from "../CarouselContainer/carouselContainer.module.scss"
-import { NavLink } from "react-router-dom";
 const NewsCompany = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const getDisplayedItems = () => {

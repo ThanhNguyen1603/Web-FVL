@@ -2,20 +2,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
 import OurAchieve from '../OurAchievements/OurAchievements.module.scss'
-import fvliso27001 from '../../../Image/AboutUs/Our_Achievements/FVL-ISO27001.png';
-import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bằng khen Thủ Tướng.jpg'
-import dichCovid from '../../../Image/AboutUs/Our_Achievements/Dịch COVID 2.jpg';
-import thucamon from '../../../Image/AboutUs/Our_Achievements/ThuCamOn_2.jpg';
-import KHCN from '../../../Image/AboutUs/Our_Achievements/KHCN.jpg';
-import wethankyou from '../../../Image/AboutUs/Our_Achievements/WeThankYou.png';
-import fvlcup1 from '../../../Image/AboutUs/Our_Achievements/FVL cup1.jpg';
-import fvlcn2 from '../../../Image/AboutUs/Our_Achievements/FVL-CN2.png';
-import ubndtphcm2018 from '../../../Image/AboutUs/Our_Achievements/UBND TP. HCM 2018.jpg';
-import benhnhanngheo2015 from '../../../Image/AboutUs/Our_Achievements/UBND TP. HCM Bệnh nhân nghèo 2015.jpg';
-import hinhcongnghe from '../../../Image/AboutUs/Our_Achievements/Hình công nghệ.jpg';
-import KHCN2 from "../../../Image/AboutUs/Our_Achievements/FVL-DN-KHCN.png";
-import FVLCUP2 from "../../../Image/AboutUs/Our_Achievements/FVL-CUP2B.jpg";
-import bangKhenThue from "../../../Image/AboutUs/Our_Achievements/thue.jpg"
+import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bang-khen-Thu-Tuong-chi-hoi-Thien-Nhan.webp'
+import dichCovid from '../../../Image/AboutUs/Our_Achievements/Giay-khen-phong-chong-covid-19.webp';
+import fvlcup1 from '../../../Image/AboutUs/Our_Achievements/Doanh-nhan-tieu-bieu-chi-cuc-thue.webp';
+import fvliso27001 from '../../../Image/AboutUs/Our_Achievements/FVL-ISO27001.webp';
+import FVLCUP2 from "../../../Image/AboutUs/Our_Achievements/Chi-cuc-thue-tuyen-duong-hoan-thanh-tot-nghia-vu-thue-nam-2016.webp";
+import hinhcongnghe from '../../../Image/AboutUs/Our_Achievements/Vinh-danh-hiep-hoi-doanh-nghiep-khoa-hoc-cong-nghe-Viet-Nam.webp';
+import KHCN from '../../../Image/AboutUs/Our_Achievements/Cau-lac-bo-doanh-nghiep-khoa-hoc-&-cong-nghe.webp';
+import thucamon from '../../../Image/AboutUs/Our_Achievements/thu-cam-on-chong-dich-cua-quan-Binh-Thanh.webp';
+import bangKhenThue from "../../../Image/AboutUs/Our_Achievements/Bang-khen-thuc-hien-tot-cong-tac-ke-khai-nop-thue-nam-2016.webp"
+import ubndtphcm2018 from '../../../Image/AboutUs/Our_Achievements/Bang-khen-UBND-TP. HCM-2018-ho-tro-benh-nhan-ngheo.webp';
+import benhnhanngheo2015 from '../../../Image/AboutUs/Our_Achievements/Bang-khen-UBND-TP. HCM-Benh-nhan-ngheo-2015.webp';
+import fvlcn2 from '../../../Image/AboutUs/Our_Achievements/Giay-khen-hoat-dong-tu-thien-nhan-dao.webp';
+import KHCN2 from "../../../Image/AboutUs/Our_Achievements/Doanh-nghiep-khoa-hoc-va-cong-nghe.webp";
+import wethankyou from '../../../Image/AboutUs/Our_Achievements/WeThankYou.webp';
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'

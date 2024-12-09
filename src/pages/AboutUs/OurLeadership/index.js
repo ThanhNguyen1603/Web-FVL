@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import BannerAboutUs from "../../../components/Banner/AboutUsBanner";
 import home from '../../Home/home.module.scss';
 import LeadershipStyle from './OurLeadership.module.scss'
-import HueNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/'
+import HueNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Hue Nguyen.jpg'
 import JingHimImg from '../../../Image/AboutUs/Our_LeadershipTeam/Jing Him.jpg'
 import KenTran from "../../../Image/AboutUs/Our_LeadershipTeam/Anh Ken.jpg"
 import MichelleNgoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Michelle Ngo.jpg'

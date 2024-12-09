@@ -1,13 +1,11 @@
 import clientSayStyle from './clientsay.module.scss'
-import { NavLink } from 'react-router-dom';
-import FAlogo from '../../Image/Home/FALogo.png';
-import AccessNurses from '../../Image/Home/AccessNurses.png'
-import logoAccessNurses from "../../Image/AboutUs/Our_Customers/logo_client_access_nurses.png"
-import logoBuilderdepot from "../../Image/AboutUs/Our_Customers/logo_client_builderdepot.jpg"
-import logoDebnroo from "../../Image/AboutUs/Our_Customers/logo_client_debnroo.jpg"
-import logoerei from "../../Image/AboutUs/Our_Customers/logo_client_erei.jpg"
-import logoSfile from "../../Image/AboutUs/Our_Customers/logo_client_sfile.jpg"
-import logoTherabreath from "../../Image/AboutUs/Our_Customers/logo_client_therabreath.jpg"
+import FAlogo from '../../Image/Home/FALogo_result.webp';
+import AccessNurses from '../../Image/Home/AccessNurses_result.webp'
+import logoBuilderdepot from "../../Image/AboutUs/Our_Customers/logo_client_builderdepot_result.webp"
+import logoDebnroo from "../../Image/AboutUs/Our_Customers/logo_client_debnroo_result.webp"
+import logoerei from "../../Image/AboutUs/Our_Customers/logo_client_erei_result.webp"
+import logoSfile from "../../Image/AboutUs/Our_Customers/logo_client_sfile_result.webp"
+import logoTherabreath from "../../Image/AboutUs/Our_Customers/logo_client_therabreath_result.webp"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import InternationalPartnerSpotlightFVL from "../../Image/Home/International-partner-spotlight-First-Virtue.webp";
