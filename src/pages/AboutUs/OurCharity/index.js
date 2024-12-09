@@ -39,11 +39,6 @@ const OurCharity = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
                                 <div className="row pt-3 pb-4 d-flex align-items-center">
                                     <div className="col-md-6">
                                         <img className={charityStyle.imageCharity} src={turkeydashImage} alt="Turkey Dash" />
