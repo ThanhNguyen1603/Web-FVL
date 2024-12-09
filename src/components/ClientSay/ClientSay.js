@@ -11,7 +11,7 @@ import logoTherabreath from "../../Image/AboutUs/Our_Customers/logo_client_thera
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import InternationalPartnerSpotlightFVL from "../../Image/Home/International-partner-spotlight-First-Virtue.webp";
-import spotlight2 from "../../Image/Home/IMG_0864.png";
+import FirstAmericanThankyouPartner from "../../Image/Home/First-American-thank-you-partner.webp";
 import { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
@@ -112,7 +112,7 @@ const ClientSay = () => {
                             <img className={clientSayStyle.spotlightImage} src={InternationalPartnerSpotlightFVL} alt='International-partner-spotlight-First-Virtue' />
                         </div>
                         <div className='col-lg-4'>
-                            <img className={clientSayStyle.spotlightImage} src={spotlight2} alt='spotlight 2' />
+                            <img className={clientSayStyle.spotlightImage} src={FirstAmericanThankyouPartner} alt='First American thank you partner' />
                         </div>
                         <div className='col-lg-2'>
 
