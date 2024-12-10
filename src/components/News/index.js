@@ -22,11 +22,6 @@ import HPBD_August_2024 from "../../Image/News/NewsCompany/HPBD_August 2024.jpg"
 import NguyenHo_JulW4 from "../../Image/News/NewsCompany/7023 - Nguyen Ho JulW4.jpg"
 import img4166 from "../../Image/News/NewsCompany/HPBD_July.jpg"
 import FVLTPL2 from "../../Image/News/NewsCompany/FVLTPL2.gif"
-
-
-
-
-
 const contentEvents = [
 
     {
