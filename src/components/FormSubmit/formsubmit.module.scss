@@ -60,3 +60,9 @@
     margin: auto;
     display: block;
 }
+@media only screen and (max-width: 992px) {
+    .ctcButton:hover {
+        background-color: unset;
+        color: unset;
+    }
+}
