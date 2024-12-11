@@ -40,6 +40,7 @@
         transition: all 0.3s ease;
         color: white;
         font-weight: 500;
+        border: 1px solid #fff;
     }
 }
 
@@ -47,4 +48,10 @@
     width: 100%;
     margin: auto;
     display: block;
+}
+@media only screen and (max-width: 992px) {
+    .ctcButton:hover {
+        background-color: unset;
+        color: unset;
+    }
 }
