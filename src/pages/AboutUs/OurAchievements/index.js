@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
 import OurAchieve from '../OurAchievements/OurAchievements.module.scss'
-import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bang-Khen-Thu-Tuong-chi-hoi-Thien-Nhan.webp'
+import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bang-khen-Thu-Tuong-chi-hoi-Thien-Nhan.webp'
 import dichCovid from '../../../Image/AboutUs/Our_Achievements/Giay-khen-phong-chong-covid-19.webp';
 import fvlcup1 from '../../../Image/AboutUs/Our_Achievements/Doanh-nhan-tieu-bieu-chi-cuc-thue.webp';
 import fvliso27001 from '../../../Image/AboutUs/Our_Achievements/FVL-ISO27001.webp';
@@ -13,7 +13,7 @@ import thucamon from '../../../Image/AboutUs/Our_Achievements/thu-cam-on-chong-d
 import bangKhenThue from "../../../Image/AboutUs/Our_Achievements/Bang-khen-thuc-hien-tot-cong-tac-ke-khai-nop-thue-nam-2016.webp"
 import ubndtphcm2018 from '../../../Image/AboutUs/Our_Achievements/Bang-khen-UBND-TP. HCM-2018-ho-tro-benh-nhan-ngheo.webp';
 import benhnhanngheo2015 from '../../../Image/AboutUs/Our_Achievements/Bang-khen-UBND-TP. HCM-Benh-nhan-ngheo-2015.webp';
-import fvlcn2 from '../../../Image/AboutUs/Our_Achievements/giay-khen-hoat-dong-tu-thien-nhan-dao.webp';
+import fvlcn2 from '../../../Image/AboutUs/Our_Achievements/giay-khen-tham-gia-ho-tro-phong-chong-dich-covid-19.webp';
 import KHCN2 from "../../../Image/AboutUs/Our_Achievements/Doanh-nghiep-khoa-hoc-va-cong-nghe.webp";
 import wethankyou from '../../../Image/AboutUs/Our_Achievements/WeThankYou.webp';
 import { useState } from "react";
