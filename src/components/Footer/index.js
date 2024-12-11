@@ -5,7 +5,7 @@ import { faLocationDot, faPhoneVolume, faPhone } from '@fortawesome/free-solid-s
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import footer from './footer.module.scss'
 import { Link, NavLink } from 'react-router-dom'
-import turkeydash from '../../Image/Footer/turkeydash.jpg'
+import turkeydash from '../../Image/Footer/turkeydash_result.webp'
 import spotlightImage from '../../Image/AboutUs/Our_Achievements/FVL-ISO27001.png'
 import isoLogo from '../../Image/Footer/iso27001.png'
 import bvLogo from '../../Image/Footer/Logo_Bureau_Veritas.png'

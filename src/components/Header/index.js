@@ -7,7 +7,7 @@ import header from './header.module.scss';
 // import tplLogo from '../../Image/Home/TPL_Logo.png';
 // import fvlLogo from '../../Image/Home/FVL_Vien.png';
 // import tplLogo from '../../Image/Home/TPL_Vien.png';
-import fvlLogo from '../../Image/Logo/FVL_half_white.png';
+import fvlLogo from '../../Image/Logo/First-Virtue-Logo.png';
 import tplLogo from '../../Image/Logo/TPL_half_white.png';
 // import fvlLogo from '../../Image/Logo/FVL_all_White.png';
 // import tplLogo from '../../Image/Logo/TPL_all_White.png';

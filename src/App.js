@@ -1,8 +1,12 @@
 import Main from './components/Navigation/Main';
+import HelmetComponent from './components/Helmet/Helmet';
 function App() {
 
   return (
-    <Main />
+    <>
+      <HelmetComponent />
+      <Main />
+    </>
   );
 }
 

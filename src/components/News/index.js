@@ -1,25 +1,21 @@
 import HPBD_November_2024 from "../../Image/News/NewsCompany/HPBD_November 2024.jpg"
 import Happy_Birthday_October_2024_Event from "../../Image/News/NewsCompany/Happy Birthday October 2024 - Event.jpg"
-import TamHoang_W2Oct from "../../Image/News/NewsCompany/7039 - TamHoang - W2Oct.jpg"
-import ChuongHo_W1October2024 from "../../Image/News/NewsCompany/7035-ChuongHo-W1October2024.jpg"
+
 import HPBD_October_2024 from "../../Image/News/NewsCompany/HPBD_October 2024.jpg"
-import AnhNguyen_SepW42024 from "../../Image/News/NewsCompany/7041-Anh Nguyen-SepW42024.jpg"
+
 import HPBD_September2024_Event from "../../Image/News/NewsCompany/HPBD_September2024_Event.jpg"
-import HienHo_SepW32024 from "../../Image/News/NewsCompany/7042-HienHo-SepW32024.jpg"
-import AnhNguyen_SepW22024 from "../../Image/News/NewsCompany/7041 - Anh Nguyen - SepW22024.jpg"
-import BinhNguyen_Sep012024 from "../../Image/News/NewsCompany/7037 - Binh Nguyen - Sep 01 2024.jpg"
-import ChuongHo_W4August2024 from "../../Image/News/NewsCompany/7035-ChuongHo-W4August2024.jpg"
+
 import HPBD_September2024 from "../../Image/News/NewsCompany/HPBD_September2024.jpg"
-import HoangNguyen_AugW3 from "../../Image/News/NewsCompany/7029 - Hoang Nguyen - AugW3.jpg"
+
 import HPBD_August2024_2 from "../../Image/News/NewsCompany/HPBD_August2024_2.jpg"
-import ChuongHo_W2August2024 from "../../Image/News/NewsCompany/7035-ChuongHo-W2August2024.jpg"
+
 import ksk2024_2 from "../../Image/News/NewsCompany/ksk2024_2.jpg"
 import hpbd from "../../Image/News/NewsCompany/hpbd.gif"
-import TamBui_AugW1 from "../../Image/News/NewsCompany/7013 - Tam Bui - AugW1.jpg"
+
 import ksk2024 from "../../Image/News/NewsCompany/ksk2024.jpg"
-import PhucTruong_JulyW5 from "../../Image/News/NewsCompany/7031 - Phuc Truong - July W5.jpg"
+
 import HPBD_August_2024 from "../../Image/News/NewsCompany/HPBD_August 2024.jpg"
-import NguyenHo_JulW4 from "../../Image/News/NewsCompany/7023 - Nguyen Ho JulW4.jpg"
+
 import img4166 from "../../Image/News/NewsCompany/HPBD_July.jpg"
 import FVLTPL2 from "../../Image/News/NewsCompany/FVLTPL2.gif"
 const contentEvents = [

@@ -1,5 +1,4 @@
 import formSubmitStyle from './formsubmit.module.scss'
-import contactImage from "../../Image/Contact/contact.jpg"
 import { useState } from "react";
 
 const FormSubmitSolutions = () => {
