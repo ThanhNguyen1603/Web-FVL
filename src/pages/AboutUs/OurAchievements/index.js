@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
 import OurAchieve from '../OurAchievements/OurAchievements.module.scss'
-import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bang-khen-Thu-Tuong-chi-hoi-Thien-Nhan.webp'
+import bangkhenthutuong from '../../../Image/AboutUs/Our_Achievements/Bang-Khen-Thu-Tuong-chi-hoi-Thien-Nhan.webp'
 import dichCovid from '../../../Image/AboutUs/Our_Achievements/Giay-khen-phong-chong-covid-19.webp';
 import fvlcup1 from '../../../Image/AboutUs/Our_Achievements/Doanh-nhan-tieu-bieu-chi-cuc-thue.webp';
 import fvliso27001 from '../../../Image/AboutUs/Our_Achievements/FVL-ISO27001.webp';

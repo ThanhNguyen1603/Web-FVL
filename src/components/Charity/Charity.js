@@ -4,7 +4,7 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
-import image1 from "../../Image/Charity/Le-khanh-thanh-cau-nong-thon-tp-hcm.webp"
+import image1 from "../../Image/Charity/le-khanh-thanh-cau-nong-thon-tp-hcm.webp"
 import helppeople from "../../Image/Charity/Chuyen-tu-thien-Binh-Dinh.webp"
 import yeuthuong from "../../Image/Charity/yeuthuonglachodi_result.webp"
 const Charity = () => {
