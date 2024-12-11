@@ -1,6 +1,0 @@
-$bannerHome : url('../../../Image/Banner/workfromhomeBanner.jpg');
-@import '../../../index.scss';
-
-.backgroundImage {
-    @include bannerDefault($bannerHome)
-}
