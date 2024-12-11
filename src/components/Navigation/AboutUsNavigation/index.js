@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import AboutUsLayout from '../../Layout/AboutUsLayout';
 import { AboutUsRoutes } from "../../../routes";
-import MainLayout from "../../Layout/MainLayout";
 
 const AboutUsRouter = () => {
     return (

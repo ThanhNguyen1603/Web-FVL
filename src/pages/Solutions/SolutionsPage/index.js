@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faChartLine, faIdCard, faGlobe, faCalculator, faAnglesRight, faGears } from '@fortawesome/free-solid-svg-icons'
 import SolutionsStyle from "./solutionStyle.module.scss"
 import AdvantageSolution from "../AdvantageSolution";
-import FormSubmitSolutions from "../../../components/FormSubmitSolutions/FormSubmitSolutions";
 const SolutionPage = () => {
     const serviceList = [
         {

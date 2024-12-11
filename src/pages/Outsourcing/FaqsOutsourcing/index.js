@@ -1,7 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import home from '../../Home/home.module.scss';
-import outsourcingStyle from '../OutsourcingPage/outsourcing.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion, faCommentDots, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import faqsStyle from './faqs.module.scss'

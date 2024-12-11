@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle, faCalendar, faLocationDot, faEnvelope, faPen } from "@fortawesome/free-solid-svg-icons";
-import hiringDataProcessingImage from '../../Image/Careers/hiring_dataProcessing.png'
-import nhanvienhanhchinhImage from '../../Image/Careers/nhanvienhanhchinhposter.jpg'
-import ketoannoiboImage from '../../Image/Careers/ketoannoibo.jpg'
+import hiringDataProcessingImage from '../../Image/Careers/Hiring-Data-Processing.webp'
+import nhanvienhanhchinhImage from '../../Image/Careers/Tuyen-dung-nhan-su-C&B.webp'
+import ketoannoiboImage from '../../Image/Careers/Tuyen-Dung-ke-toan-noi-bo.webp'
 import Realtime from "../RealTime/realtime";
 const CareersList = [
     {

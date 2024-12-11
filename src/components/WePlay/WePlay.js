@@ -1,9 +1,9 @@
 import weplayStyle from "./weplay.module.scss"
-import weplay2 from '../../Image/AboutUs/Our_Activities/WePlay/2.jpg';
-import weplay3 from '../../Image/AboutUs/Our_Activities/WePlay/3.jpg';
-import hpbd1 from '../../Image/AboutUs/Our_Activities/WePlay/hbpd_1.jpg';
-import congra1 from '../../Image/AboutUs/Our_Activities/WePlay/congra_1.jpg';
-import hpbd2 from '../../Image/AboutUs/Our_Activities/WePlay/hpbd_2.jpg';
+import weplay2 from '../../Image/AboutUs/Our_Activities/WePlay/FVL-TPL-We-play-2.webp';
+import weplay3 from '../../Image/AboutUs/Our_Activities/WePlay/FVL-TPL-We-play-3.webp';
+import hpbd1 from '../../Image/AboutUs/Our_Activities/WePlay/FVL-TPL-We-play-8.webp';
+import congra1 from '../../Image/AboutUs/Our_Activities/WePlay/FVL-TPL-We-play-6.webp';
+import hpbd2 from '../../Image/AboutUs/Our_Activities/WePlay/FVL-TPL-We-play-9.webp';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'

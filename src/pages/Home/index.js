@@ -3,12 +3,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from './home.module.scss';
 import { NavLink } from 'react-router-dom';
 import HomeBanner from "../../components/Banner/HomeBanner";
-import image from "../../Image/Home/IMG_3012.JPG";
-import fast from "../../Image/../Image/Home/Fast.png";
-import effective from "../../Image/../Image/Home/effective.png";
-import professional from "../../Image/../Image/Home/Pro.png";
-import ClientSay from "../../components/ClientSay/ClientSay";
+import image from "../../Image/Home/FVL-TPL-Background.webp";
+import fast from "../../Image/../Image/Home/fast-icon.webp";
+import effective from "../../Image/../Image/Home/effective-icon.webp";
+import professional from "../../Image/../Image/Home/professional-icon.webp";
 import bpoImage from "../../Image/Home/The-power-of-outsourcing.webp";
+import ClientSay from "../../components/ClientSay/ClientSay";
 import FormSubmit from "../../components/FormSubmit/FormSubmit";
 import NewsCompany from "../../components/NewsCompany/NewsCompany";
 

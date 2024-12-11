@@ -2,7 +2,6 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import bannerGeneral from '../banner.module.scss';
-import bannerHomeStyle from './bannerHome.module.scss'
 
 const HomeBanner = () => {
     return (

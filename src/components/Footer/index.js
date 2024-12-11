@@ -6,9 +6,9 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import footer from './footer.module.scss'
 import { Link, NavLink } from 'react-router-dom'
 import turkeydash from '../../Image/Footer/turkeydash_result.webp'
-import spotlightImage from '../../Image/AboutUs/Our_Achievements/FVL-ISO27001.png'
-import isoLogo from '../../Image/Footer/iso27001.png'
-import bvLogo from '../../Image/Footer/Logo_Bureau_Veritas.png'
+import spotlightImage from '../../Image/AboutUs/Our_Achievements/FVL-ISO27001.webp'
+import isoLogo from '../../Image/Footer/ISO27001.webp'
+import bvLogo from '../../Image/Footer/Logo_Bureau_Veritas_result.webp'
 import { useState } from "react";
 import { Modal, Button } from 'react-bootstrap';
 const Footer = () => {

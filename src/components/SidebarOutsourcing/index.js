@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import sbOurS from './SidebarOutsourcing.module.scss';
-import outsourcingImage from "../../Image/Outsourcing/outsourcing.jpg"
+import outsourcingImage from "../../Image/Outsourcing/outsourcing.webp"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCirclePlus, faUsersGear, faCircleQuestion, faLightbulb, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom';

@@ -1,9 +1,9 @@
 import wegiveStyle from "./wegive.module.scss"
-import binhdinh1 from '../../Image/AboutUs/Our_Activities/WeGive/binhdinh_1.jpg';
-import binhdinh2 from '../../Image/AboutUs/Our_Activities/WeGive/binhdinh_2.jpg';
-import wegive4 from '../../Image/AboutUs/Our_Activities/WeGive/4.jpg';
-import wegive3 from '../../Image/AboutUs/Our_Activities/WeGive/3.jpg';
-import wegive6new from '../../Image/AboutUs/Our_Activities/WeGive/6_new.jpg';
+import binhdinh1 from '../../Image/AboutUs/Our_Activities/WeGive/chuyen-tu-thien-Binh-Dinh.webp';
+import binhdinh2 from '../../Image/AboutUs/Our_Activities/WeGive/chuyen-tu-thien-Binh-Dinh-2.webp';
+import wegive4 from '../../Image/AboutUs/Our_Activities/WeGive/su-kien-turkey-dash-4.webp';
+import wegive3 from '../../Image/AboutUs/Our_Activities/WeGive/run-to-give-turkey-dash.webp';
+import wegive6new from '../../Image/AboutUs/Our_Activities/WeGive/Phong-chong-covid-19-First Virtue.webp';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'

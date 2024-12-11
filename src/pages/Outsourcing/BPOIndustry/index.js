@@ -1,6 +1,6 @@
 import bpoindustryStyle from './bpoindustry.module.scss'
 import { BPOList } from './BpoList';
-import bpoImage from "../../../Image/Outsourcing/bpo-industry-advantages-benefits.png"
+import bpoImage from "../../../Image/Outsourcing/bpo-industry-advantages-benefits.webp"
 const BPOIndustry = () => {
     return (
         <>

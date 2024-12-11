@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
 import portfolio from './portfolio.module.scss'
-import partnerships from '../../../Image/Solution/logos_clients.jpg'
+import partnerships from '../../../Image/Solution/logos_clients.webp'
 const Portfolio = () => {
     return (
         <>

@@ -1,9 +1,9 @@
 import weworkStyle from "./wework.module.scss"
-import d5166 from '../../Image/AboutUs/Our_Activities/WeWork/5d_116.jpg';
-import wework1 from '../../Image/AboutUs/Our_Activities/WeWork/1.jpg';
-import lekyketcty2 from '../../Image/AboutUs/Our_Activities/WeWork/le-ky-ket-cty-2.jpg';
-import training from '../../Image/AboutUs/Our_Activities/WeWork/training.jpg';
-import wework6 from '../../Image/AboutUs/Our_Activities/WeWork/6.jpg';
+import d5166 from '../../Image/AboutUs/Our_Activities/WeWork/FVL-TPL-Seminar-Truong-Hutech2.webp';
+import wework1 from '../../Image/AboutUs/Our_Activities/WeWork/FVL-TPL-Truong-Hutech-tham-quan.webp';
+import lekyketcty2 from '../../Image/AboutUs/Our_Activities/WeWork/FVL-TPL-Cao-Dang-Sai-Gon-Le-ky-ket-hop-tac-2.webp';
+import training from '../../Image/AboutUs/Our_Activities/WeWork/FVL-TPL-Manual-Performance-Training.webp';
+import wework6 from '../../Image/AboutUs/Our_Activities/WeWork/FVL-TPL-Seminar-Truong-Hutech.webp';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'

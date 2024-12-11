@@ -4,7 +4,7 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
-import newsBPO from "../../Image/Outsourcing/344270_4825378971317916_offshore.jpg"
+import newsBPO from "../../Image/Outsourcing/BPO-Global.webp"
 const NewsBPO = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import careerStyle from '../Careers/careers.module.scss';
 import { CareersList } from '../../components/Careers';
-import merryChristmas from "../../Image/Contact/Xmas WAH and WAO Opt2.jpg";
-import DataProcess from "../../Image/Careers/Data Processing.png"
+import merryChristmas from "../../Image/Contact/FVL-TPL-Xmas.webp";
+import DataProcess from "../../Image/Careers/Data Processing.webp"
 import { NavLink } from "react-router-dom";
 const Careers = () => {
 

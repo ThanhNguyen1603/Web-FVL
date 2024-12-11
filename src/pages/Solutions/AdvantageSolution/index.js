@@ -2,11 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
 import advantageStyle from "./advantage.module.scss";
-import communication from "../../../Image/Solution/licensed-image1.png"
-import quality from "../../../Image/Solution/quanlity.jpg"
-import staffExcellence from "../../../Image/Solution/employee-excellence-award-slide.jpg"
-import bpo from "../../../Image/Solution/bponew.jpg"
-import award from "../../../Image/Solution/award.png"
+import communication from "../../../Image/Solution/licensed-image.webp"
+import quality from "../../../Image/Solution/quanlity.webp"
+import bpo from "../../../Image/Solution/bpo.webp"
+import award from "../../../Image/Solution/award_result.webp"
 const AdvantageSolution = () => {
     const contentList = [
         {

@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import bannerGeneral from '../banner.module.scss';
 import bannerStyle from './BannerAboutUs.module.scss';
 import Header from '../../Header';
-import imgBanner from '../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg'
+import imgBanner from '../../../Image/Banner/Ai-brain-hallucinate.webp'
 
 
 const BannerAboutUs = () => {

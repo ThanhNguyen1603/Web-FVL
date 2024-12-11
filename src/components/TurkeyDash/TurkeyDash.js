@@ -4,12 +4,12 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import carouselContainer from "../CarouselContainer/carouselContainer.module.scss";
-import image6 from '../../Image/TurkeyDash/1.jpg'
-import image2 from '../../Image/TurkeyDash/turkey-dash-70-jpg-1510820448.jpg'
-import image3 from "../../Image/TurkeyDash/BIL_3909.jpg";
-import image4 from "../../Image/TurkeyDash/moitruong.net.vn-wp-content-uploads-2019-11-_quy-tu-thien-turkey-dash-2.png"
-import image5 from "../../Image/TurkeyDash/turkey01-1573797942_750x0.jpg"
-import image1 from "../../Image/TurkeyDash/turkeydash_HCMC_GOV_VN.jpg"
+import image6 from '../../Image/TurkeyDash/Turkey-Dash-Nu-cuoi-viet.webp'
+import image2 from '../../Image/TurkeyDash/turkey-dash-70-jpg-1510820448_result.webp'
+import image3 from "../../Image/TurkeyDash/Turkey-Dash1.webp";
+import image4 from "../../Image/TurkeyDash/quy-tu-thien-turkey-dash-2.webp"
+import image5 from "../../Image/TurkeyDash/Turkey-Dash3.webp"
+import image1 from "../../Image/TurkeyDash/Turkey-Dash4.webp"
 
 const TurkeyDash = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,10 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../../pages/Home/home.module.scss'
-import osLayout from './OSLayout.module.scss'
-import Sidebar from "../../SidebarOutsourcing";
 import { Outlet } from "react-router-dom";
-import OutsourcingBanner from '../../../components/Banner/OutsourcingBanner'
 import solutionStyle from '../SolutionLayout/solution.module.scss'
 import FormSubmitSolutions from "../../FormSubmitSolutions/FormSubmitSolutions";
 

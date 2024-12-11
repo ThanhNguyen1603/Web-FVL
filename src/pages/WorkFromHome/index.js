@@ -5,7 +5,7 @@ import wfh from '../WorkFromHome/WFH.module.scss';
 import WorkFromHomeBanner from '../../components/Banner/WorkFromHomeBanner'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faUserShield, faGraduationCap, faGlobe, faCreditCard, faCheck } from "@fortawesome/free-solid-svg-icons";
-import MerryChrismateZoomImg from "../../Image/WorkFromHome/merrychrismatezoom.jpg";
+import MerryChrismateZoomImg from "../../Image/WorkFromHome/merrychrismatezoom-First-Virtue.webp";
 const WorkFromHome = () => {
     const wfhList = [
         { icon: <FontAwesomeIcon icon={faCalendarCheck} />, content: 'Work from your home. At your convenient time.' },

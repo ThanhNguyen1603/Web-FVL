@@ -1,9 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import home from '../../Home/home.module.scss';
-import outsourcingStyle from '../OutsourcingPage/outsourcing.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa1, fa2, fa3, fa4, fa5, fa6 } from '@fortawesome/free-solid-svg-icons'
+import { fa1 } from '@fortawesome/free-solid-svg-icons'
 import tipsStyle from './tips.module.scss'
 const Tips = () => {
     <FontAwesomeIcon icon={fa1} />

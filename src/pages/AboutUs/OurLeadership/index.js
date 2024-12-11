@@ -3,23 +3,21 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import BannerAboutUs from "../../../components/Banner/AboutUsBanner";
 import home from '../../Home/home.module.scss';
 import LeadershipStyle from './OurLeadership.module.scss'
-import HueNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Hue Nguyen.jpg'
-import JingHimImg from '../../../Image/AboutUs/Our_LeadershipTeam/Jing Him.jpg'
-import KenTran from "../../../Image/AboutUs/Our_LeadershipTeam/Anh Ken.jpg"
-import MichelleNgoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Michelle Ngo.jpg'
-import SenNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Sen Nguyen.jpg'
-import TungDoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Tung Do.jpg'
-import VinNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Vin Nguyen.jpg'
-import KhanhTruongImg from '../../../Image/AboutUs/Our_LeadershipTeam/KhanhTruong.jpg'
-import PhuongTranImg from '../../../Image/AboutUs/Our_LeadershipTeam/PhuongTran.jpg'
-import ChauNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/ChauNguyen.jpg'
-import TruongNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Truong Nguyen.jpg'
-import AIbrain from "../../../Image/Banner/Ai-brain-hallucinate-1024x683.jpg"
+import HueNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Hue-Nguyen-Profile.webp'
+import JingHimImg from '../../../Image/AboutUs/Our_LeadershipTeam/Jing-Him-Profile.webp'
+import KenTran from "../../../Image/AboutUs/Our_LeadershipTeam/Ken-Tran-Profile.webp"
+import MichelleNgoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Michelle-Ngo-Profile.webp'
+import SenNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Sen-Nguyen-Profile.webp'
+import TungDoImg from '../../../Image/AboutUs/Our_LeadershipTeam/Tung-Do-Profile.webp'
+import VinNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Vin-Nguyen-Profile.webp'
+import KhanhTruongImg from '../../../Image/AboutUs/Our_LeadershipTeam/Khanh-Truong-Profile.webp'
+import PhuongTranImg from '../../../Image/AboutUs/Our_LeadershipTeam/Phuong-Tran-Profile.webp'
+import ChauNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Chau-Nguyen-Profile.webp'
+import TruongNguyenImg from '../../../Image/AboutUs/Our_LeadershipTeam/Truong-Nguyen-Profile.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import { useSwipeable } from 'react-swipeable';
-import Header from "../../../components/Header";
 
 const OurLeadership = () => {
     const directorList = [

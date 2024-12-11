@@ -1,23 +1,15 @@
-import HPBD_November_2024 from "../../Image/News/NewsCompany/HPBD_November 2024.jpg"
-import Happy_Birthday_October_2024_Event from "../../Image/News/NewsCompany/Happy Birthday October 2024 - Event.jpg"
-
-import HPBD_October_2024 from "../../Image/News/NewsCompany/HPBD_October 2024.jpg"
-
-import HPBD_September2024_Event from "../../Image/News/NewsCompany/HPBD_September2024_Event.jpg"
-
-import HPBD_September2024 from "../../Image/News/NewsCompany/HPBD_September2024.jpg"
-
+import HPBD_November_2024 from "../../Image/News/NewsCompany/HPBD_November 2024_result.webp"
+import Happy_Birthday_October_2024_Event from "../../Image/News/NewsCompany/Happy Birthday October 2024 - Event_result.webp"
+import HPBD_October_2024 from "../../Image/News/NewsCompany/HPBD_October 2024_result.webp"
+import HPBD_September2024_Event from "../../Image/News/NewsCompany/HPBD_September2024_Event_result.webp"
+import HPBD_September2024 from "../../Image/News/NewsCompany/HPBD_September2024_result.webp"
 import HPBD_August2024_2 from "../../Image/News/NewsCompany/HPBD_August2024_2.jpg"
-
-import ksk2024_2 from "../../Image/News/NewsCompany/ksk2024_2.jpg"
+import ksk2024_2 from "../../Image/News/NewsCompany/ksk2024_2_result.webp"
 import hpbd from "../../Image/News/NewsCompany/hpbd.gif"
-
-import ksk2024 from "../../Image/News/NewsCompany/ksk2024.jpg"
-
-import HPBD_August_2024 from "../../Image/News/NewsCompany/HPBD_August 2024.jpg"
-
-import img4166 from "../../Image/News/NewsCompany/HPBD_July.jpg"
-import FVLTPL2 from "../../Image/News/NewsCompany/FVLTPL2.gif"
+import ksk2024 from "../../Image/News/NewsCompany/ksk2024_result.webp"
+import HPBD_August_2024 from "../../Image/News/NewsCompany/HPBD_August 2024_result.webp"
+import img4166 from "../../Image/News/NewsCompany/HPBD_July_result.webp"
+import FVLTPL2 from "../../Image/News/NewsCompany/FVLTPL2_result.webp"
 const contentEvents = [
 
     {
